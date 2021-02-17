@@ -1,1174 +1,848 @@
-[18:34:33.415] [Info] Root: Preparing Root...
-[18:34:33.416] [Info] Root: Done preparing Root.
-[18:34:33.416] [Info] Client Version 1.4.4 (windows x86_64) Source ID: 8cbe6faf22282659828a194e06a08999f213769e Protocol: 747
-[18:34:33.416] [Info] Root: Scanning for asset sources in directory '..\assets\'
-[18:34:34.624] [Info] Root: Scanning for asset sources in directory '..\mods\'
-[18:34:37.208] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
-[18:34:37.208] [Warn] Root: Unrecognized file in asset directory 'starbound mods.rar', skipping
-[18:34:37.208] [Info] Root: Detected asset source named 'base' at '..\assets\packed.pak'
-[18:34:37.208] [Info] Root: Detected asset source named 'SChinese' at '..\mods\SChinese.pak'
-[18:34:37.208] [Info] Root: Detected asset source named 'Disabled drop for Survival Mode' at '..\mods\BanDrop.pak'
-[18:34:37.208] [Info] Root: Detected asset source named 'QuickbarMini' at '..\mods\BarMini.pak'
-[18:34:37.208] [Info] Root: Detected asset source named 'FrackinUniverse' at '..\mods\FU.pak'
-[18:34:37.208] [Info] Root: Detected asset source named 'Fu Schinese' at '..\mods\FUC.pak'
-[18:34:37.208] [Info] Root: Detected asset source named 'LessDeadMoons' at '..\mods\MoonExpand.pak'
-[18:34:37.208] [Info] Root: Detected asset source named 'bk3k_fasterStart' at '..\mods\QuickStart.pak'
-[18:34:37.208] [Info] Root: Detected asset source named 'SC-Font' at '..\mods\StarCore.pak'
-[18:34:37.208] [Info] Root: Detected asset source named 'Cutebound' at '..\mods\Cutebound.pak'
-[18:34:37.208] [Info] Root: Detected asset source named 'Arcana' at '..\mods\Arcana.pak'
-[18:34:37.208] [Info] Root: Detected asset source named 'Arcana UI' at '..\mods\ArcanaUI.pak'
-[18:34:37.208] [Info] Root: Detected asset source named 'No Weather Blockdamage' at '..\mods\BanWeatherDamage.pak'
-[18:34:37.208] [Info] Root: Detected unnamed asset source at '..\assets\user'
-[18:34:37.208] [Info] Loading assets from: '..\assets\packed.pak'
-[18:34:38.495] [Info] Loading assets from: '..\mods\SChinese.pak'
-[18:34:38.676] [Info] Loading assets from: '..\mods\BanDrop.pak'
-[18:34:38.677] [Info] Loading assets from: '..\mods\BarMini.pak'
-[18:34:38.677] [Info] Loading assets from: '..\mods\FU.pak'
-[18:34:40.607] [Info] Loading assets from: '..\mods\FUC.pak'
-[18:34:40.936] [Info] Loading assets from: '..\mods\MoonExpand.pak'
-[18:34:40.938] [Info] Loading assets from: '..\mods\QuickStart.pak'
-[18:34:40.938] [Info] Loading assets from: '..\mods\StarCore.pak'
-[18:34:40.938] [Info] Loading assets from: '..\mods\Cutebound.pak'
-[18:34:40.981] [Info] Loading assets from: '..\mods\Arcana.pak'
-[18:34:41.122] [Info] Loading assets from: '..\mods\ArcanaUI.pak'
-[18:34:41.122] [Info] Loading assets from: '..\mods\BanWeatherDamage.pak'
-[18:34:41.123] [Info] Loading assets from: '..\assets\user'
-[18:34:42.779] [Info] Assets digest is cdb5582248b3a5ef083aa3e02aa55ff134655c86d305390f2fc6d869ebe682b3
-[18:34:42.779] [Info] Root: Loaded Assets in 9.36217 seconds
-[18:34:42.783] [Info] Application: Initializing SDL Video
-[18:34:42.787] [Info] Application: Initializing SDL Joystick
-[18:34:43.279] [Info] Application: Initializing SDL Sound
-[18:34:43.287] [Info] Failed to initialize Steam platform services
-[18:34:43.288] [Error] Failed to instantiate discord core (err 26)
-[18:34:43.288] [Info] Was not able to authenticate with Discord and create all components, Discord services will be unavailable
-[18:34:43.288] [Info] Application: Creating SDL Window
-[18:34:43.400] [Info] Application: Enabling VSync with late swap tearing
-[18:34:43.532] [Info] Application: Opened default audio device with 44.1khz / 16 bit stereo audio, 2048 sample size buffer
-[18:34:43.542] [Info] OpenGL version: '4.6.0 NVIDIA 460.89' vendor: 'NVIDIA Corporation' renderer: 'GeForce GTX 1070/PCIe/SSE2' shader: '4.60 NVIDIA'
-[18:34:43.610] [Info] Application: initialization...
-[18:34:43.611] [Info] Root: Loaded Configuration in 0.0007958 seconds
-[18:34:43.612] [Info] Application: Disabling VSync
-[18:34:43.613] [Info] Application: renderer initialization...
-[18:34:43.631] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 128
-[18:34:43.636] [Info] Root: Loaded ImageMetadataDatabase in 9.99775e-07 seconds
-[18:34:43.640] [Info] Application: main update loop...
-[18:34:43.654] [Info] Root: Loaded NameGenerator in 0.0127492 seconds
-[18:34:43.751] [Info] Root: Loaded PlantDatabase in 0.0971375 seconds
-[18:34:43.868] [Error] Could not apply patch from file /objects/farmables/flowerspring/flowerspring.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[18:34:44.064] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[18:34:44.158] [Info] Root: Loaded ProjectileDatabase in 0.407708 seconds
-[18:34:44.298] [Error] Could not apply patch from file /objects/farmables/flowerred/flowerred.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[18:34:44.795] [Error] Could not apply patch from file /objects/farmables/floweryellow/floweryellow.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[18:34:44.844] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[18:34:44.847] [Info] Root: Loaded ObjectDatabase in 1.20646 seconds
-[18:34:44.856] [Info] Root: Loaded MonsterDatabase in 0.697115 seconds
-[18:34:44.946] [Info] Root: Loaded StagehandDatabase in 0.0910872 seconds
-[18:34:44.957] [Info] Root: Loaded VehicleDatabase in 0.010967 seconds
-[18:34:44.984] [Info] Root: Loaded PlayerFactory in 0.0265932 seconds
-[18:34:45.028] [Info] Root: Loaded NpcDatabase in 0.181573 seconds
-[18:34:45.029] [Info] Root: Loaded VersioningDatabase in 0.0009959 seconds
-[18:34:45.030] [Info] Root: Loaded EntityFactory in 0.0454421 seconds
-[18:34:45.101] [Info] Root: Loaded ParticleDatabase in 0.0710178 seconds
-[18:34:45.108] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[18:34:45.145] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[18:34:45.317] [Error] Could not apply patch from file /tiles/materials/purplecrystal.material.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[18:34:45.576] [Error] Could not apply patch from file /tiles/materials/bamboo.material.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[18:34:45.760] [Info] Root: Loaded MaterialDatabase in 0.730843 seconds
-[18:34:45.768] [Info] Root: Loaded TerrainDatabase in 0.0072517 seconds
-[18:34:45.983] [Info] Root: Loaded BiomeDatabase in 0.215014 seconds
-[18:34:45.987] [Info] Root: Loaded LiquidsDatabase in 0.0039136 seconds
-[18:34:46.050] [Info] Root: Loaded StatusEffectDatabase in 0.0638858 seconds
-[18:34:46.464] [Info] Root: Loaded DamageDatabase in 0.413926 seconds
-[18:34:46.470] [Info] Root: Loaded EffectSourceDatabase in 0.0058723 seconds
-[18:34:46.499] [Info] Root: Loaded FunctionDatabase in 0.0282852 seconds
-[18:34:46.559] [Info] Root: Loaded TreasureDatabase in 0.0597003 seconds
-[18:34:47.096] [Info] Root: Loaded DungeonDefinitions in 0.537413 seconds
-[18:34:47.096] [Info] Root: Loaded TilesetDatabase in 2.15e-05 seconds
-[18:34:47.098] [Info] Root: Loaded StatisticsDatabase in 0.0017306 seconds
-[18:34:47.098] [Info] Root: Loaded EmoteProcessor in 6.22999e-05 seconds
-[18:34:47.140] [Info] Root: Loaded SpeciesDatabase in 0.0417655 seconds
-[18:34:47.213] [Info] Root: Loaded QuestTemplateDatabase in 0.0730099 seconds
-[18:34:47.217] [Info] Root: Loaded AiDatabase in 0.0041114 seconds
-[18:34:47.225] [Info] Root: Loaded TechDatabase in 0.0080607 seconds
-[18:34:47.275] [Info] Root: Loaded CodexDatabase in 0.0495147 seconds
-[18:34:47.534] [Info] Root: Loaded BehaviorDatabase in 0.259167 seconds
-[18:34:47.536] [Info] Root: Loaded DanceDatabase in 0.0022723 seconds
-[18:34:47.546] [Info] Root: Loaded SpawnTypeDatabase in 0.0095011 seconds
-[18:34:47.714] [Info] Root: Loaded RadioMessageDatabase in 0.167356 seconds
-[18:34:47.789] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[18:35:00.068] [Info] Root: Loaded ItemDatabase in 15.039 seconds
-[18:35:00.324] [Info] Root: Loaded CollectionDatabase in 12.6105 seconds
-[18:35:01.385] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[18:35:01.763] [Error] Could not apply patch from file /interface/windowconfig/charcreation.config.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'labelGender' in pathApply("/paneLayout/labelGender/value")
-[18:35:01.803] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
-[18:35:09.861] [Info] UniverseClient: Joined server as client 2
-[18:35:09.928] [Error] Could not apply patch from file /interface/scripted/mmupgrade/mmupgradegui.config.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'windowtitle' in pathApply("/gui/windowtitle/title")
-[18:35:09.931] [Error] Could not apply patch from file /interface/scripted/mmupgrade/mmupgradegui.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'upgrades' in pathApply("/upgrades/size1/description")
-[18:35:09.954] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
-[18:35:09.960] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
-[18:35:09.981] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
-[18:35:12.473] [Info] ----- FU player init -----
-[18:35:12.473] [Info] ----- End FU player init -----
-[18:35:12.473] [Info] ----- ZB player init -----
-[18:35:12.473] [Info] [ZB] Mods using update info window and their versions:
-[18:35:12.474] [Info] -- frackinuniverse   [Version 6.1.22]
-[18:35:12.474] [Info] -- ztarbound   [Version 6.1.22]
-[18:35:12.474] [Info] ----- end ZB player init -----
-[18:39:11.143] [Info] Client received world stop packet, leaving: Removed
-[18:39:11.800] [Info] ----- FU player init -----
-[18:39:11.800] [Info] ----- End FU player init -----
-[18:39:11.800] [Info] ----- ZB player init -----
-[18:39:11.801] [Info] [ZB] Mods using update info window and their versions:
-[18:39:11.801] [Info] -- ztarbound   [Version 6.1.22]
-[18:39:11.801] [Info] -- frackinuniverse   [Version 6.1.22]
-[18:39:11.801] [Info] ----- end ZB player init -----
-[18:40:48.437] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[18:41:17.918] [Error] Could not apply patch from file /objects/farmables/flowerred/flowerred.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[18:41:18.541] [Error] Could not apply patch from file /objects/farmables/floweryellow/floweryellow.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[18:43:14.893] [Info] Client received world stop packet, leaving: Removed
-[18:43:15.821] [Info] ----- FU player init -----
-[18:43:15.821] [Info] ----- End FU player init -----
-[18:43:15.822] [Info] ----- ZB player init -----
-[18:43:15.822] [Info] [ZB] Mods using update info window and their versions:
-[18:43:15.822] [Info] -- frackinuniverse   [Version 6.1.22]
-[18:43:15.822] [Info] -- ztarbound   [Version 6.1.22]
-[18:43:15.822] [Info] ----- end ZB player init -----
-[18:44:30.846] [Info] Client received world stop packet, leaving: Removed
-[18:44:31.478] [Info] ----- FU player init -----
-[18:44:31.478] [Info] ----- End FU player init -----
-[18:44:31.478] [Info] ----- ZB player init -----
-[18:44:31.478] [Info] [ZB] Mods using update info window and their versions:
-[18:44:31.479] [Info] -- frackinuniverse   [Version 6.1.22]
-[18:44:31.479] [Info] -- ztarbound   [Version 6.1.22]
-[18:44:31.479] [Info] ----- end ZB player init -----
-[18:44:31.795] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[18:45:50.295] [Info] Chat: <server> Insufficient privileges to make self admin.
-[18:47:35.489] [Info] UniverseClient: Client disconnecting...
-[18:47:35.564] [Info] Cli[18:47:35.709] [Info] Chat: <server> Player 'Shad[18:47:41.954] [Info] Ap[18:49:42.424] [Info] Chat: <SAIL> 您已经找到了使用弹药的军火。发射时，您当前的弹药计数以可见的显示条表示。您无需制作或携带弹药。打空弹匣或按SHIFT + MOUSE 1来重新上膛。
-[18:49:51.076] [Info] Chat: <SAIL> 盾牌是一种有用的防御工具。如果格挡的时机得当，您可以进行一次盾牌重击h（眩晕，击退敌人并造成伤害。） 一些种族会在完美格挡时获得增益。
-[18:50:24.153] [Info] One player entity located. Directly referencing.
-[18:50:24.154] [Info] [XCustomCodex Systems] Player has learned codex ffguide6, /codex/documents/.
-[18:50:24.154] [Info] Sent message.
-[18:50:24.305] [Info] One player entity located. Directly referencing.
-[18:50:24.306] [Info] Sent message.
-[18:50:27.271] [Info] One player entity located. Directly referencing.
-[18:50:27.273] [Info] [XCustomCodex Systems] Player has learned codex networkguide2, /codex/documents/.
-[18:50:27.273] [Info] Sent message.
-[18:50:29.359] [Info] One player entity located. Directly referencing.
-[18:50:29.360] [Info] [XCustomCodex Systems] Player has learned codex networkguide, /codex/documents/.
-[18:50:29.360] [Info] Sent message.
-[18:50:31.125] [Info] One player entity located. Directly referencing.
-[18:50:31.126] [Info] [XCustomCodex Systems] Player has learned codex ffguidebattle, /codex/documents/.
-[18:50:31.126] [Info] Sent message.
-[18:50:31.277] [Info] One player entity located. Directly referencing.
-[18:50:31.277] [Info] Sent message.
-[18:50:33.783] [Info] One player entity located. Directly referencing.
-[18:50:33.784] [Info] [XCustomCodex Systems] Player has learned codex ffguide, /codex/documents/.
-[18:50:33.784] [Info] Sent message.
-[18:50:33.936] [Info] One player entity located. Directly referencing.
-[18:50:33.936] [Info] Sent message.
-[18:50:35.823] [Info] One player entity located. Directly referencing.
-[18:50:35.824] [Info] [XCustomCodex Systems] Player has learned codex ffguide5, /codex/documents/.
-[18:50:35.824] [Info] Sent message.
-[18:50:37.725] [Info] One player entity located. Directly referencing.
-[18:50:37.725] [Info] [XCustomCodex Systems] Player has learned codex ffguide2, /codex/documents/.
-[18:50:37.725] [Info] Sent message.
-[18:50:37.878] [Info] One player entity located. Directly referencing.
-[18:50:37.878] [Info] Sent message.
-[18:50:41.464] [Info] One player entity located. Directly referencing.
-[18:50:41.464] [Info] [XCustomCodex Systems] Player has learned codex ffguide3, /codex/documents/.
-[18:50:41.464] [Info] Sent message.
-[19:04:02.354] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[19:05:47.426] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[19:05:52.433] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[19:07:37.666] [Info] Client received world stop packet, leaving: Removed
-[19:07:38.391] [Info] ----- FU player init -----
-[19:07:38.391] [Info] ----- End FU player init -----
-[19:07:38.391] [Info] ----- ZB player init -----
-[19:07:38.391] [Info] [ZB] Mods using update info window and their versions:
-[19:07:38.391] [Info] -- frackinuniverse   [Version 6.1.22]
-[19:07:38.391] [Info] -- ztarbound   [Version 6.1.22]
-[19:07:38.391] [Info] ----- end ZB player init -----
-[19:08:00.457] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[19:08:03.695] [Error] Could not apply patch from file /objects/farmables/flowerred/flowerred.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[19:08:10.842] [Error] Could not apply patch from file /objects/farmables/floweryellow/floweryellow.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[19:09:14.308] [Info] Chat: <维纳利斯> 欢迎来到我的移动实验室，旅行者！欢迎光临！如果你有任何讨厌的伤口需要愈合，我这有张舒适的大沙发和一间医疗舱！
-[19:09:24.520] [Info] Chat: <维纳利斯> 为了修好你的飞船，你需要完成几个任务。和我对话来接取任务。
-[19:09:32.102] [Info] Chat: <维纳利斯> 远古设备可能会允许你接入能量源！我听说这些设备对其制造者的科技会有所反应。
-[19:09:53.996] [Info] Chat: <维纳利斯> 你好，陌生人！我检测到了你的守护团能量信标进入了星系，并立即进行了调查。 当时你的飞船与这里的恒星发生了一次碰撞，因此我继续研究，并重新定向了你的导航系统。
-[19:10:15.532] [Info] Client received world stop packet, leaving: Removed
-[19:10:16.143] [Info] ----- FU player init -----
-[19:10:16.143] [Info] ----- End FU player init -----
-[19:10:16.143] [Info] ----- ZB player init -----
-[19:10:16.143] [Info] [ZB] Mods using update info window and their versions:
-[19:10:16.144] [Info] -- ztarbound   [Version 6.1.22]
-[19:10:16.144] [Info] -- frackinuniverse   [Version 6.1.22]
-[19:10:16.144] [Info] ----- end ZB player init -----
-[19:10:18.434] [Info] Chat: <维纳利斯> 看起来我的出现很是及时，你的FTL引擎已经毁坏了，而你的推动引擎基本上也彻底失效了。你的传送器也炸了。每次使用都会增加灾难性故障的风险。
-[19:10:32.201] [Info] Client received world stop packet, leaving: Removed
-[19:10:32.511] [Info] ----- FU player init -----
-[19:10:32.511] [Info] ----- End FU player init -----
-[19:10:32.512] [Info] ----- ZB player init -----
-[19:10:32.512] [Info] [ZB] Mods using update info window and their versions:
-[19:10:32.512] [Info] -- frackinuniverse   [Version 6.1.22]
-[19:10:32.512] [Info] -- ztarbound   [Version 6.1.22]
-[19:10:32.512] [Info] ----- end ZB player init -----
-[19:10:41.105] [Info] Chat: <维纳利斯> 要想离开这个星球，你需要修理你的飞船。但是，让我们从小事开始：在地质学研究树中研究如何制造熔炉。然后制作一座熔炉！
-[19:10:50.473] [Info] Client received world stop packet, leaving: Removed
-[19:10:50.558] [Info] ----- FU player init -----
-[19:10:50.559] [Info] ----- End FU player init -----
-[19:10:50.559] [Info] ----- ZB player init -----
-[19:10:50.559] [Info] [ZB] Mods using update info window and their versions:
-[19:10:50.559] [Info] -- ztarbound   [Version 6.1.22]
-[19:10:50.559] [Info] -- frackinuniverse   [Version 6.1.22]
-[19:10:50.559] [Info] ----- end ZB player init -----
-[19:11:03.509] [Info] Chat: <维纳利斯> 为什么不拿上我闲置的这把备用矿镐呢？ 它应该可以帮助您更快地挖掘，节省一点时间。不用努力多久，你就能用上高级工具了。
-[19:11:25.909] [Info] Chat: <维纳利斯> 第一步完成！请使用你的熔炉将矿石熔炼成锭。接下来，请在农业研究中研究如何在建立采集工作台，并制造一张。
-[19:11:48.122] [Info] Chat: <维纳利斯> 采集工作站能帮助你生存和耕作。你已经证明自己的能力，所以请继续努力，研究如何制作加工台制造一张。你会在工程学研究树中找到它。
-[19:12:10.967] [Info] Chat: <维纳利斯> 棒极了！接下来，你需要在你的加工台制造一些铜线。有了它我就能对你的传送器进行应急修理。它的缓冲器被注册为降级的，而这不是最佳状态。
-[19:12:33.564] [Info] Chat: <维纳利斯> 还差一步就能修好你的传送器：一个电磁铁。如果你不介意，就在你的加工台为我制作一个吧？
-[19:12:55.555] [Info] Chat: <维纳利斯> 我现在可以帮你修复你的飞船传送器。它应该不再有17.3%的几率会干扰你的DNA！现在你需要找到一个足够强大的能量源来组装一个新的STL引擎，以使你的飞船能够再次触及太空旅行。
-[19:13:18.683] [Info] Chat: <维纳利斯> 现在，让我们看看你的行头？ 虽然那里不会特别危险，但要确保至少通过装甲和武器研究树制造军备作坊。你会需要装甲和武器的。
-[19:13:41.104] [Info] Chat: <维纳利斯> 你问什么？ 这个星球的地表上有一处我进不去的黑暗洞穴，我先前曾检测到来自这里面的奇怪的读数，它们足够强大，其源头或许能够提供让你离开这个世界的能量源。
-[19:14:03.809] [Info] Client received world stop packet, leaving: Removed
-[19:14:04.645] [Info] ----- FU player init -----
-[19:14:04.645] [Info] ----- End FU player init -----
-[19:14:04.645] [Info] ----- ZB player init -----
-[19:14:04.645] [Info] [ZB] Mods using update info window and their versions:
-[19:14:04.645] [Info] -- ztarbound   [Version 6.1.22]
-[19:14:04.645] [Info] -- frackinuniverse   [Version 6.1.22]
-[19:14:04.646] [Info] ----- end ZB player init -----
-[19:14:07.015] [Info] Chat: <维纳利斯> 要进入洞穴，您需要这把 钥匙，我偶然心血来潮在地表破旧的老房子里找到了它。它似乎与洞穴反应，允许人进入其中。请随身携带这把钥匙，否则你无法进入洞穴
-[19:14:23.300] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[19:18:46.656] [Error] Could not apply patch from file /objects/farmables/floweryellow/floweryellow.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[19:21:40.908] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[19:22:48.054] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[19:23:34.008] [Error] Could not apply patch from file /objects/farmables/flowerred/flowerred.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[19:24:06.080] [Error] Could not apply patch from file /objects/farmables/floweryellow/floweryellow.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[19:25:02.184] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[19:25:05.969] [Error] Could not apply patch from file /objects/farmables/flowerred/flowerred.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[19:25:12.215] [Error] Could not apply patch from file /objects/farmables/floweryellow/floweryellow.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[19:25:31.961] [Info] Client received world stop packet, leaving: Removed
-[19:25:32.868] [Info] ----- FU player init -----
-[19:25:32.868] [Info] ----- End FU player init -----
-[19:25:32.868] [Info] ----- ZB player init -----
-[19:25:32.868] [Info] [ZB] Mods using update info window and their versions:
-[19:25:32.869] [Info] -- ztarbound   [Version 6.1.22]
-[19:25:32.869] [Info] -- frackinuniverse   [Version 6.1.22]
-[19:25:32.869] [Info] ----- end ZB player init -----
-[19:25:34.993] [Info] Chat: <维纳利斯> 这个洞穴里的能量信号很不寻常。我得到了明确的古代精华的痕迹读数，虽说这没什么意义。因为古人在这个星区没有存在历史记载。
-[19:25:45.715] [Info] Chat: <维纳利斯> 不过...这读数读起来像是古人，我几乎可以肯定。如果这些读数是准确的，我们真就在偶然间发现了一些真正重要的东西。坚持住！这是一个难得的发现真相的机会
-[19:25:55.650] [Info] Chat: <维纳利斯> 是的！这绝对是一个与古人有关的能量信号。它来自非常接近你的位置。
-[19:26:04.976] [Info] Chat: <维纳利斯> 这扇门有密封锁定机制，应该会对爆炸力反应灵敏。如果你能弄到炸弹或其他爆炸物，你也许可以打开这扇门。
-[19:26:36.254] [Info] Chat: <维纳利斯> 我猜这里的殖民者一定遇到了什么不愉快的事情。一次像这样的发现可能值数百万像素，而没有新殖民地会错过这些收入。
-[19:26:59.299] [Info] Chat: <维纳利斯> 这扇门好像是锁着的。也许在洞穴的其他地方搜索会发现某种开关。
-[19:27:14.924] [Info] Chat: <维纳利斯> 为了到达目标点，你需要找到一种方法让自己变得更小。也许在这个洞穴的其他地方有答案。我打赌这是个秘密！哦，小伙子！我爱秘密！
-[19:27:26.951] [Info] Chat: <维纳利斯> 根据生命信号，你似乎无意中发现了某种巢穴。 注意：检测到大型突变体。
-[19:28:51.820] [Info] Chat: <???> 如果你收到了这条信息，那么你一定是在古代传送门附近——请启动它来找到我。你可以用星核碎片和一个三度仪来激活传送门。
-[19:29:00.894] [Info] Chat: <SAIL> 似乎你已经成功激活了星门，又有一条信息传过来了。
-[19:29:08.751] [Info] Client received world stop packet, leaving: Removed
-[19:29:09.453] [Info] ----- FU player init -----
-[19:29:09.453] [Info] ----- End FU player init -----
-[19:29:09.453] [Info] ----- ZB player init -----
-[19:29:09.453] [Info] [ZB] Mods using update info window and their versions:
-[19:29:09.454] [Info] -- ztarbound   [Version 6.1.22]
-[19:29:09.454] [Info] -- frackinuniverse   [Version 6.1.22]
-[19:29:09.454] [Info] ----- end ZB player init -----
-[19:29:09.468] [Info] Chat: <???> 请过来这边。我迫切地需要你的帮助；宇宙的命运就取决于此了。使用这个古老的星门，然后穿过前哨站到方舟废墟找我。
-[19:29:17.290] [Info] Chat: <维纳利斯> 非常感谢你为我所做的调查！你的帮助让我非常感激！如果不嫌弃的话，请务必去参观一下科技前哨站。
-[19:29:24.137] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[19:29:39.414] [Info] Chat: <维纳利斯> 全宇宙一流的科学流派经常会参观这里，在这里，你能学到很多东西。快点在你的SAIL上找到科学前哨站的位置吧！
-[19:30:17.142] [Info] Chat: <Esther> 企鹅皮特是前哨站最权威的汽修专家，从高科技飞船到最简单的悬浮自行车。
-[19:30:24.842] [Info] Chat: <SAIL> 我已经收到了能源采矿设施的坐标。回到飞船，你可以用我的任务界面直接传送过去。
-[19:30:25.688] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[19:30:38.542] [Info] Chat: <Esther> 易喙酒吧的酒保很乐意你用身上的任何货币跟他换企鹅硬币-一种在它唯利是图的顾客中很流行的小玩意。
-[19:30:56.053] [Info] Client received world stop packet, leaving: Removed
-[19:30:56.680] [Info] ----- FU player init -----
-[19:30:56.682] [Info] ----- End FU player init -----
-[19:30:56.682] [Info] ----- ZB player init -----
-[19:30:56.682] [Info] [ZB] Mods using update info window and their versions:
-[19:30:56.682] [Info] -- ztarbound   [Version 6.1.22]
-[19:30:56.682] [Info] -- frackinuniverse   [Version 6.1.22]
-[19:30:56.682] [Info] ----- end ZB player init -----
-[19:30:59.919] [Info] Chat: <SAIL> 欢迎来到你的机械培训课程！你可以按[E]进入或退出机甲。若进入机甲后无法操作，请退出任务并重新进入。
-[19:31:07.477] [Info] Chat: <SAIL> 你的机甲可以按[DOWN]进行躲避，或者[双击方向键]朝你走的方向冲刺。
-[19:31:14.826] [Info] Chat: <SAIL> 你的机甲可以按[DOWN]进行躲避，或者[双击方向键]朝你走的方向冲刺。
-[19:31:22.197] [Info] Chat: <SAIL> 如果需要的话，你的机甲将自动蹲伏，以适应它可以通过的狭小空间。例如在这一段设施的顶部。
-[19:31:29.668] [Info] Chat: <SAIL> 在有重力的环境下，你的机甲会切换为地面移动模式。你可以手动双击 [上] 方向键切换地面模式为飞行模式，甚至在星球上也可以这么做。立即执行以继续。
-[19:31:37.556] [Info] Chat: <SAIL> 请注意你的机甲的燃料储备和耐久，两者分别可视化为机甲上方的彩色条。随着时间的推移，燃料条会耗尽，当机甲受到伤害时，耐久条会被损耗。
-[19:31:45.327] [Info] Chat: <SAIL> 你正悬浮在零重力环境。你正在驾驶的机甲设计用于太空旅行，我强烈建议你当前不要尝试退出载具。
-[19:31:52.820] [Info] Chat: <SAIL> 这些目标可以被机甲的初始武器破坏。我的概率矩阵得出结论，破坏这些目标有助于你升级设备。
-[19:32:00.276] [Info] Chat: <SAIL> 零重力战斗要比平地上的更为棘手。精度是至关重要的，因此你需要学会正确引导你的目标。
-[19:32:01.441] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[19:32:07.691] [Info] Chat: <SAIL> 机甲在重力环境下会切换为陆地行走配置，我建议你继续前进。
-[19:32:14.937] [Info] Chat: <SAIL> 请记住，你可以在你的改造台制作机甲修理工具并使用你的三度仪的升级菜单对其进行升级，使之更加有效。
-[19:32:22.474] [Info] Chat: <SAIL> 敌对实体也存在于零重力环境中。我的宇航员记录显示，击败它们可能会得到一个厄尔吉斯电池，你的机甲可以吸收这个电池来补充耐久和燃料。
-[19:32:30.233] [Info] Chat: <SAIL> 现在试着把这些杂碎清理掉。试着跳跃和践踏前方的生物。
-[19:32:37.449] [Info] Chat: <SAIL> 机甲太大，无法通过该区域。按E进入和退出机甲，我建议你步行前进。
-[19:32:44.743] [Info] Chat: <SAIL> 三度仪可以帮助你对你的机甲更换装备和加油。燃料很重要，所以保持机甲燃料充足。任务之后请在三度仪里面检查相应的按钮 (如果你看到“unauthorized user”，请重新开始任务。)。
-[19:32:52.965] [Info] Chat: <SAIL> 你似乎通过了阿卡基博士的测试航线。我必须声明我很好奇关于这么大的一艘飞船被废弃原因，但是我的记录目前没有任何结果。
-[19:32:59.934] [Info] Client received world stop packet, leaving: Removed
-[19:33:00.520] [Info] ----- FU player init -----
-[19:33:00.521] [Info] ----- End FU player init -----
-[19:33:00.521] [Info] ----- ZB player init -----
-[19:33:00.521] [Info] [ZB] Mods using update info window and their versions:
-[19:33:00.521] [Info] -- ztarbound   [Version 6.1.22]
-[19:33:00.521] [Info] -- frackinuniverse   [Version 6.1.22]
-[19:33:00.521] [Info] ----- end ZB player init -----
-[19:33:00.808] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[19:33:04.742] [Info] Chat: <Esther> 你可以在这家商店购买个人传送器，一种非常有用的东西。
-[19:33:12.230] [Info] Chat: <Esther> 这个控制台可以让你装备各种科技，能大大提高你的机动性和灵巧性。
-[19:33:19.853] [Info] Chat: <Esther> 这个家具店出售来自全宇宙的各种不同风格的家具，还会定期推出新货。它还出售殖民地契约，你可以用它招来房客。
-[19:33:28.001] [Info] Chat: <Esther> 当这家商店开业之后你可以定制你的私人标志。
-[19:33:35.380] [Info] Chat: <Esther> 泰拉市场出售农业和园艺的用品和其他物品。他们甚至可以通过远程运送服务来购买你的自产产品。
-[19:33:43.333] [Info] Chat: <Esther> 我们今天的参观到此结束！在你准备好了之后后来找我吧。
-[19:33:49.118] [Info] Client received world stop packet, leaving: Removed
-[19:33:49.726] [Info] ----- FU player init -----
-[19:33:49.726] [Info] ----- End FU player init -----
-[19:33:49.726] [Info] ----- ZB player init -----
-[19:33:49.726] [Info] [ZB] Mods using update info window and their versions:
-[19:33:49.727] [Info] -- ztarbound   [Version 6.1.22]
-[19:33:49.727] [Info] -- frackinuniverse   [Version 6.1.22]
-[19:33:49.727] [Info] ----- end ZB player init -----
-[19:33:51.009] [Info] Chat: <SAIL> 这个房间里的控制台是被用来改变你身上装备的科技技能的，使用它可以让你获得新的科技。
-[19:33:58.928] [Info] Chat: <SAIL> 这个障碍课程的内容是学习如何使用你已获得的能量猛冲科技。要使用时连按两次A键或D键以向左或向右快速冲刺。
-[19:34:07.130] [Info] Chat: <SAIL> 这些门的开启是时间限制的。你打算坚持下去并通过它，这种精神是非常值得称赞的。
-[19:34:14.966] [Info] Chat: <SAIL> 数据显示这温度极低。这虽然不致命，但一旦接触将会使你行动迟缓。
-[19:34:32.198] [Info] Client received world stop packet, leaving: Removed
-[19:34:32.806] [Info] ----- FU player init -----
-[19:34:32.806] [Info] ----- End FU player init -----
-[19:34:32.806] [Info] ----- ZB player init -----
-[19:34:32.806] [Info] [ZB] Mods using update info window and their versions:
-[19:34:32.806] [Info] -- ztarbound   [Version 6.1.22]
-[19:34:32.807] [Info] -- frackinuniverse   [Version 6.1.22]
-[19:34:32.807] [Info] ----- end ZB player init -----
-[19:34:33.135] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[19:36:32.904] [Info] Chat: <SAIL> 基于你的游戏时长，你已经获得了+1研究点数如果你处于挂机状态，这个增益将被取消。.
-[19:37:50.927] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[19:38:38.203] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[19:39:09.935] [Info] Client received world stop packet, leaving: Removed
-[19:39:10.544] [Info] ----- FU player init -----
-[19:39:10.544] [Info] ----- End FU player init -----
-[19:39:10.544] [Info] ----- ZB player init -----
-[19:39:10.544] [Info] [ZB] Mods using update info window and their versions:
-[19:39:10.544] [Info] -- frackinuniverse   [Version 6.1.22]
-[19:39:10.544] [Info] -- ztarbound   [Version 6.1.22]
-[19:39:10.544] [Info] ----- end ZB player init -----
-[19:40:02.342] [Info] Client received world stop packet, leaving: Removed
-[19:40:03.204] [Info] ----- FU player init -----
-[19:40:03.204] [Info] ----- End FU player init -----
-[19:40:03.204] [Info] ----- ZB player init -----
-[19:40:03.205] [Info] [ZB] Mods using update info window and their versions:
-[19:40:03.205] [Info] -- frackinuniverse   [Version 6.1.22]
-[19:40:03.205] [Info] -- ztarbound   [Version 6.1.22]
-[19:40:03.205] [Info] ----- end ZB player init -----
-[19:42:13.380] [Info] Client received world stop packet, leaving: Removed
-[19:42:13.993] [Info] ----- FU player init -----
-[19:42:13.994] [Info] ----- End FU player init -----
-[19:42:13.994] [Info] ----- ZB player init -----
-[19:42:13.994] [Info] [ZB] Mods using update info window and their versions:
-[19:42:13.994] [Info] -- ztarbound   [Version 6.1.22]
-[19:42:13.994] [Info] -- frackinuniverse   [Version 6.1.22]
-[19:42:13.994] [Info] ----- end ZB player init -----
-[19:44:07.053] [Info] Client received world stop packet, leaving: Removed
-[19:44:07.695] [Info] ----- FU player init -----
-[19:44:07.695] [Info] ----- End FU player init -----
-[19:44:07.695] [Info] ----- ZB player init -----
-[19:44:07.695] [Info] [ZB] Mods using update info window and their versions:
-[19:44:07.696] [Info] -- frackinuniverse   [Version 6.1.22]
-[19:44:07.696] [Info] -- ztarbound   [Version 6.1.22]
-[19:44:07.696] [Info] ----- end ZB player init -----
-[19:44:25.149] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[19:44:40.667] [Info] Client received world stop packet, leaving: Removed
-[19:44:41.262] [Info] ----- FU player init -----
-[19:44:41.262] [Info] ----- End FU player init -----
-[19:44:41.262] [Info] ----- ZB player init -----
-[19:44:41.262] [Info] [ZB] Mods using update info window and their versions:
-[19:44:41.262] [Info] -- ztarbound   [Version 6.1.22]
-[19:44:41.262] [Info] -- frackinuniverse   [Version 6.1.22]
-[19:44:41.262] [Info] ----- end ZB player init -----
-[19:44:42.599] [Info] Chat: <SAIL> 在半空中按下空格键来使用脉冲跳跃科技。这能帮助你再次提升你的高度。
-[19:45:37.120] [Info] Client received world stop packet, leaving: Removed
-[19:45:37.729] [Info] ----- FU player init -----
-[19:45:37.729] [Info] ----- End FU player init -----
-[19:45:37.729] [Info] ----- ZB player init -----
-[19:45:37.729] [Info] [ZB] Mods using update info window and their versions:
-[19:45:37.729] [Info] -- frackinuniverse   [Version 6.1.22]
-[19:45:37.729] [Info] -- ztarbound   [Version 6.1.22]
-[19:45:37.729] [Info] ----- end ZB player init -----
-[19:45:38.050] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[19:45:53.035] [Info] Client received world stop packet, leaving: Removed
-[19:45:53.141] [Info] ----- FU player init -----
-[19:45:53.141] [Info] ----- End FU player init -----
-[19:45:53.141] [Info] ----- ZB player init -----
-[19:45:53.141] [Info] [ZB] Mods using update info window and their versions:
-[19:45:53.141] [Info] -- ztarbound   [Version 6.1.22]
-[19:45:53.141] [Info] -- frackinuniverse   [Version 6.1.22]
-[19:45:53.141] [Info] ----- end ZB player init -----
-[19:45:55.119] [Info] Chat: <SAIL> 按F键可使用变形球技术II在狭缝与宽敞处来去自如。如果你被挡住了，按下[左键]释放炸弹炸毁障碍物。
-[19:46:28.536] [Info] Chat: <SAIL> 看起来你需要跳起来激活变形球科技来进入这个通道。
-[19:46:47.648] [Info] Client received world stop packet, leaving: Removed
-[19:46:48.232] [Info] ----- FU player init -----
-[19:46:48.232] [Info] ----- End FU player init -----
-[19:46:48.232] [Info] ----- ZB player init -----
-[19:46:48.233] [Info] [ZB] Mods using update info window and their versions:
-[19:46:48.233] [Info] -- ztarbound   [Version 6.1.22]
-[19:46:48.233] [Info] -- frackinuniverse   [Version 6.1.22]
-[19:46:48.233] [Info] ----- end ZB player init -----
-[19:46:48.584] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[19:48:06.126] [Info] Client received world stop packet, leaving: Removed
-[19:48:06.732] [Info] ----- FU player init -----
-[19:48:06.733] [Info] ----- End FU player init -----
-[19:48:06.733] [Info] ----- ZB player init -----
-[19:48:06.733] [Info] [ZB] Mods using update info window and their versions:
-[19:48:06.733] [Info] -- frackinuniverse   [Version 6.1.22]
-[19:48:06.733] [Info] -- ztarbound   [Version 6.1.22]
-[19:48:06.733] [Info] ----- end ZB player init -----
-[19:49:10.820] [Info] Client received world stop packet, leaving: Removed
-[19:49:11.639] [Info] ----- FU player init -----
-[19:49:11.639] [Info] ----- End FU player init -----
-[19:49:11.639] [Info] ----- ZB player init -----
-[19:49:11.639] [Info] [ZB] Mods using update info window and their versions:
-[19:49:11.640] [Info] -- ztarbound   [Version 6.1.22]
-[19:49:11.640] [Info] -- frackinuniverse   [Version 6.1.22]
-[19:49:11.640] [Info] ----- end ZB player init -----
-[19:49:12.162] [Info] Chat: <SAIL> 寺庙的前面看起来戒备森严。也许里面还有其他路线？ 我们可以避免直接对抗。
-[19:49:19.529] [Info] Chat: <SAIL> 好吧... 那就是故意伤害和死亡了，好好享受吧。
-[19:49:29.805] [Info] Chat: <SAIL> 如果有人在这里巡逻的话，这里一定有什么有价值的东西。 我们应该坚持下去，看看还有什么秘密等着我们。
-[19:52:16.689] [Info] Chat: <SAIL> 看起来你需要在你进入这扇门的同时能有个人帮你按住这个按钮。
-[19:56:40.086] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[20:04:40.464] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[20:04:48.375] [Info] Chat: <SAIL> 更多的秘密通道... 这最好值得。
-[20:04:55.665] [Info] Chat: <SAIL> 如此美丽的地方，沙漠下的繁荣昌盛！ 这种特殊的生态系统总是一种乐趣去探索。
-[20:05:50.524] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[20:09:06.868] [Info] Client received world stop packet, leaving: Removed
-[20:09:07.441] [Info] ----- FU player init -----
-[20:09:07.441] [Info] ----- End FU player init -----
-[20:09:07.441] [Info] ----- ZB player init -----
-[20:09:07.441] [Info] [ZB] Mods using update info window and their versions:
-[20:09:07.441] [Info] -- ztarbound   [Version 6.1.22]
-[20:09:07.441] [Info] -- frackinuniverse   [Version 6.1.22]
-[20:09:07.441] [Info] ----- end ZB player init -----
-[20:09:15.704] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[20:10:07.536] [Info] Client received world stop packet, leaving: Removed
-[20:10:08.379] [Info] ----- FU player init -----
-[20:10:08.379] [Info] ----- End FU player init -----
-[20:10:08.379] [Info] ----- ZB player init -----
-[20:10:08.379] [Info] [ZB] Mods using update info window and their versions:
-[20:10:08.380] [Info] -- frackinuniverse   [Version 6.1.22]
-[20:10:08.380] [Info] -- ztarbound   [Version 6.1.22]
-[20:10:08.380] [Info] ----- end ZB player init -----
-[20:10:08.863] [Info] Chat: <SAIL> 我对废墟的扫描表明，你需要双跳或者另一种更高级的跳跃科技来成功穿越废墟。记住要装备这样的科技。
-[20:10:16.536] [Info] Chat: <SAIL> It may also be prudent to acquire some means of surviving great falls. Perhaps you'll find one if you search nearby?
-[20:10:26.299] [Info] Chat: <Esther> 多么奇特！这惊人的信息可比预料中的要更有价值…
-[20:10:33.715] [Info] Chat: <Esther> 他们肯定觉得这东西很有价值才会这样陈列它。真有趣。
-[20:12:26.540] [Error] Could not apply patch from file /objects/farmables/flowerred/flowerred.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[20:12:26.591] [Error] Could not apply patch from file /objects/farmables/floweryellow/floweryellow.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[20:12:26.640] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[20:13:19.451] [Error] Could not apply patch from file /objects/farmables/floweryellow/floweryellow.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[20:13:19.461] [Error] Could not apply patch from file /objects/farmables/flowerred/flowerred.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[20:13:20.156] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[20:13:23.980] [Info] Chat: <Esther> 他们肯定觉得这东西很有价值才会这样陈列它。真有趣。
-[20:15:58.685] [Info] Chat: <Esther> 多么奇特！这惊人的信息可比预料中的要更有价值…
-[20:16:06.136] [Info] Chat: <Esther> 这个吐丝器大的可怕—什么样的生物才会有这样的器官？我想这显然是个珍贵的战利品…
-[20:16:13.982] [Info] Chat: <Esther> 太棒了—我相信我已经知道神器的所在地了！亲爱的，在你准备好了之后来方舟找我吧。
-[20:17:15.090] [Info] Skipped event recording for nonexistent entity 9753
-[20:18:48.637] [Info] Client received world stop packet, leaving: Removed
-[20:18:49.210] [Info] ----- FU player init -----
-[20:18:49.210] [Info] ----- End FU player init -----
-[20:18:49.210] [Info] ----- ZB player init -----
-[20:18:49.210] [Info] [ZB] Mods using update info window and their versions:
-[20:18:49.211] [Info] -- frackinuniverse   [Version 6.1.22]
-[20:18:49.211] [Info] -- ztarbound   [Version 6.1.22]
-[20:18:49.211] [Info] ----- end ZB player init -----
-[20:19:48.140] [Info] Client received world stop packet, leaving: Removed
-[20:19:50.313] [Info] ----- FU player init -----
-[20:19:50.314] [Info] ----- End FU player init -----
-[20:19:50.314] [Info] ----- ZB player init -----
-[20:19:50.314] [Info] [ZB] Mods using update info window and their versions:
-[20:19:50.314] [Info] -- frackinuniverse   [Version 6.1.22]
-[20:19:50.314] [Info] -- ztarbound   [Version 6.1.22]
-[20:19:50.314] [Info] ----- end ZB player init -----
-[20:19:55.676] [Info] Chat: <SAIL> 所有的生命体反应都来自地下很深的地方，具体类型…难以确定。祝你好运。
-[20:20:08.199] [Info] Chat: <SAIL> 看起来它已经被锁上了，你需要找到断路器来恢复电力供应。在这种昏暗的地方请谨慎行事。
-[20:21:10.904] [Info] Chat: <SAIL> 在这些生命体中，我检测到厄尔吉斯晶体的化学特征和人类的DNA。我猜它们可以自行地行动。
-[20:22:10.577] [Info] Chat: <SAIL> 厄尔吉斯的辐射指数达到了94拉德。你的处境非常危险。我的程序要求我通知你，这样做可能会很危险。请保持极端谨慎。
-[20:22:18.810] [Info] Chat: <Esther Bright> 对于AI说的这些…抱歉，亲爱的。
-[20:22:26.068] [Info] Chat: <Esther Bright> 看看他们的样子，与厄尔吉斯晶体的长期接触已经彻底改变了他们的形态！我很好奇。这些可怜虫们已经完全迷失了自我。
-[20:33:59.590] [Info] Chat: <SAIL> 能量的辐射指数达到了101拉德.我也在下方读到了一些重要的数据。 警告：继续下去可能会致命。你确定要继续吗？
-[20:34:07.831] [Info] Chat: <Esther Bright> 喂！你所说的那些可帮不上忙！
-[20:34:23.187] [Info] ----- FU player init -----
-[20:34:23.187] [Info] ----- End FU player init -----
-[20:34:23.187] [Info] ----- ZB player init -----
-[20:34:23.187] [Info] [ZB] Mods using update info window and their versions:
-[20:34:23.187] [Info] -- frackinuniverse   [Version 6.1.22]
-[20:34:23.188] [Info] -- ztarbound   [Version 6.1.22]
-[20:34:23.188] [Info] ----- end ZB player init -----
-[20:35:27.919] [Info] Chat: <SAIL> 能量的辐射指数达到了101拉德.我也在下方读到了一些重要的数据。 警告：继续下去可能会致命。你确定要继续吗？
-[20:35:36.165] [Info] Chat: <Esther Bright> 喂！你所说的那些可帮不上忙！
-[20:38:26.999] [Info] Chat: <SAIL> 常规武器绝无可能破坏厄尔吉斯晶体！你必须考虑其他的攻击方式。
-[20:38:53.748] [Info] Chat: <SAIL> 基于你的游戏时长，你已经获得了+2研究点数如果你处于挂机状态，这个增益将被取消。.
-[20:40:23.280] [Info] Chat: <Esther Bright> 干得漂亮！
-[20:40:26.246] [Info] Chat: <SAIL> 这里有足够的厄尔吉斯晶体来为前哨站提供长时间的能量。干得好，探员！这将大大有助于守护团的改革。
-[20:40:41.150] [Info] Client received world stop packet, leaving: Removed
-[20:40:41.765] [Info] ----- FU player init -----
-[20:40:41.765] [Info] ----- End FU player init -----
-[20:40:41.765] [Info] ----- ZB player init -----
-[20:40:41.765] [Info] [ZB] Mods using update info window and their versions:
-[20:40:41.766] [Info] -- ztarbound   [Version 6.1.22]
-[20:40:41.766] [Info] -- frackinuniverse   [Version 6.1.22]
-[20:40:41.766] [Info] ----- end ZB player init -----
-[20:40:41.975] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[20:41:20.489] [Info] Chat: <SAIL> 我已经收到狩猎聚会洞穴的航行坐标了。请通过任务界面前往目的地。
-[20:41:32.042] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[20:43:37.205] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[20:43:40.202] [Info] Client received world stop packet, leaving: Removed
-[20:43:40.803] [Info] ----- FU player init -----
-[20:43:40.803] [Info] ----- End FU player init -----
-[20:43:40.803] [Info] ----- ZB player init -----
-[20:43:40.803] [Info] [ZB] Mods using update info window and their versions:
-[20:43:40.804] [Info] -- frackinuniverse   [Version 6.1.22]
-[20:43:40.804] [Info] -- ztarbound   [Version 6.1.22]
-[20:43:40.804] [Info] ----- end ZB player init -----
-[20:44:06.908] [Info] Client received world stop packet, leaving: Removed
-[20:44:07.031] [Info] ----- FU player init -----
-[20:44:07.031] [Info] ----- End FU player init -----
-[20:44:07.031] [Info] ----- ZB player init -----
-[20:44:07.031] [Info] [ZB] Mods using update info window and their versions:
-[20:44:07.031] [Info] -- frackinuniverse   [Version 6.1.22]
-[20:44:07.031] [Info] -- ztarbound   [Version 6.1.22]
-[20:44:07.031] [Info] ----- end ZB player init -----
-[20:44:14.895] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[20:45:15.720] [Info] Client received world stop packet, leaving: Removed
-[20:45:15.844] [Info] ----- FU player init -----
-[20:45:15.845] [Info] ----- End FU player init -----
-[20:45:15.845] [Info] ----- ZB player init -----
-[20:45:15.845] [Info] [ZB] Mods using update info window and their versions:
-[20:45:15.845] [Info] -- frackinuniverse   [Version 6.1.22]
-[20:45:15.845] [Info] -- ztarbound   [Version 6.1.22]
-[20:45:15.845] [Info] ----- end ZB player init -----
-[20:50:38.147] [Info] Client received world stop packet, leaving: Removed
-[20:50:39.067] [Info] ----- FU player init -----
-[20:50:39.068] [Info] ----- End FU player init -----
-[20:50:39.068] [Info] ----- ZB player init -----
-[20:50:39.068] [Info] [ZB] Mods using update info window and their versions:
-[20:50:39.068] [Info] -- frackinuniverse   [Version 6.1.22]
-[20:50:39.068] [Info] -- ztarbound   [Version 6.1.22]
-[20:50:39.068] [Info] ----- end ZB player init -----
-[20:50:59.607] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[20:53:55.319] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[20:54:17.967] [Info] ----First Time Space Station Init----
-STATION OBJECT ID 1200 CALLED, ATTEMPTING TO ADD STATION DATA...
-[20:54:17.967] [Info] Station type - military
-[20:54:17.967] [Info] Station race - hylotl
-[20:54:17.967] [Info] Happened at worldtime 43024.5
-[20:54:17.986] [Info] ----- End Station First Time Init -----
-[20:55:40.938] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[20:56:05.198] [Info] Client received world stop packet, leaving: Removed
-[20:56:05.809] [Info] ----- FU player init -----
-[20:56:05.809] [Info] ----- End FU player init -----
-[20:56:05.809] [Info] ----- ZB player init -----
-[20:56:05.809] [Info] [ZB] Mods using update info window and their versions:
-[20:56:05.810] [Info] -- ztarbound   [Version 6.1.22]
-[20:56:05.810] [Info] -- frackinuniverse   [Version 6.1.22]
-[20:56:05.810] [Info] ----- end ZB player init -----
-[20:56:48.290] [Info] Client received world stop packet, leaving: Removed
-[20:56:49.371] [Info] ----- FU player init -----
-[20:56:49.372] [Info] ----- End FU player init -----
-[20:56:49.372] [Info] ----- ZB player init -----
-[20:56:49.372] [Info] [ZB] Mods using update info window and their versions:
-[20:56:49.372] [Info] -- frackinuniverse   [Version 6.1.22]
-[20:56:49.372] [Info] -- ztarbound   [Version 6.1.22]
-[20:56:49.372] [Info] ----- end ZB player init -----
-[20:57:44.702] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[20:59:19.256] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;15;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (15, 8) out of image bounds (62, 4)
-[20:59:19.692] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;13;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (13, 8) out of image bounds (62, 4)
-[20:59:20.263] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;11;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (11, 8) out of image bounds (62, 4)
-[20:59:22.277] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;7;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (7, 8) out of image bounds (62, 4)
-[20:59:51.271] [Info] Skipped event recording for nonexistent entity 1610
-[21:00:47.154] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[21:04:10.342] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[21:05:17.769] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[21:13:44.036] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[21:13:48.685] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[21:14:05.914] [Info] Client received world stop packet, leaving: Removed
-[21:14:06.562] [Info] ----- FU player init -----
-[21:14:06.562] [Info] ----- End FU player init -----
-[21:14:06.562] [Info] ----- ZB player init -----
-[21:14:06.563] [Info] [ZB] Mods using update info window and their versions:
-[21:14:06.563] [Info] -- ztarbound   [Version 6.1.22]
-[21:14:06.563] [Info] -- frackinuniverse   [Version 6.1.22]
-[21:14:06.563] [Info] ----- end ZB player init -----
-[21:14:14.066] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[21:20:48.419] [Info] Client received world stop packet, leaving: Removed
-[21:20:50.174] [Info] ----- FU player init -----
-[21:20:50.174] [Info] ----- End FU player init -----
-[21:20:50.174] [Info] ----- ZB player init -----
-[21:20:50.174] [Info] [ZB] Mods using update info window and their versions:
-[21:20:50.175] [Info] -- ztarbound   [Version 6.1.22]
-[21:20:50.175] [Info] -- frackinuniverse   [Version 6.1.22]
-[21:20:50.175] [Info] ----- end ZB player init -----
-[21:22:08.574] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;6;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (6, 8) out of image bounds (62, 4)
-[21:24:25.583] [Info] Client received world stop packet, leaving: Removed
-[21:24:26.193] [Info] ----- FU player init -----
-[21:24:26.193] [Info] ----- End FU player init -----
-[21:24:26.193] [Info] ----- ZB player init -----
-[21:24:26.193] [Info] [ZB] Mods using update info window and their versions:
-[21:24:26.193] [Info] -- ztarbound   [Version 6.1.22]
-[21:24:26.193] [Info] -- frackinuniverse   [Version 6.1.22]
-[21:24:26.193] [Info] ----- end ZB player init -----
-[21:24:48.943] [Info] Client received world stop packet, leaving: Removed
-[21:24:49.046] [Info] ----- FU player init -----
-[21:24:49.047] [Info] ----- End FU player init -----
-[21:24:49.047] [Info] ----- ZB player init -----
-[21:24:49.047] [Info] [ZB] Mods using update info window and their versions:
-[21:24:49.047] [Info] -- frackinuniverse   [Version 6.1.22]
-[21:24:49.047] [Info] -- ztarbound   [Version 6.1.22]
-[21:24:49.047] [Info] ----- end ZB player init -----
-[21:24:57.789] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[21:26:33.004] [Info] Client received world stop packet, leaving: Removed
-[21:26:33.138] [Info] ----- FU player init -----
-[21:26:33.139] [Info] ----- End FU player init -----
-[21:26:33.139] [Info] ----- ZB player init -----
-[21:26:33.139] [Info] [ZB] Mods using update info window and their versions:
-[21:26:33.139] [Info] -- ztarbound   [Version 6.1.22]
-[21:26:33.139] [Info] -- frackinuniverse   [Version 6.1.22]
-[21:26:33.139] [Info] ----- end ZB player init -----
-[21:26:44.290] [Info] Client received world stop packet, leaving: Removed
-[21:26:44.377] [Info] ----- FU player init -----
-[21:26:44.378] [Info] ----- End FU player init -----
-[21:26:44.378] [Info] ----- ZB player init -----
-[21:26:44.378] [Info] [ZB] Mods using update info window and their versions:
-[21:26:44.378] [Info] -- frackinuniverse   [Version 6.1.22]
-[21:26:44.378] [Info] -- ztarbound   [Version 6.1.22]
-[21:26:44.378] [Info] ----- end ZB player init -----
-[21:31:33.498] [Info] Client received world stop packet, leaving: Removed
-[21:31:34.138] [Info] ----- FU player init -----
-[21:31:34.139] [Info] ----- End FU player init -----
-[21:31:34.139] [Info] ----- ZB player init -----
-[21:31:34.139] [Info] [ZB] Mods using update info window and their versions:
-[21:31:34.139] [Info] -- ztarbound   [Version 6.1.22]
-[21:31:34.139] [Info] -- frackinuniverse   [Version 6.1.22]
-[21:31:34.139] [Info] ----- end ZB player init -----
-[21:31:39.350] [Info] Client received world stop packet, leaving: Removed
-[21:31:39.439] [Info] ----- FU player init -----
-[21:31:39.439] [Info] ----- End FU player init -----
-[21:31:39.439] [Info] ----- ZB player init -----
-[21:31:39.439] [Info] [ZB] Mods using update info window and their versions:
-[21:31:39.439] [Info] -- frackinuniverse   [Version 6.1.22]
-[21:31:39.439] [Info] -- ztarbound   [Version 6.1.22]
-[21:31:39.439] [Info] ----- end ZB player init -----
-[21:40:26.269] [Info] Client received world stop packet, leaving: Removed
-[21:40:26.868] [Info] ----- FU player init -----
-[21:40:26.868] [Info] ----- End FU player init -----
-[21:40:26.868] [Info] ----- ZB player init -----
-[21:40:26.868] [Info] [ZB] Mods using update info window and their versions:
-[21:40:26.869] [Info] -- frackinuniverse   [Version 6.1.22]
-[21:40:26.869] [Info] -- ztarbound   [Version 6.1.22]
-[21:40:26.869] [Info] ----- end ZB player init -----
-[21:41:22.692] [Info] Chat: <SAIL> 基于你的游戏时长，你已经获得了+3研究点数如果你处于挂机状态，这个增益将被取消。.
-[21:45:05.666] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[21:45:15.680] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[21:58:30.637] [Info] Chat: <SAIL> 检测到毒素：尽管我确定这*看起来*非常美味，但是有一件事必须告诉你——你在生理上无法消化这种食物，以后请不要吃像这样的食物。
-[21:58:56.903] [Info] Client received world stop packet, leaving: Removed
-[21:58:57.520] [Info] ----- FU player init -----
-[21:58:57.520] [Info] ----- End FU player init -----
-[21:58:57.521] [Info] ----- ZB player init -----
-[21:58:57.521] [Info] [ZB] Mods using update info window and their versions:
-[21:58:57.521] [Info] -- frackinuniverse   [Version 6.1.22]
-[21:58:57.521] [Info] -- ztarbound   [Version 6.1.22]
-[21:58:57.521] [Info] ----- end ZB player init -----
-[22:03:13.762] [Info] Skipped event recording for nonexistent entity 312
-[22:03:13.763] [Info] Skipped event recording for nonexistent entity 313
-[22:03:13.763] [Info] Skipped event recording for nonexistent entity 314
-[22:03:47.869] [Info] Client received world stop packet, leaving: Removed
-[22:03:48.525] [Info] ----- FU player init -----
-[22:03:48.526] [Info] ----- End FU player init -----
-[22:03:48.526] [Info] ----- ZB player init -----
-[22:03:48.526] [Info] [ZB] Mods using update info window and their versions:
-[22:03:48.526] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:03:48.526] [Info] -- ztarbound   [Version 6.1.22]
-[22:03:48.526] [Info] ----- end ZB player init -----
-[22:05:03.994] [Info] Client received world stop packet, leaving: Removed
-[22:05:04.592] [Info] ----- FU player init -----
-[22:05:04.592] [Info] ----- End FU player init -----
-[22:05:04.592] [Info] ----- ZB player init -----
-[22:05:04.592] [Info] [ZB] Mods using update info window and their versions:
-[22:05:04.592] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:05:04.592] [Info] -- ztarbound   [Version 6.1.22]
-[22:05:04.592] [Info] ----- end ZB player init -----
-[22:05:26.657] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[22:09:42.286] [Info] Client received world stop packet, leaving: Removed
-[22:09:42.938] [Info] ----- FU player init -----
-[22:09:42.938] [Info] ----- End FU player init -----
-[22:09:42.938] [Info] ----- ZB player init -----
-[22:09:42.938] [Info] [ZB] Mods using update info window and their versions:
-[22:09:42.939] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:09:42.939] [Info] -- ztarbound   [Version 6.1.22]
-[22:09:42.939] [Info] ----- end ZB player init -----
-[22:18:55.464] [Info] Client received world stop packet, leaving: Removed
-[22:18:56.180] [Info] ----- FU player init -----
-[22:18:56.180] [Info] ----- End FU player init -----
-[22:18:56.180] [Info] ----- ZB player init -----
-[22:18:56.181] [Info] [ZB] Mods using update info window and their versions:
-[22:18:56.181] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:18:56.181] [Info] -- ztarbound   [Version 6.1.22]
-[22:18:56.181] [Info] ----- end ZB player init -----
-[22:18:56.382] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[22:19:00.639] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
-[22:19:09.292] [Info] Chat: <SAIL> 值得注意的是，这个天体没有大气层，如果氧气耗尽，你将会死去。
-[22:19:20.170] [Info] Client received world stop packet, leaving: Removed
-[22:19:20.302] [Info] ----- FU player init -----
-[22:19:20.303] [Info] ----- End FU player init -----
-[22:19:20.303] [Info] ----- ZB player init -----
-[22:19:20.303] [Info] [ZB] Mods using update info window and their versions:
-[22:19:20.303] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:19:20.303] [Info] -- ztarbound   [Version 6.1.22]
-[22:19:20.303] [Info] ----- end ZB player init -----
-[22:31:22.174] [Info] ----- FU player init -----
-[22:31:22.175] [Info] ----- End FU player init -----
-[22:31:22.175] [Info] ----- ZB player init -----
-[22:31:22.175] [Info] [ZB] Mods using update info window and their versions:
-[22:31:22.175] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:31:22.175] [Info] -- ztarbound   [Version 6.1.22]
-[22:31:22.175] [Info] ----- end ZB player init -----
-[22:43:31.635] [Info] Client received world stop packet, leaving: Removed
-[22:43:32.346] [Info] ----- FU player init -----
-[22:43:32.347] [Info] ----- End FU player init -----
-[22:43:32.347] [Info] ----- ZB player init -----
-[22:43:32.347] [Info] [ZB] Mods using update info window and their versions:
-[22:43:32.347] [Info] -- ztarbound   [Version 6.1.22]
-[22:43:32.347] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:43:32.347] [Info] ----- end ZB player init -----
-[22:43:32.568] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[22:43:36.002] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
-[22:43:44.651] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
-[22:43:53.312] [Info] Chat: <SAIL> 值得注意的是，这个天体没有大气层，如果氧气耗尽，你将会死去。
-[22:44:22.633] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[22:45:30.351] [Info] Client received world stop packet, leaving: Removed
-[22:45:30.982] [Info] ----- FU player init -----
-[22:45:30.982] [Info] ----- End FU player init -----
-[22:45:30.982] [Info] ----- ZB player init -----
-[22:45:30.982] [Info] [ZB] Mods using update info window and their versions:
-[22:45:30.982] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:45:30.982] [Info] -- ztarbound   [Version 6.1.22]
-[22:45:30.983] [Info] ----- end ZB player init -----
-[22:45:43.409] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[22:46:10.775] [Info] Client received world stop packet, leaving: Removed
-[22:46:11.445] [Info] ----- FU player init -----
-[22:46:11.446] [Info] ----- End FU player init -----
-[22:46:11.446] [Info] ----- ZB player init -----
-[22:46:11.446] [Info] [ZB] Mods using update info window and their versions:
-[22:46:11.446] [Info] -- ztarbound   [Version 6.1.22]
-[22:46:11.446] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:46:11.446] [Info] ----- end ZB player init -----
-[22:46:11.651] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[22:46:15.085] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
-[22:46:49.188] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
-[22:47:37.686] [Info] Client received world stop packet, leaving: Removed
-[22:47:38.321] [Info] ----- FU player init -----
-[22:47:38.321] [Info] ----- End FU player init -----
-[22:47:38.321] [Info] ----- ZB player init -----
-[22:47:38.322] [Info] [ZB] Mods using update info window and their versions:
-[22:47:38.322] [Info] -- ztarbound   [Version 6.1.22]
-[22:47:38.322] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:47:38.322] [Info] ----- end ZB player init -----
-[22:47:42.476] [Info] Client received world stop packet, leaving: Removed
-[22:47:42.659] [Info] ----- FU player init -----
-[22:47:42.659] [Info] ----- End FU player init -----
-[22:47:42.659] [Info] ----- ZB player init -----
-[22:47:42.659] [Info] [ZB] Mods using update info window and their versions:
-[22:47:42.659] [Info] -- ztarbound   [Version 6.1.22]
-[22:47:42.659] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:47:42.659] [Info] ----- end ZB player init -----
-[22:47:42.771] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[22:47:46.415] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
-[22:48:29.375] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
-[22:48:46.027] [Info] Chat: <SAIL> 值得注意的是，这个天体没有大气层，如果氧气耗尽，你将会死去。
-[22:51:19.812] [Info] Client received world stop packet, leaving: Removed
-[22:51:20.450] [Info] ----- FU player init -----
-[22:51:20.450] [Info] ----- End FU player init -----
-[22:51:20.450] [Info] ----- ZB player init -----
-[22:51:20.450] [Info] [ZB] Mods using update info window and their versions:
-[22:51:20.451] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:51:20.451] [Info] -- ztarbound   [Version 6.1.22]
-[22:51:20.451] [Info] ----- end ZB player init -----
-[22:51:39.400] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[22:51:46.325] [Info] Client received world stop packet, leaving: Removed
-[22:51:46.503] [Info] ----- FU player init -----
-[22:51:46.503] [Info] ----- End FU player init -----
-[22:51:46.503] [Info] ----- ZB player init -----
-[22:51:46.503] [Info] [ZB] Mods using update info window and their versions:
-[22:51:46.503] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:51:46.503] [Info] -- ztarbound   [Version 6.1.22]
-[22:51:46.503] [Info] ----- end ZB player init -----
-[22:52:06.857] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
-[22:52:30.711] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
-[22:53:23.507] [Info] Client received world stop packet, leaving: Removed
-[22:53:24.140] [Info] ----- FU player init -----
-[22:53:24.140] [Info] ----- End FU player init -----
-[22:53:24.140] [Info] ----- ZB player init -----
-[22:53:24.140] [Info] [ZB] Mods using update info window and their versions:
-[22:53:24.141] [Info] -- ztarbound   [Version 6.1.22]
-[22:53:24.141] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:53:24.141] [Info] ----- end ZB player init -----
-[22:53:24.372] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[22:53:28.363] [Info] Client received world stop packet, leaving: Removed
-[22:53:28.527] [Info] ----- FU player init -----
-[22:53:28.527] [Info] ----- End FU player init -----
-[22:53:28.527] [Info] ----- ZB player init -----
-[22:53:28.527] [Info] [ZB] Mods using update info window and their versions:
-[22:53:28.527] [Info] -- ztarbound   [Version 6.1.22]
-[22:53:28.527] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:53:28.527] [Info] ----- end ZB player init -----
-[22:53:32.286] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
-[22:54:16.656] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
-[22:54:25.312] [Info] Chat: <SAIL> 值得注意的是，这个天体没有大气层，如果氧气耗尽，你将会死去。
-[22:55:35.323] [Info] Client received world stop packet, leaving: Removed
-[22:55:35.960] [Info] ----- FU player init -----
-[22:55:35.960] [Info] ----- End FU player init -----
-[22:55:35.960] [Info] ----- ZB player init -----
-[22:55:35.960] [Info] [ZB] Mods using update info window and their versions:
-[22:55:35.961] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:55:35.961] [Info] -- ztarbound   [Version 6.1.22]
-[22:55:35.961] [Info] ----- end ZB player init -----
-[22:55:36.177] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[22:55:43.961] [Info] Client received world stop packet, leaving: Removed
-[22:55:44.143] [Info] ----- FU player init -----
-[22:55:44.143] [Info] ----- End FU player init -----
-[22:55:44.143] [Info] ----- ZB player init -----
-[22:55:44.143] [Info] [ZB] Mods using update info window and their versions:
-[22:55:44.143] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:55:44.144] [Info] -- ztarbound   [Version 6.1.22]
-[22:55:44.144] [Info] ----- end ZB player init -----
-[22:55:47.967] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
-[22:56:23.722] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
-[22:57:54.478] [Info] Client received world stop packet, leaving: Removed
-[22:57:55.133] [Info] ----- FU player init -----
-[22:57:55.133] [Info] ----- End FU player init -----
-[22:57:55.133] [Info] ----- ZB player init -----
-[22:57:55.133] [Info] [ZB] Mods using update info window and their versions:
-[22:57:55.133] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:57:55.134] [Info] -- ztarbound   [Version 6.1.22]
-[22:57:55.134] [Info] ----- end ZB player init -----
-[22:57:55.350] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[22:57:58.892] [Info] Client received world stop packet, leaving: Removed
-[22:57:59.074] [Info] ----- FU player init -----
-[22:57:59.074] [Info] ----- End FU player init -----
-[22:57:59.074] [Info] ----- ZB player init -----
-[22:57:59.074] [Info] [ZB] Mods using update info window and their versions:
-[22:57:59.074] [Info] -- ztarbound   [Version 6.1.22]
-[22:57:59.074] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:57:59.074] [Info] ----- end ZB player init -----
-[22:58:02.809] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
-[22:58:05.045] [Info] Client received world stop packet, leaving: Removed
-[22:58:05.173] [Info] ----- FU player init -----
-[22:58:05.173] [Info] ----- End FU player init -----
-[22:58:05.173] [Info] ----- ZB player init -----
-[22:58:05.173] [Info] [ZB] Mods using update info window and their versions:
-[22:58:05.173] [Info] -- ztarbound   [Version 6.1.22]
-[22:58:05.173] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:58:05.173] [Info] ----- end ZB player init -----
-[23:00:08.055] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[23:00:46.167] [Info] Client received world stop packet, leaving: Removed
-[23:00:46.864] [Info] ----- FU player init -----
-[23:00:46.864] [Info] ----- End FU player init -----
-[23:00:46.864] [Info] ----- ZB player init -----
-[23:00:46.864] [Info] [ZB] Mods using update info window and their versions:
-[23:00:46.865] [Info] -- ztarbound   [Version 6.1.22]
-[23:00:46.865] [Info] -- frackinuniverse   [Version 6.1.22]
-[23:00:46.865] [Info] ----- end ZB player init -----
-[23:00:50.467] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
-[23:01:24.088] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
-[23:01:32.755] [Info] Chat: <SAIL> 值得注意的是，这个天体没有大气层，如果氧气耗尽，你将会死去。
-[23:02:24.372] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[23:03:01.664] [Info] Client received world stop packet, leaving: Removed
-[23:03:02.328] [Info] ----- FU player init -----
-[23:03:02.329] [Info] ----- End FU player init -----
-[23:03:02.329] [Info] ----- ZB player init -----
-[23:03:02.329] [Info] [ZB] Mods using update info window and their versions:
-[23:03:02.329] [Info] -- frackinuniverse   [Version 6.1.22]
-[23:03:02.329] [Info] -- ztarbound   [Version 6.1.22]
-[23:03:02.329] [Info] ----- end ZB player init -----
-[23:03:02.501] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[23:03:19.428] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[23:06:24.953] [Info] Client received world stop packet, leaving: Removed
-[23:06:26.377] [Info] ----- FU player init -----
-[23:06:26.377] [Info] ----- End FU player init -----
-[23:06:26.377] [Info] ----- ZB player init -----
-[23:06:26.377] [Info] [ZB] Mods using update info window and their versions:
-[23:06:26.378] [Info] -- ztarbound   [Version 6.1.22]
-[23:06:26.378] [Info] -- frackinuniverse   [Version 6.1.22]
-[23:06:26.378] [Info] ----- end ZB player init -----
-[23:07:30.086] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;14;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (14, 8) out of image bounds (62, 4)
-[23:07:30.104] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;9;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (9, 8) out of image bounds (62, 4)
-[23:07:30.253] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;4;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (4, 8) out of image bounds (62, 4)
-[23:09:43.627] [Info] Client received world stop packet, leaving: Removed
-[23:09:44.196] [Info] ----- FU player init -----
-[23:09:44.196] [Info] ----- End FU player init -----
-[23:09:44.196] [Info] ----- ZB player init -----
-[23:09:44.196] [Info] [ZB] Mods using update info window and their versions:
-[23:09:44.196] [Info] -- frackinuniverse   [Version 6.1.22]
-[23:09:44.197] [Info] -- ztarbound   [Version 6.1.22]
-[23:09:44.197] [Info] ----- end ZB player init -----
-[23:09:44.564] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[23:11:21.359] [Info] Client received world stop packet, leaving: Removed
-[23:11:23.070] [Info] ----- FU player init -----
-[23:11:23.071] [Info] ----- End FU player init -----
-[23:11:23.071] [Info] ----- ZB player init -----
-[23:11:23.071] [Info] [ZB] Mods using update info window and their versions:
-[23:11:23.071] [Info] -- ztarbound   [Version 6.1.22]
-[23:11:23.071] [Info] -- frackinuniverse   [Version 6.1.22]
-[23:11:23.071] [Info] ----- end ZB player init -----
-[23:14:33.850] [Info] Client received world stop packet, leaving: Removed
-[23:14:34.498] [Info] ----- FU player init -----
-[23:14:34.499] [Info] ----- End FU player init -----
-[23:14:34.499] [Info] ----- ZB player init -----
-[23:14:34.499] [Info] [ZB] Mods using update info window and their versions:
-[23:14:34.499] [Info] -- frackinuniverse   [Version 6.1.22]
-[23:14:34.499] [Info] -- ztarbound   [Version 6.1.22]
-[23:14:34.499] [Info] ----- end ZB player init -----
-[23:14:34.674] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[23:14:38.418] [Info] Client received world stop packet, leaving: Removed
-[23:14:38.531] [Info] ----- FU player init -----
-[23:14:38.531] [Info] ----- End FU player init -----
-[23:14:38.531] [Info] ----- ZB player init -----
-[23:14:38.531] [Info] [ZB] Mods using update info window and their versions:
-[23:14:38.531] [Info] -- ztarbound   [Version 6.1.22]
-[23:14:38.531] [Info] -- frackinuniverse   [Version 6.1.22]
-[23:14:38.531] [Info] ----- end ZB player init -----
-[23:17:46.924] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[23:18:22.446] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[23:21:00.811] [Info] [XCustomCodex Systems] Player has learned codex hylotlhistory8, /codex/hylotl/.
-[23:21:04.007] [Info] [XCustomCodex Systems] Player has learned codex hylotlhistory5, /codex/hylotl/.
-[23:21:05.114] [Info] [XCustomCodex Systems] Player has learned codex hylotlhistory7, /codex/hylotl/.
-[23:21:06.542] [Info] [XCustomCodex Systems] Player has learned codex hylotlhistory3, /codex/hylotl/.
-[23:22:23.851] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[23:22:25.437] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[23:23:14.187] [Info] Client received world stop packet, leaving: Removed
-[23:23:14.819] [Info] ----- FU player init -----
-[23:23:14.820] [Info] ----- End FU player init -----
-[23:23:14.820] [Info] ----- ZB player init -----
-[23:23:14.820] [Info] [ZB] Mods using update info window and their versions:
-[23:23:14.820] [Info] -- ztarbound   [Version 6.1.22]
-[23:23:14.820] [Info] -- frackinuniverse   [Version 6.1.22]
-[23:23:14.820] [Info] ----- end ZB player init -----
-[23:23:15.082] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[23:23:30.495] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[23:23:49.778] [Info] Client received world stop packet, leaving: Removed
-[23:23:51.833] [Info] ----- FU player init -----
-[23:23:51.834] [Info] ----- End FU player init -----
-[23:23:51.834] [Info] ----- ZB player init -----
-[23:23:51.834] [Info] [ZB] Mods using update info window and their versions:
-[23:23:51.834] [Info] -- frackinuniverse   [Version 6.1.22]
-[23:23:51.834] [Info] -- ztarbound   [Version 6.1.22]
-[23:23:51.834] [Info] ----- end ZB player init -----
-[23:25:04.214] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[23:28:48.147] [Info] Client received world stop packet, leaving: Removed
-[23:28:48.764] [Info] ----- FU player init -----
-[23:28:48.764] [Info] ----- End FU player init -----
-[23:28:48.764] [Info] ----- ZB player init -----
-[23:28:48.764] [Info] [ZB] Mods using update info window and their versions:
-[23:28:48.765] [Info] -- ztarbound   [Version 6.1.22]
-[23:28:48.765] [Info] -- frackinuniverse   [Version 6.1.22]
-[23:28:48.765] [Info] ----- end ZB player init -----
-[23:28:48.989] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[23:31:42.615] [Info] Client received world stop packet, leaving: Removed
-[23:31:43.276] [Info] ----- FU player init -----
-[23:31:43.276] [Info] ----- End FU player init -----
-[23:31:43.276] [Info] ----- ZB player init -----
-[23:31:43.277] [Info] [ZB] Mods using update info window and their versions:
-[23:31:43.277] [Info] -- frackinuniverse   [Version 6.1.22]
-[23:31:43.277] [Info] -- ztarbound   [Version 6.1.22]
-[23:31:43.277] [Info] ----- end ZB player init -----
-[23:32:54.502] [Error] Could not load audio asset '/sfx/projectiles/radioactive_barrier_kill.ogg', using placeholder default.
-(AssetException) No such asset '/sfx/projectiles/radioactive_barrier_kill.ogg'
-[23:35:41.536] [Info] Client received world stop packet, leaving: Removed
-[23:35:42.162] [Info] ----- FU player init -----
-[23:35:42.163] [Info] ----- End FU player init -----
-[23:35:42.163] [Info] ----- ZB player init -----
-[23:35:42.163] [Info] [ZB] Mods using update info window and their versions:
-[23:35:42.163] [Info] -- frackinuniverse   [Version 6.1.22]
-[23:35:42.163] [Info] -- ztarbound   [Version 6.1.22]
-[23:35:42.163] [Info] ----- end ZB player init -----
-[23:35:42.394] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[23:49:24.314] [Info] Client received world stop packet, leaving: Removed
-[23:49:25.144] [Info] ----- FU player init -----
-[23:49:25.144] [Info] ----- End FU player init -----
-[23:49:25.144] [Info] ----- ZB player init -----
-[23:49:25.144] [Info] [ZB] Mods using update info window and their versions:
-[23:49:25.145] [Info] -- ztarbound   [Version 6.1.22]
-[23:49:25.145] [Info] -- frackinuniverse   [Version 6.1.22]
-[23:49:25.145] [Info] ----- end ZB player init -----
-[23:49:25.470] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[23:49:52.441] [Error] Could not apply patch from file /objects/farmables/floweryellow/floweryellow.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[23:51:39.979] [Error] Could not load audio asset '/sfx/projectiles/radioactive_barrier_kill.ogg', using placeholder default.
-(AssetException) No such asset '/sfx/projectiles/radioactive_barrier_kill.ogg'
-[23:52:08.174] [Error] Could not load image asset '/monsters/walkers/bunnything/bunnything/bunnything.png:hurt.1', using placeholder default.
-(AssetException) No such frame hurt.1 in frames spec /monsters/walkers/bunnything/bunnything/bunnything.frames
-[23:52:19.548] [Error] Could not apply patch from file /objects/farmables/floweryellow/floweryellow.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[23:52:58.551] [Info] Client received world stop packet, leaving: Removed
-[23:52:59.229] [Info] ----- FU player init -----
-[23:52:59.229] [Info] ----- End FU player init -----
-[23:52:59.229] [Info] ----- ZB player init -----
-[23:52:59.229] [Info] [ZB] Mods using update info window and their versions:
-[23:52:59.230] [Info] -- ztarbound   [Version 6.1.22]
-[23:52:59.230] [Info] -- frackinuniverse   [Version 6.1.22]
-[23:52:59.230] [Info] ----- end ZB player init -----
-[23:52:59.460] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[23:54:31.311] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[23:56:20.460] [Info] Client received world stop packet, leaving: Removed
-[23:56:21.360] [Info] ----- FU player init -----
-[23:56:21.361] [Info] ----- End FU player init -----
-[23:56:21.361] [Info] ----- ZB player init -----
-[23:56:21.361] [Info] [ZB] Mods using update info window and their versions:
-[23:56:21.361] [Info] -- ztarbound   [Version 6.1.22]
-[23:56:21.362] [Info] -- frackinuniverse   [Version 6.1.22]
-[23:56:21.362] [Info] ----- end ZB player init -----
-[23:57:05.560] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[23:57:19.989] [Error] Could not apply patch from file /objects/farmables/flowerred/flowerred.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[23:57:20.022] [Error] Could not apply patch from file /objects/farmables/floweryellow/floweryellow.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[23:57:52.843] [Error] Could not apply patch from file /objects/farmables/flowerred/flowerred.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[23:58:37.134] [Error] Could not apply patch from file /objects/farmables/flowerred/flowerred.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[23:59:00.844] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[23:59:22.331] [Error] Could not apply patch from file /objects/farmables/floweryellow/floweryellow.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[00:00:28.705] [Info] Client received world stop packet, leaving: Removed
-[00:00:28.875] [Info] ----- FU player init -----
-[00:00:28.875] [Info] ----- End FU player init -----
-[00:00:28.875] [Info] ----- ZB player init -----
-[00:00:28.876] [Info] [ZB] Mods using update info window and their versions:
-[00:00:28.876] [Info] -- frackinuniverse   [Version 6.1.22]
-[00:00:28.876] [Info] -- ztarbound   [Version 6.1.22]
-[00:00:28.876] [Info] ----- end ZB player init -----
-[00:01:08.984] [Info] Client received world stop packet, leaving: Removed
-[00:01:09.665] [Info] ----- FU player init -----
-[00:01:09.666] [Info] ----- End FU player init -----
-[00:01:09.666] [Info] ----- ZB player init -----
-[00:01:09.666] [Info] [ZB] Mods using update info window and their versions:
-[00:01:09.666] [Info] -- frackinuniverse   [Version 6.1.22]
-[00:01:09.666] [Info] -- ztarbound   [Version 6.1.22]
-[00:01:09.666] [Info] ----- end ZB player init -----
-[00:01:13.288] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
-[00:01:49.382] [Info] Client received world stop packet, leaving: Removed
-[00:01:50.036] [Info] ----- FU player init -----
-[00:01:50.036] [Info] ----- End FU player init -----
-[00:01:50.036] [Info] ----- ZB player init -----
-[00:01:50.037] [Info] [ZB] Mods using update info window and their versions:
-[00:01:50.037] [Info] -- frackinuniverse   [Version 6.1.22]
-[00:01:50.037] [Info] -- ztarbound   [Version 6.1.22]
-[00:01:50.037] [Info] ----- end ZB player init -----
-[00:02:43.809] [Info] Client received world stop packet, leaving: Removed
-[00:02:44.018] [Info] ----- FU player init -----
-[00:02:44.018] [Info] ----- End FU player init -----
-[00:02:44.018] [Info] ----- ZB player init -----
-[00:02:44.019] [Info] [ZB] Mods using update info window and their versions:
-[00:02:44.019] [Info] -- frackinuniverse   [Version 6.1.22]
-[00:02:44.019] [Info] -- ztarbound   [Version 6.1.22]
-[00:02:44.019] [Info] ----- end ZB player init -----
-[00:02:48.589] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
-[00:02:57.229] [Info] Chat: <SAIL> 值得注意的是，这个天体没有大气层，如果氧气耗尽，你将会死去。
-[00:03:14.177] [Info] Client received world stop packet, leaving: Removed
-[00:03:14.313] [Info] ----- FU player init -----
-[00:03:14.314] [Info] ----- End FU player init -----
-[00:03:14.314] [Info] ----- ZB player init -----
-[00:03:14.314] [Info] [ZB] Mods using update info window and their versions:
-[00:03:14.314] [Info] -- ztarbound   [Version 6.1.22]
-[00:03:14.314] [Info] -- frackinuniverse   [Version 6.1.22]
-[00:03:14.314] [Info] ----- end ZB player init -----
-[00:03:25.408] [Info] Client received world stop packet, leaving: Removed
-[00:03:25.597] [Info] ----- FU player init -----
-[00:03:25.597] [Info] ----- End FU player init -----
-[00:03:25.597] [Info] ----- ZB player init -----
-[00:03:25.597] [Info] [ZB] Mods using update info window and their versions:
-[00:03:25.597] [Info] -- frackinuniverse   [Version 6.1.22]
-[00:03:25.597] [Info] -- ztarbound   [Version 6.1.22]
-[00:03:25.597] [Info] ----- end ZB player init -----
-[00:03:30.111] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
-[00:03:52.603] [Info] Client received world stop packet, leaving: Removed
-[00:03:52.758] [Info] ----- FU player init -----
-[00:03:52.758] [Info] ----- End FU player init -----
-[00:03:52.758] [Info] ----- ZB player init -----
-[00:03:52.758] [Info] [ZB] Mods using update info window and their versions:
-[00:03:52.758] [Info] -- ztarbound   [Version 6.1.22]
-[00:03:52.758] [Info] -- frackinuniverse   [Version 6.1.22]
-[00:03:52.758] [Info] ----- end ZB player init -----
-[00:04:49.122] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[00:07:21.746] [Info] Client received world stop packet, leaving: Removed
-[00:07:22.480] [Info] ----- FU player init -----
-[00:07:22.480] [Info] ----- End FU player init -----
-[00:07:22.480] [Info] ----- ZB player init -----
-[00:07:22.480] [Info] [ZB] Mods using update info window and their versions:
-[00:07:22.481] [Info] -- ztarbound   [Version 6.1.22]
-[00:07:22.481] [Info] -- frackinuniverse   [Version 6.1.22]
-[00:07:22.481] [Info] ----- end ZB player init -----
-[00:18:46.035] [Info] Client received world stop packet, leaving: Removed
-[00:18:46.743] [Info] ----- FU player init -----
-[00:18:46.744] [Info] ----- End FU player init -----
-[00:18:46.744] [Info] ----- ZB player init -----
-[00:18:46.744] [Info] [ZB] Mods using update info window and their versions:
-[00:18:46.744] [Info] -- ztarbound   [Version 6.1.22]
-[00:18:46.744] [Info] -- frackinuniverse   [Version 6.1.22]
-[00:18:46.744] [Info] ----- end ZB player init -----
-[00:21:04.672] [Info] Client received world stop packet, leaving: Removed
-[00:21:05.514] [Info] ----- FU player init -----
-[00:21:05.514] [Info] ----- End FU player init -----
-[00:21:05.514] [Info] ----- ZB player init -----
-[00:21:05.514] [Info] [ZB] Mods using update info window and their versions:
-[00:21:05.515] [Info] -- ztarbound   [Version 6.1.22]
-[00:21:05.515] [Info] -- frackinuniverse   [Version 6.1.22]
-[00:21:05.515] [Info] ----- end ZB player init -----
-[00:21:05.875] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[00:22:23.521] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[00:25:30.517] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;14;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (14, 8) out of image bounds (62, 4)
-[00:25:31.545] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;9;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (9, 8) out of image bounds (62, 4)
-[00:25:34.571] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;6;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (6, 8) out of image bounds (62, 4)
-[00:26:19.162] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;2;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (2, 8) out of image bounds (62, 4)
-[00:26:40.309] [Info] Client received world stop packet, leaving: Removed
-[00:26:40.977] [Info] ----- FU player init -----
-[00:26:40.977] [Info] ----- End FU player init -----
-[00:26:40.977] [Info] ----- ZB player init -----
-[00:26:40.977] [Info] [ZB] Mods using update info window and their versions:
-[00:26:40.978] [Info] -- frackinuniverse   [Version 6.1.22]
-[00:26:40.978] [Info] -- ztarbound   [Version 6.1.22]
-[00:26:40.978] [Info] ----- end ZB player init -----
-[00:27:55.151] [Info] Client received world stop packet, leaving: Removed
-[00:27:55.866] [Info] ----- FU player init -----
-[00:27:55.867] [Info] ----- End FU player init -----
-[00:27:55.867] [Info] ----- ZB player init -----
-[00:27:55.867] [Info] [ZB] Mods using update info window and their versions:
-[00:27:55.867] [Info] -- frackinuniverse   [Version 6.1.22]
-[00:27:55.867] [Info] -- ztarbound   [Version 6.1.22]
-[00:27:55.867] [Info] ----- end ZB player init -----
-[00:27:59.384] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
-[00:29:24.730] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[00:29:27.430] [Info] Chat: <SAIL> 我检测到“它们”被月球的矿物所吸引着。你背包中的燃料越多它们就对你越感兴趣，我对它们的定义是“极端致命的”。我对你的无所畏惧致以崇高的敬意。
-[00:29:36.073] [Info] Chat: <SAIL> 值得注意的是，这个天体没有大气层，如果氧气耗尽，你将会死去。
-[00:30:29.108] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[00:31:28.649] [Info] Client received world stop packet, leaving: Removed
-[00:31:29.325] [Info] ----- FU player init -----
-[00:31:29.325] [Info] ----- End FU player init -----
-[00:31:29.325] [Info] ----- ZB player init -----
-[00:31:29.325] [Info] [ZB] Mods using update info window and their versions:
-[00:31:29.325] [Info] -- frackinuniverse   [Version 6.1.22]
-[00:31:29.326] [Info] -- ztarbound   [Version 6.1.22]
-[00:31:29.326] [Info] ----- end ZB player init -----
-[00:34:46.500] [Info] UniverseClient: Client disconnecting...
-[00:34:46.547] [Info] Client received world stop packet, leaving: Removed
-[00:34:50.441] [Info] Application: quit requested
-[00:34:50.441] [Info] Application: quitting...
-[00:34:50.441] [Info] Application: shutdown...
-[00:34:51.228] [Info] Root: Shutting down Root
-[00:34:52.842] [Info] Application: Destroying SDL Window
-[00:34:52.863] [Info] Application: stopped gracefully
+[01:49:11.218] [Info] Root: Preparing Root...
+[01:49:11.219] [Info] Root: Done preparing Root.
+[01:49:11.219] [Info] Client Version 1.4.4 (windows x86_64) Source ID: 8cbe6faf22282659828a194e06a08999f213769e Protocol: 747
+[01:49:11.219] [Info] Root: Scanning for asset sources in directory '..\assets\'
+[01:49:12.410] [Info] Root: Scanning for asset sources in directory '..\mods\'
+[01:49:14.946] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
+[01:49:14.948] [Info] Root: Detected asset source named 'base' at '..\assets\packed.pak'
+[01:49:14.948] [Info] Root: Detected asset source named 'SChinese' at '..\mods\SChinese.pak'
+[01:49:14.949] [Info] Root: Detected asset source named 'Disabled drop for Survival Mode' at '..\mods\BanDrop.pak'
+[01:49:14.949] [Info] Root: Detected asset source named 'QuickbarMini' at '..\mods\BarMini.pak'
+[01:49:14.949] [Info] Root: Detected asset source named 'FrackinUniverse' at '..\mods\FU.pak'
+[01:49:14.949] [Info] Root: Detected asset source named 'Fu Schinese' at '..\mods\FUC.pak'
+[01:49:14.949] [Info] Root: Detected asset source named 'LessDeadMoons' at '..\mods\MoonExpand.pak'
+[01:49:14.949] [Info] Root: Detected asset source named 'bk3k_fasterStart' at '..\mods\QuickStart.pak'
+[01:49:14.949] [Info] Root: Detected asset source named 'SC-Font' at '..\mods\StarCore.pak'
+[01:49:14.949] [Info] Root: Detected asset source named 'Cutebound' at '..\mods\Cutebound.pak'
+[01:49:14.949] [Info] Root: Detected asset source named 'Arcana' at '..\mods\Arcana.pak'
+[01:49:14.949] [Info] Root: Detected asset source named 'ArcanaChinese' at '..\mods\patch.pak'
+[01:49:14.949] [Info] Root: Detected asset source named 'Arcana UI' at '..\mods\ArcanaUI.pak'
+[01:49:14.949] [Info] Root: Detected asset source named 'No Weather Blockdamage' at '..\mods\BanWeatherDamage.pak'
+[01:49:14.949] [Info] Root: Detected unnamed asset source at '..\assets\user'
+[01:49:14.949] [Info] Loading assets from: '..\assets\packed.pak'
+[01:49:16.237] [Info] Loading assets from: '..\mods\SChinese.pak'
+[01:49:16.418] [Info] Loading assets from: '..\mods\BanDrop.pak'
+[01:49:16.418] [Info] Loading assets from: '..\mods\BarMini.pak'
+[01:49:16.419] [Info] Loading assets from: '..\mods\FU.pak'
+[01:49:18.450] [Info] Loading assets from: '..\mods\FUC.pak'
+[01:49:18.794] [Info] Loading assets from: '..\mods\MoonExpand.pak'
+[01:49:18.796] [Info] Loading assets from: '..\mods\QuickStart.pak'
+[01:49:18.797] [Info] Loading assets from: '..\mods\StarCore.pak'
+[01:49:18.797] [Info] Loading assets from: '..\mods\Cutebound.pak'
+[01:49:18.843] [Info] Loading assets from: '..\mods\Arcana.pak'
+[01:49:18.993] [Info] Loading assets from: '..\mods\patch.pak'
+[01:49:18.996] [Info] Loading assets from: '..\mods\ArcanaUI.pak'
+[01:49:18.996] [Info] Loading assets from: '..\mods\BanWeatherDamage.pak'
+[01:49:18.998] [Info] Loading assets from: '..\assets\user'
+[01:49:20.592] [Info] Assets digest is 07104741384fb283ec5d3a7400c32d9530a871d22a6a8a8d4d17b315ffacc89a
+[01:49:20.592] [Info] Root: Loaded Assets in 9.37313 seconds
+[01:49:20.596] [Info] Application: Initializing SDL Video
+[01:49:20.599] [Info] Application: Initializing SDL Joystick
+[01:49:21.092] [Info] Application: Initializing SDL Sound
+[01:49:21.101] [Info] Failed to initialize Steam platform services
+[01:49:21.101] [Error] Failed to instantiate discord core (err 26)
+[01:49:21.101] [Info] Was not able to authenticate with Discord and create all components, Discord services will be unavailable
+[01:49:21.101] [Info] Application: Creating SDL Window
+[01:49:21.238] [Info] Application: Enabling VSync with late swap tearing
+[01:49:21.371] [Info] Application: Opened default audio device with 44.1khz / 16 bit stereo audio, 2048 sample size buffer
+[01:49:21.380] [Info] OpenGL version: '4.6.0 NVIDIA 460.89' vendor: 'NVIDIA Corporation' renderer: 'GeForce GTX 1070/PCIe/SSE2' shader: '4.60 NVIDIA'
+[01:49:21.384] [Info] Application: initialization...
+[01:49:21.385] [Info] Root: Loaded Configuration in 0.0007827 seconds
+[01:49:21.386] [Info] Application: Disabling VSync
+[01:49:21.388] [Info] Application: renderer initialization...
+[01:49:21.389] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 128
+[01:49:21.394] [Info] Root: Loaded ImageMetadataDatabase in 1.30013e-06 seconds
+[01:49:21.398] [Info] Application: main update loop...
+[01:49:21.408] [Info] Root: Loaded NameGenerator in 0.0092586 seconds
+[01:49:21.479] [Info] Root: Loaded PlantDatabase in 0.0703791 seconds
+[01:49:21.595] [Error] Could not apply patch from file /objects/farmables/flowerspring/flowerspring.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[01:49:21.767] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[01:49:21.829] [Info] Root: Loaded ProjectileDatabase in 0.350463 seconds
+[01:49:21.973] [Error] Could not apply patch from file /objects/farmables/flowerred/flowerred.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[01:49:22.414] [Error] Could not apply patch from file /objects/farmables/floweryellow/floweryellow.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[01:49:22.448] [Info] Root: Loaded MonsterDatabase in 0.617923 seconds
+[01:49:22.460] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
+[01:49:22.463] [Info] Root: Loaded ObjectDatabase in 1.0633 seconds
+[01:49:22.558] [Info] Root: Loaded StagehandDatabase in 0.0962392 seconds
+[01:49:22.570] [Info] Root: Loaded VehicleDatabase in 0.0112526 seconds
+[01:49:22.597] [Info] Root: Loaded PlayerFactory in 0.0268316 seconds
+[01:49:22.625] [Info] Root: Loaded NpcDatabase in 0.17793 seconds
+[01:49:22.626] [Info] Root: Loaded VersioningDatabase in 0.0009673 seconds
+[01:49:22.626] [Info] Root: Loaded EntityFactory in 0.0293412 seconds
+[01:49:22.694] [Info] Root: Loaded ParticleDatabase in 0.0676485 seconds
+[01:49:22.700] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[01:49:22.736] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[01:49:22.901] [Error] Could not apply patch from file /tiles/materials/purplecrystal.material.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[01:49:23.240] [Error] Exception caught loading asset: /items/active/weapons/aeon_weapons/aeon_battleaxe_1/aeon_battleaxe_1.activeitem, (AssetException) Could not read JSON asset /items/active/weapons/aeon_weapons/aeon_battleaxe_1/aeon_battleaxe_1.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9258920 Star::AssetException::AssetException
+[4] 7ff6d9b51fa1 `<lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()'::`1'::catch$8
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[9] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[10] 7ff6d926468d Star::Assets::loadJson
+[11] 7ff6d92637e3 Star::Assets::loadAsset
+[12] 7ff6d925f76f Star::Assets::doLoad
+[13] 7ff6d926a52b Star::Assets::workerMain
+[14] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[15] 7ff6d9246d9e Star::ThreadImpl::runThread
+[16] 7fff38817c24 BaseThreadInitThunk
+[17] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Cannot parse json file: /items/active/weapons/aeon_weapons/aeon_battleaxe_1/aeon_battleaxe_1.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9259480 Star::JsonParsingException::JsonParsingException
+[4] 7ff6d9b5339b `Star::Assets::readJson'::`1'::catch$245
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d9266ae9 Star::Assets::readJson
+[9] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[10] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[11] 7ff6d926468d Star::Assets::loadJson
+[12] 7ff6d92637e3 Star::Assets::loadAsset
+[13] 7ff6d925f76f Star::Assets::doLoad
+[14] 7ff6d926a52b Star::Assets::workerMain
+[15] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[16] 7ff6d9246d9e Star::ThreadImpl::runThread
+[17] 7fff38817c24 BaseThreadInitThunk
+[18] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Error parsing json: unexpected character parsing word at 14:1
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9255be1 Star::inputUtf8Json<char * __ptr64>
+[3] 7ff6d9266ae9 Star::Assets::readJson
+[4] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[5] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[6] 7ff6d926468d Star::Assets::loadJson
+[7] 7ff6d92637e3 Star::Assets::loadAsset
+[8] 7ff6d925f76f Star::Assets::doLoad
+[9] 7ff6d926a52b Star::Assets::workerMain
+[10] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[11] 7ff6d9246d9e Star::ThreadImpl::runThread
+[12] 7fff38817c24 BaseThreadInitThunk
+[13] 7fff39a6d4d1 RtlUserThreadStart
+[01:49:23.250] [Info] Root: Loaded TerrainDatabase in 0.0071919 seconds
+[01:49:23.256] [Error] Could not apply patch from file /tiles/materials/bamboo.material.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[01:49:23.269] [Error] Exception caught loading asset: /items/active/weapons/artifact_weapons/artifact_doubleBlade_eternity/artifact_doubleBlade_eternity.activeitem, (AssetException) Could not read JSON asset /items/active/weapons/artifact_weapons/artifact_doubleBlade_eternity/artifact_doubleBlade_eternity.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9258920 Star::AssetException::AssetException
+[4] 7ff6d9b51fa1 `<lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()'::`1'::catch$8
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[9] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[10] 7ff6d926468d Star::Assets::loadJson
+[11] 7ff6d92637e3 Star::Assets::loadAsset
+[12] 7ff6d925f76f Star::Assets::doLoad
+[13] 7ff6d926a52b Star::Assets::workerMain
+[14] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[15] 7ff6d9246d9e Star::ThreadImpl::runThread
+[16] 7fff38817c24 BaseThreadInitThunk
+[17] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Cannot parse json file: /items/active/weapons/artifact_weapons/artifact_doubleBlade_eternity/artifact_doubleBlade_eternity.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9259480 Star::JsonParsingException::JsonParsingException
+[4] 7ff6d9b5339b `Star::Assets::readJson'::`1'::catch$245
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d9266ae9 Star::Assets::readJson
+[9] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[10] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[11] 7ff6d926468d Star::Assets::loadJson
+[12] 7ff6d92637e3 Star::Assets::loadAsset
+[13] 7ff6d925f76f Star::Assets::doLoad
+[14] 7ff6d926a52b Star::Assets::workerMain
+[15] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[16] 7ff6d9246d9e Star::ThreadImpl::runThread
+[17] 7fff38817c24 BaseThreadInitThunk
+[18] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Error parsing json: unexpected character parsing word at 14:1
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9255be1 Star::inputUtf8Json<char * __ptr64>
+[3] 7ff6d9266ae9 Star::Assets::readJson
+[4] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[5] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[6] 7ff6d926468d Star::Assets::loadJson
+[7] 7ff6d92637e3 Star::Assets::loadAsset
+[8] 7ff6d925f76f Star::Assets::doLoad
+[9] 7ff6d926a52b Star::Assets::workerMain
+[10] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[11] 7ff6d9246d9e Star::ThreadImpl::runThread
+[12] 7fff38817c24 BaseThreadInitThunk
+[13] 7fff39a6d4d1 RtlUserThreadStart
+[01:49:23.277] [Error] Exception caught loading asset: /items/active/weapons/aeolus_weapons/aeolus_shortbow_1/aeolus_shortbow_1.activeitem, (AssetException) Could not read JSON asset /items/active/weapons/aeolus_weapons/aeolus_shortbow_1/aeolus_shortbow_1.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9258920 Star::AssetException::AssetException
+[4] 7ff6d9b51fa1 `<lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()'::`1'::catch$8
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[9] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[10] 7ff6d926468d Star::Assets::loadJson
+[11] 7ff6d92637e3 Star::Assets::loadAsset
+[12] 7ff6d925f76f Star::Assets::doLoad
+[13] 7ff6d926a52b Star::Assets::workerMain
+[14] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[15] 7ff6d9246d9e Star::ThreadImpl::runThread
+[16] 7fff38817c24 BaseThreadInitThunk
+[17] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Cannot parse json file: /items/active/weapons/aeolus_weapons/aeolus_shortbow_1/aeolus_shortbow_1.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9259480 Star::JsonParsingException::JsonParsingException
+[4] 7ff6d9b5339b `Star::Assets::readJson'::`1'::catch$245
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d9266ae9 Star::Assets::readJson
+[9] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[10] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[11] 7ff6d926468d Star::Assets::loadJson
+[12] 7ff6d92637e3 Star::Assets::loadAsset
+[13] 7ff6d925f76f Star::Assets::doLoad
+[14] 7ff6d926a52b Star::Assets::workerMain
+[15] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[16] 7ff6d9246d9e Star::ThreadImpl::runThread
+[17] 7fff38817c24 BaseThreadInitThunk
+[18] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Error parsing json: unexpected character parsing word at 14:1
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9255be1 Star::inputUtf8Json<char * __ptr64>
+[3] 7ff6d9266ae9 Star::Assets::readJson
+[4] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[5] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[6] 7ff6d926468d Star::Assets::loadJson
+[7] 7ff6d92637e3 Star::Assets::loadAsset
+[8] 7ff6d925f76f Star::Assets::doLoad
+[9] 7ff6d926a52b Star::Assets::workerMain
+[10] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[11] 7ff6d9246d9e Star::ThreadImpl::runThread
+[12] 7fff38817c24 BaseThreadInitThunk
+[13] 7fff39a6d4d1 RtlUserThreadStart
+[01:49:23.306] [Error] Exception caught loading asset: /items/active/weapons/artifact_weapons/artifact_bow_tempest/artifact_bow_tempest.activeitem, (AssetException) Could not read JSON asset /items/active/weapons/artifact_weapons/artifact_bow_tempest/artifact_bow_tempest.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9258920 Star::AssetException::AssetException
+[4] 7ff6d9b51fa1 `<lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()'::`1'::catch$8
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[9] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[10] 7ff6d926468d Star::Assets::loadJson
+[11] 7ff6d92637e3 Star::Assets::loadAsset
+[12] 7ff6d925f76f Star::Assets::doLoad
+[13] 7ff6d926a52b Star::Assets::workerMain
+[14] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[15] 7ff6d9246d9e Star::ThreadImpl::runThread
+[16] 7fff38817c24 BaseThreadInitThunk
+[17] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Cannot parse json file: /items/active/weapons/artifact_weapons/artifact_bow_tempest/artifact_bow_tempest.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9259480 Star::JsonParsingException::JsonParsingException
+[4] 7ff6d9b5339b `Star::Assets::readJson'::`1'::catch$245
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d9266ae9 Star::Assets::readJson
+[9] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[10] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[11] 7ff6d926468d Star::Assets::loadJson
+[12] 7ff6d92637e3 Star::Assets::loadAsset
+[13] 7ff6d925f76f Star::Assets::doLoad
+[14] 7ff6d926a52b Star::Assets::workerMain
+[15] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[16] 7ff6d9246d9e Star::ThreadImpl::runThread
+[17] 7fff38817c24 BaseThreadInitThunk
+[18] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Error parsing json: unexpected character parsing word at 14:1
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9255be1 Star::inputUtf8Json<char * __ptr64>
+[3] 7ff6d9266ae9 Star::Assets::readJson
+[4] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[5] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[6] 7ff6d926468d Star::Assets::loadJson
+[7] 7ff6d92637e3 Star::Assets::loadAsset
+[8] 7ff6d925f76f Star::Assets::doLoad
+[9] 7ff6d926a52b Star::Assets::workerMain
+[10] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[11] 7ff6d9246d9e Star::ThreadImpl::runThread
+[12] 7fff38817c24 BaseThreadInitThunk
+[13] 7fff39a6d4d1 RtlUserThreadStart
+[01:49:23.365] [Error] Exception caught loading asset: /items/active/weapons/artifact_weapons/artifact_katana_judgement/artifact_katana_judgement.activeitem, (AssetException) Could not read JSON asset /items/active/weapons/artifact_weapons/artifact_katana_judgement/artifact_katana_judgement.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9258920 Star::AssetException::AssetException
+[4] 7ff6d9b51fa1 `<lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()'::`1'::catch$8
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[9] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[10] 7ff6d926468d Star::Assets::loadJson
+[11] 7ff6d92637e3 Star::Assets::loadAsset
+[12] 7ff6d925f76f Star::Assets::doLoad
+[13] 7ff6d926a52b Star::Assets::workerMain
+[14] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[15] 7ff6d9246d9e Star::ThreadImpl::runThread
+[16] 7fff38817c24 BaseThreadInitThunk
+[17] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Cannot parse json file: /items/active/weapons/artifact_weapons/artifact_katana_judgement/artifact_katana_judgement.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9259480 Star::JsonParsingException::JsonParsingException
+[4] 7ff6d9b5339b `Star::Assets::readJson'::`1'::catch$245
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d9266ae9 Star::Assets::readJson
+[9] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[10] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[11] 7ff6d926468d Star::Assets::loadJson
+[12] 7ff6d92637e3 Star::Assets::loadAsset
+[13] 7ff6d925f76f Star::Assets::doLoad
+[14] 7ff6d926a52b Star::Assets::workerMain
+[15] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[16] 7ff6d9246d9e Star::ThreadImpl::runThread
+[17] 7fff38817c24 BaseThreadInitThunk
+[18] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Error parsing json: unexpected character parsing word at 14:1
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9255be1 Star::inputUtf8Json<char * __ptr64>
+[3] 7ff6d9266ae9 Star::Assets::readJson
+[4] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[5] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[6] 7ff6d926468d Star::Assets::loadJson
+[7] 7ff6d92637e3 Star::Assets::loadAsset
+[8] 7ff6d925f76f Star::Assets::doLoad
+[9] 7ff6d926a52b Star::Assets::workerMain
+[10] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[11] 7ff6d9246d9e Star::ThreadImpl::runThread
+[12] 7fff38817c24 BaseThreadInitThunk
+[13] 7fff39a6d4d1 RtlUserThreadStart
+[01:49:23.374] [Error] Exception caught loading asset: /items/active/weapons/aeolus_weapons/aeolus_shortbow_2/aeolus_shortbow_2.activeitem, (AssetException) Could not read JSON asset /items/active/weapons/aeolus_weapons/aeolus_shortbow_2/aeolus_shortbow_2.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9258920 Star::AssetException::AssetException
+[4] 7ff6d9b51fa1 `<lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()'::`1'::catch$8
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[9] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[10] 7ff6d926468d Star::Assets::loadJson
+[11] 7ff6d92637e3 Star::Assets::loadAsset
+[12] 7ff6d925f76f Star::Assets::doLoad
+[13] 7ff6d926a52b Star::Assets::workerMain
+[14] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[15] 7ff6d9246d9e Star::ThreadImpl::runThread
+[16] 7fff38817c24 BaseThreadInitThunk
+[17] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Cannot parse json file: /items/active/weapons/aeolus_weapons/aeolus_shortbow_2/aeolus_shortbow_2.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9259480 Star::JsonParsingException::JsonParsingException
+[4] 7ff6d9b5339b `Star::Assets::readJson'::`1'::catch$245
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d9266ae9 Star::Assets::readJson
+[9] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[10] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[11] 7ff6d926468d Star::Assets::loadJson
+[12] 7ff6d92637e3 Star::Assets::loadAsset
+[13] 7ff6d925f76f Star::Assets::doLoad
+[14] 7ff6d926a52b Star::Assets::workerMain
+[15] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[16] 7ff6d9246d9e Star::ThreadImpl::runThread
+[17] 7fff38817c24 BaseThreadInitThunk
+[18] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Error parsing json: unexpected character parsing word at 14:1
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9255be1 Star::inputUtf8Json<char * __ptr64>
+[3] 7ff6d9266ae9 Star::Assets::readJson
+[4] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[5] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[6] 7ff6d926468d Star::Assets::loadJson
+[7] 7ff6d92637e3 Star::Assets::loadAsset
+[8] 7ff6d925f76f Star::Assets::doLoad
+[9] 7ff6d926a52b Star::Assets::workerMain
+[10] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[11] 7ff6d9246d9e Star::ThreadImpl::runThread
+[12] 7fff38817c24 BaseThreadInitThunk
+[13] 7fff39a6d4d1 RtlUserThreadStart
+[01:49:23.379] [Error] Exception caught loading asset: /items/active/unsorted/monarch_parasol_1/monarch_parasol_1.activeitem, (AssetException) Could not read JSON asset /items/active/unsorted/monarch_parasol_1/monarch_parasol_1.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9258920 Star::AssetException::AssetException
+[4] 7ff6d9b51fa1 `<lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()'::`1'::catch$8
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[9] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[10] 7ff6d926468d Star::Assets::loadJson
+[11] 7ff6d92637e3 Star::Assets::loadAsset
+[12] 7ff6d925f76f Star::Assets::doLoad
+[13] 7ff6d926a52b Star::Assets::workerMain
+[14] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[15] 7ff6d9246d9e Star::ThreadImpl::runThread
+[16] 7fff38817c24 BaseThreadInitThunk
+[17] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Cannot parse json file: /items/active/unsorted/monarch_parasol_1/monarch_parasol_1.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9259480 Star::JsonParsingException::JsonParsingException
+[4] 7ff6d9b5339b `Star::Assets::readJson'::`1'::catch$245
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d9266ae9 Star::Assets::readJson
+[9] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[10] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[11] 7ff6d926468d Star::Assets::loadJson
+[12] 7ff6d92637e3 Star::Assets::loadAsset
+[13] 7ff6d925f76f Star::Assets::doLoad
+[14] 7ff6d926a52b Star::Assets::workerMain
+[15] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[16] 7ff6d9246d9e Star::ThreadImpl::runThread
+[17] 7fff38817c24 BaseThreadInitThunk
+[18] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Error parsing json: unexpected character parsing word at 14:1
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9255be1 Star::inputUtf8Json<char * __ptr64>
+[3] 7ff6d9266ae9 Star::Assets::readJson
+[4] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[5] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[6] 7ff6d926468d Star::Assets::loadJson
+[7] 7ff6d92637e3 Star::Assets::loadAsset
+[8] 7ff6d925f76f Star::Assets::doLoad
+[9] 7ff6d926a52b Star::Assets::workerMain
+[10] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[11] 7ff6d9246d9e Star::ThreadImpl::runThread
+[12] 7fff38817c24 BaseThreadInitThunk
+[13] 7fff39a6d4d1 RtlUserThreadStart
+[01:49:23.403] [Error] Exception caught loading asset: /items/active/weapons/aeon_weapons/aeon_lance_1/aeon_lance_1.activeitem, (AssetException) Could not read JSON asset /items/active/weapons/aeon_weapons/aeon_lance_1/aeon_lance_1.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9258920 Star::AssetException::AssetException
+[4] 7ff6d9b51fa1 `<lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()'::`1'::catch$8
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[9] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[10] 7ff6d926468d Star::Assets::loadJson
+[11] 7ff6d92637e3 Star::Assets::loadAsset
+[12] 7ff6d925f76f Star::Assets::doLoad
+[13] 7ff6d926a52b Star::Assets::workerMain
+[14] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[15] 7ff6d9246d9e Star::ThreadImpl::runThread
+[16] 7fff38817c24 BaseThreadInitThunk
+[17] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Cannot parse json file: /items/active/weapons/aeon_weapons/aeon_lance_1/aeon_lance_1.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9259480 Star::JsonParsingException::JsonParsingException
+[4] 7ff6d9b5339b `Star::Assets::readJson'::`1'::catch$245
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d9266ae9 Star::Assets::readJson
+[9] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[10] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[11] 7ff6d926468d Star::Assets::loadJson
+[12] 7ff6d92637e3 Star::Assets::loadAsset
+[13] 7ff6d925f76f Star::Assets::doLoad
+[14] 7ff6d926a52b Star::Assets::workerMain
+[15] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[16] 7ff6d9246d9e Star::ThreadImpl::runThread
+[17] 7fff38817c24 BaseThreadInitThunk
+[18] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Error parsing json: unexpected character parsing word at 14:1
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9255be1 Star::inputUtf8Json<char * __ptr64>
+[3] 7ff6d9266ae9 Star::Assets::readJson
+[4] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[5] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[6] 7ff6d926468d Star::Assets::loadJson
+[7] 7ff6d92637e3 Star::Assets::loadAsset
+[8] 7ff6d925f76f Star::Assets::doLoad
+[9] 7ff6d926a52b Star::Assets::workerMain
+[10] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[11] 7ff6d9246d9e Star::ThreadImpl::runThread
+[12] 7fff38817c24 BaseThreadInitThunk
+[13] 7fff39a6d4d1 RtlUserThreadStart
+[01:49:23.427] [Error] Exception caught loading asset: /items/active/unsorted/bleuark_wateringcan_1/bleuark_wateringcan_1.activeitem, (AssetException) Could not read JSON asset /items/active/unsorted/bleuark_wateringcan_1/bleuark_wateringcan_1.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9258920 Star::AssetException::AssetException
+[4] 7ff6d9b51fa1 `<lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()'::`1'::catch$8
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[9] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[10] 7ff6d926468d Star::Assets::loadJson
+[11] 7ff6d92637e3 Star::Assets::loadAsset
+[12] 7ff6d925f76f Star::Assets::doLoad
+[13] 7ff6d926a52b Star::Assets::workerMain
+[14] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[15] 7ff6d9246d9e Star::ThreadImpl::runThread
+[16] 7fff38817c24 BaseThreadInitThunk
+[17] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Cannot parse json file: /items/active/unsorted/bleuark_wateringcan_1/bleuark_wateringcan_1.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9259480 Star::JsonParsingException::JsonParsingException
+[4] 7ff6d9b5339b `Star::Assets::readJson'::`1'::catch$245
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d9266ae9 Star::Assets::readJson
+[9] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[10] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[11] 7ff6d926468d Star::Assets::loadJson
+[12] 7ff6d92637e3 Star::Assets::loadAsset
+[13] 7ff6d925f76f Star::Assets::doLoad
+[14] 7ff6d926a52b Star::Assets::workerMain
+[15] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[16] 7ff6d9246d9e Star::ThreadImpl::runThread
+[17] 7fff38817c24 BaseThreadInitThunk
+[18] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Error parsing json: unexpected character parsing word at 14:1
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9255be1 Star::inputUtf8Json<char * __ptr64>
+[3] 7ff6d9266ae9 Star::Assets::readJson
+[4] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[5] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[6] 7ff6d926468d Star::Assets::loadJson
+[7] 7ff6d92637e3 Star::Assets::loadAsset
+[8] 7ff6d925f76f Star::Assets::doLoad
+[9] 7ff6d926a52b Star::Assets::workerMain
+[10] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[11] 7ff6d9246d9e Star::ThreadImpl::runThread
+[12] 7fff38817c24 BaseThreadInitThunk
+[13] 7fff39a6d4d1 RtlUserThreadStart
+[01:49:23.443] [Info] Root: Loaded MaterialDatabase in 0.816384 seconds
+[01:49:23.458] [Error] Application: exception thrown, shutting down: (ItemException) Could not load item asset /items/active/weapons/aeon_weapons/aeon_battleaxe_1/aeon_battleaxe_1.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d93cb310 Star::ItemException::ItemException
+[4] 7ff6d9b7b4df `Star::ItemDatabase::addItemSet'::`1'::catch$403
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d93cf7c4 Star::ItemDatabase::addItemSet
+[9] 7ff6d93d728e Star::ItemDatabase::scanItems
+[10] 7ff6d93cb1f5 Star::ItemDatabase::ItemDatabase
+[11] 7ff6d95db345 std::make_shared<Star::ItemDatabase>
+[12] 7ff6d95e00c9 <lambda_c979fe2661440bde921b022a5da87f15>::operator()
+[13] 7ff6d95d20cf std::_Invoker_functor::_Call<<lambda_c979fe2661440bde921b022a5da87f15> & __ptr64>
+[14] 7ff6d95d5b56 std::invoke<<lambda_c979fe2661440bde921b022a5da87f15> & __ptr64>
+[15] 7ff6d95d3309 std::_Invoke_ret<std::shared_ptr<Star::ItemDatabase>,<lambda_c979fe2661440bde921b022a5da87f15> & __ptr64>
+[16] 7ff6d95e1f26 std::_Func_impl<<lambda_c979fe2661440bde921b022a5da87f15>,std::allocator<int>,std::shared_ptr<Star::ItemDatabase> >::_Do_call
+[17] 7ff6d95e0677 std::_Func_class<std::shared_ptr<Star::PlantDatabase> >::operator()
+[18] 7ff6d95d7ce3 Star::Root::loadMemberFunction<Star::ItemDatabase>
+[19] 7ff6d95d6129 Star::Root::loadMember<Star::ItemDatabase>
+[20] 7ff6d95e6ed2 Star::Root::itemDatabase
+[21] 7ff6d95d2220 std::_Invoker_pmf_pointer::_Call<std::shared_ptr<Star::SpawnTypeDatabase const > (__cdecl Star::Root::*)(void) __ptr64,Star::Root * __ptr64 & __ptr64>
+[22] 7ff6d95d5709 std::invoke<std::shared_ptr<Star::StatusEffectDatabase const > (__cdecl Star::Root::*& __ptr64)(void) __ptr64,Star::Root * __ptr64 & __ptr64>
+[23] 7ff6d95d300c std::_Invoke_ret<std::shared_ptr<Star::StagehandDatabase const > (__cdecl Star::Root::*& __ptr64)(void) __ptr64,Star::Root * __ptr64 & __ptr64>
+[24] 7ff6d95d22ae std::_Call_binder<std::_Unforced,0,std::shared_ptr<Star::VehicleDatabase const > (__cdecl Star::Root::*)(void) __ptr64,std::tuple<Star::Root * __ptr64>,std::tuple<> >
+[25] 7ff6d95d1a0e std::_Binder<std::_Unforced,std::shared_ptr<Star::ObjectDatabase const > (__cdecl Star::Root::*)(void) __ptr64,Star::Root * __ptr64 const>::operator()<>
+[26] 7ff6d95e1872 std::_Func_impl<Star::SwallowReturn<std::_Binder<std::_Unforced,std::shared_ptr<Star::TreasureDatabase const > (__cdecl Star::Root::*)(void) __ptr64,Star::Root * __ptr64 const> >,std::allocator<int>,void>::_Do_call
+[27] 7ff6d9240f3b <lambda_7b083dc4bdd496712d99e51bb49515b5>::operator()
+[28] 7ff6d9241ce2 Star::WorkerPool::WorkerThread::run
+[29] 7ff6d9246d9e Star::ThreadImpl::runThread
+[30] 7fff38817c24 BaseThreadInitThunk
+[31] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (AssetException) Error loading asset /items/active/weapons/aeon_weapons/aeon_battleaxe_1/aeon_battleaxe_1.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d92551ca Star::AssetException::format<Star::AssetPath>
+[3] 7ff6d9261972 Star::Assets::getAsset
+[4] 7ff6d9263469 Star::Assets::json
+[5] 7ff6d93cf7c4 Star::ItemDatabase::addItemSet
+[6] 7ff6d93d728e Star::ItemDatabase::scanItems
+[7] 7ff6d93cb1f5 Star::ItemDatabase::ItemDatabase
+[8] 7ff6d95db345 std::make_shared<Star::ItemDatabase>
+[9] 7ff6d95e00c9 <lambda_c979fe2661440bde921b022a5da87f15>::operator()
+[10] 7ff6d95d20cf std::_Invoker_functor::_Call<<lambda_c979fe2661440bde921b022a5da87f15> & __ptr64>
+[11] 7ff6d95d5b56 std::invoke<<lambda_c979fe2661440bde921b022a5da87f15> & __ptr64>
+[12] 7ff6d95d3309 std::_Invoke_ret<std::shared_ptr<Star::ItemDatabase>,<lambda_c979fe2661440bde921b022a5da87f15> & __ptr64>
+[13] 7ff6d95e1f26 std::_Func_impl<<lambda_c979fe2661440bde921b022a5da87f15>,std::allocator<int>,std::shared_ptr<Star::ItemDatabase> >::_Do_call
+[14] 7ff6d95e0677 std::_Func_class<std::shared_ptr<Star::PlantDatabase> >::operator()
+[15] 7ff6d95d7ce3 Star::Root::loadMemberFunction<Star::ItemDatabase>
+[16] 7ff6d95d6129 Star::Root::loadMember<Star::ItemDatabase>
+[17] 7ff6d95e6ed2 Star::Root::itemDatabase
+[18] 7ff6d95d2220 std::_Invoker_pmf_pointer::_Call<std::shared_ptr<Star::SpawnTypeDatabase const > (__cdecl Star::Root::*)(void) __ptr64,Star::Root * __ptr64 & __ptr64>
+[19] 7ff6d95d5709 std::invoke<std::shared_ptr<Star::StatusEffectDatabase const > (__cdecl Star::Root::*& __ptr64)(void) __ptr64,Star::Root * __ptr64 & __ptr64>
+[20] 7ff6d95d300c std::_Invoke_ret<std::shared_ptr<Star::StagehandDatabase const > (__cdecl Star::Root::*& __ptr64)(void) __ptr64,Star::Root * __ptr64 & __ptr64>
+[21] 7ff6d95d22ae std::_Call_binder<std::_Unforced,0,std::shared_ptr<Star::VehicleDatabase const > (__cdecl Star::Root::*)(void) __ptr64,std::tuple<Star::Root * __ptr64>,std::tuple<> >
+[22] 7ff6d95d1a0e std::_Binder<std::_Unforced,std::shared_ptr<Star::ObjectDatabase const > (__cdecl Star::Root::*)(void) __ptr64,Star::Root * __ptr64 const>::operator()<>
+[23] 7ff6d95e1872 std::_Func_impl<Star::SwallowReturn<std::_Binder<std::_Unforced,std::shared_ptr<Star::TreasureDatabase const > (__cdecl Star::Root::*)(void) __ptr64,Star::Root * __ptr64 const> >,std::allocator<int>,void>::_Do_call
+[24] 7ff6d9240f3b <lambda_7b083dc4bdd496712d99e51bb49515b5>::operator()
+[25] 7ff6d9241ce2 Star::WorkerPool::WorkerThread::run
+[26] 7ff6d9246d9e Star::ThreadImpl::runThread
+[27] 7fff38817c24 BaseThreadInitThunk
+[28] 7fff39a6d4d1 RtlUserThreadStart
+[01:49:23.458] [Info] Application: shutdown...
+[01:49:23.460] [Error] Exception caught loading asset: /items/active/weapons/aeolus_weapons/aeolus_axe_1/aeolus_axe_1.activeitem, (AssetException) Could not read JSON asset /items/active/weapons/aeolus_weapons/aeolus_axe_1/aeolus_axe_1.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9258920 Star::AssetException::AssetException
+[4] 7ff6d9b51fa1 `<lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()'::`1'::catch$8
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[9] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[10] 7ff6d926468d Star::Assets::loadJson
+[11] 7ff6d92637e3 Star::Assets::loadAsset
+[12] 7ff6d925f76f Star::Assets::doLoad
+[13] 7ff6d926a52b Star::Assets::workerMain
+[14] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[15] 7ff6d9246d9e Star::ThreadImpl::runThread
+[16] 7fff38817c24 BaseThreadInitThunk
+[17] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Cannot parse json file: /items/active/weapons/aeolus_weapons/aeolus_axe_1/aeolus_axe_1.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9259480 Star::JsonParsingException::JsonParsingException
+[4] 7ff6d9b5339b `Star::Assets::readJson'::`1'::catch$245
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d9266ae9 Star::Assets::readJson
+[9] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[10] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[11] 7ff6d926468d Star::Assets::loadJson
+[12] 7ff6d92637e3 Star::Assets::loadAsset
+[13] 7ff6d925f76f Star::Assets::doLoad
+[14] 7ff6d926a52b Star::Assets::workerMain
+[15] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[16] 7ff6d9246d9e Star::ThreadImpl::runThread
+[17] 7fff38817c24 BaseThreadInitThunk
+[18] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Error parsing json: unexpected character parsing word at 14:1
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9255be1 Star::inputUtf8Json<char * __ptr64>
+[3] 7ff6d9266ae9 Star::Assets::readJson
+[4] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[5] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[6] 7ff6d926468d Star::Assets::loadJson
+[7] 7ff6d92637e3 Star::Assets::loadAsset
+[8] 7ff6d925f76f Star::Assets::doLoad
+[9] 7ff6d926a52b Star::Assets::workerMain
+[10] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[11] 7ff6d9246d9e Star::ThreadImpl::runThread
+[12] 7fff38817c24 BaseThreadInitThunk
+[13] 7fff39a6d4d1 RtlUserThreadStart
+[01:49:23.465] [Error] Exception caught loading asset: /items/active/weapons/aeon_weapons/aeon_shortbow_1/aeon_shortbow_1.activeitem, (AssetException) Could not read JSON asset /items/active/weapons/aeon_weapons/aeon_shortbow_1/aeon_shortbow_1.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9258920 Star::AssetException::AssetException
+[4] 7ff6d9b51fa1 `<lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()'::`1'::catch$8
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[9] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[10] 7ff6d926468d Star::Assets::loadJson
+[11] 7ff6d92637e3 Star::Assets::loadAsset
+[12] 7ff6d925f76f Star::Assets::doLoad
+[13] 7ff6d926a52b Star::Assets::workerMain
+[14] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[15] 7ff6d9246d9e Star::ThreadImpl::runThread
+[16] 7fff38817c24 BaseThreadInitThunk
+[17] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Cannot parse json file: /items/active/weapons/aeon_weapons/aeon_shortbow_1/aeon_shortbow_1.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9259480 Star::JsonParsingException::JsonParsingException
+[4] 7ff6d9b5339b `Star::Assets::readJson'::`1'::catch$245
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d9266ae9 Star::Assets::readJson
+[9] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[10] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[11] 7ff6d926468d Star::Assets::loadJson
+[12] 7ff6d92637e3 Star::Assets::loadAsset
+[13] 7ff6d925f76f Star::Assets::doLoad
+[14] 7ff6d926a52b Star::Assets::workerMain
+[15] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[16] 7ff6d9246d9e Star::ThreadImpl::runThread
+[17] 7fff38817c24 BaseThreadInitThunk
+[18] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Error parsing json: unexpected character parsing word at 14:1
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9255be1 Star::inputUtf8Json<char * __ptr64>
+[3] 7ff6d9266ae9 Star::Assets::readJson
+[4] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[5] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[6] 7ff6d926468d Star::Assets::loadJson
+[7] 7ff6d92637e3 Star::Assets::loadAsset
+[8] 7ff6d925f76f Star::Assets::doLoad
+[9] 7ff6d926a52b Star::Assets::workerMain
+[10] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[11] 7ff6d9246d9e Star::ThreadImpl::runThread
+[12] 7fff38817c24 BaseThreadInitThunk
+[13] 7fff39a6d4d1 RtlUserThreadStart
+[01:49:23.470] [Error] Exception caught loading asset: /items/active/weapons/artifact_weapons/artifact_battlestaff_binahTyr/artifact_battlestaff_binahTyr.activeitem, (AssetException) Could not read JSON asset /items/active/weapons/artifact_weapons/artifact_battlestaff_binahTyr/artifact_battlestaff_binahTyr.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9258920 Star::AssetException::AssetException
+[4] 7ff6d9b51fa1 `<lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()'::`1'::catch$8
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[9] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[10] 7ff6d926468d Star::Assets::loadJson
+[11] 7ff6d92637e3 Star::Assets::loadAsset
+[12] 7ff6d925f76f Star::Assets::doLoad
+[13] 7ff6d926a52b Star::Assets::workerMain
+[14] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[15] 7ff6d9246d9e Star::ThreadImpl::runThread
+[16] 7fff38817c24 BaseThreadInitThunk
+[17] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Cannot parse json file: /items/active/weapons/artifact_weapons/artifact_battlestaff_binahTyr/artifact_battlestaff_binahTyr.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9259480 Star::JsonParsingException::JsonParsingException
+[4] 7ff6d9b5339b `Star::Assets::readJson'::`1'::catch$245
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d9266ae9 Star::Assets::readJson
+[9] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[10] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[11] 7ff6d926468d Star::Assets::loadJson
+[12] 7ff6d92637e3 Star::Assets::loadAsset
+[13] 7ff6d925f76f Star::Assets::doLoad
+[14] 7ff6d926a52b Star::Assets::workerMain
+[15] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[16] 7ff6d9246d9e Star::ThreadImpl::runThread
+[17] 7fff38817c24 BaseThreadInitThunk
+[18] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Error parsing json: unexpected character parsing word at 14:1
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9255be1 Star::inputUtf8Json<char * __ptr64>
+[3] 7ff6d9266ae9 Star::Assets::readJson
+[4] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[5] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[6] 7ff6d926468d Star::Assets::loadJson
+[7] 7ff6d92637e3 Star::Assets::loadAsset
+[8] 7ff6d925f76f Star::Assets::doLoad
+[9] 7ff6d926a52b Star::Assets::workerMain
+[10] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[11] 7ff6d9246d9e Star::ThreadImpl::runThread
+[12] 7fff38817c24 BaseThreadInitThunk
+[13] 7fff39a6d4d1 RtlUserThreadStart
+[01:49:23.484] [Error] Exception caught loading asset: /items/active/unsorted/monarch_parasol_2/monarch_parasol_2.activeitem, (AssetException) Could not read JSON asset /items/active/unsorted/monarch_parasol_2/monarch_parasol_2.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9258920 Star::AssetException::AssetException
+[4] 7ff6d9b51fa1 `<lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()'::`1'::catch$8
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[9] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[10] 7ff6d926468d Star::Assets::loadJson
+[11] 7ff6d92637e3 Star::Assets::loadAsset
+[12] 7ff6d925f76f Star::Assets::doLoad
+[13] 7ff6d926a52b Star::Assets::workerMain
+[14] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[15] 7ff6d9246d9e Star::ThreadImpl::runThread
+[16] 7fff38817c24 BaseThreadInitThunk
+[17] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Cannot parse json file: /items/active/unsorted/monarch_parasol_2/monarch_parasol_2.activeitem
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9249088 Star::StarException::StarException
+[3] 7ff6d9259480 Star::JsonParsingException::JsonParsingException
+[4] 7ff6d9b5339b `Star::Assets::readJson'::`1'::catch$245
+[5] 7fff29851030
+[6] 7fff29854388 is_exception_typeof
+[7] 7fff39aa0c96 RtlCaptureContext
+[8] 7ff6d9266ae9 Star::Assets::readJson
+[9] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[10] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[11] 7ff6d926468d Star::Assets::loadJson
+[12] 7ff6d92637e3 Star::Assets::loadAsset
+[13] 7ff6d925f76f Star::Assets::doLoad
+[14] 7ff6d926a52b Star::Assets::workerMain
+[15] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[16] 7ff6d9246d9e Star::ThreadImpl::runThread
+[17] 7fff38817c24 BaseThreadInitThunk
+[18] 7fff39a6d4d1 RtlUserThreadStart
+Caused by: (JsonParsingException) Error parsing json: unexpected character parsing word at 14:1
+[0] 7ff6d924a213 Star::captureStack
+[1] 7ff6d9248f9e Star::StarException::StarException
+[2] 7ff6d9255be1 Star::inputUtf8Json<char * __ptr64>
+[3] 7ff6d9266ae9 Star::Assets::readJson
+[4] 7ff6d925b1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
+[5] 7ff6d925863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
+[6] 7ff6d926468d Star::Assets::loadJson
+[7] 7ff6d92637e3 Star::Assets::loadAsset
+[8] 7ff6d925f76f Star::Assets::doLoad
+[9] 7ff6d926a52b Star::Assets::workerMain
+[10] 7ff6d9246877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
+[11] 7ff6d9246d9e Star::ThreadImpl::runThread
+[12] 7fff38817c24 BaseThreadInitThunk
+[13] 7fff39a6d4d1 RtlUserThreadStart
+[01:49:23.581] [Info] Root: Shutting down Root
+[01:49:23.582] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
+[01:49:23.871] [Info] Application: Destroying SDL Window
+[01:49:23.882] [Info] Application: stopped gracefully
