@@ -1,345 +1,378 @@
-[22:33:45.614] [Info] Root: Preparing Root...
-[22:33:45.616] [Info] Root: Done preparing Root.
-[22:33:45.616] [Info] Client Version 1.4.4 (windows x86_64) Source ID: 8cbe6faf22282659828a194e06a08999f213769e Protocol: 747
-[22:33:45.616] [Info] Root: Scanning for asset sources in directory '..\assets\'
-[22:33:46.734] [Info] Root: Scanning for asset sources in directory '..\mods\'
-[22:33:49.100] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
-[22:33:49.119] [Info] Root: Detected asset source named 'base' at '..\assets\packed.pak'
-[22:33:49.119] [Info] Root: Detected asset source named 'SChinese' at '..\mods\SChinese.pak'
-[22:33:49.119] [Info] Root: Detected asset source named 'Disabled drop for Survival Mode' at '..\mods\BanDrop.pak'
-[22:33:49.119] [Info] Root: Detected asset source named 'QuickbarMini' at '..\mods\BarMini.pak'
-[22:33:49.119] [Info] Root: Detected asset source named 'FrackinUniverse' at '..\mods\FU.pak'
-[22:33:49.119] [Info] Root: Detected asset source named 'Fu Schinese' at '..\mods\FUC.pak'
-[22:33:49.119] [Info] Root: Detected asset source named 'LessDeadMoons' at '..\mods\MoonExpand.pak'
-[22:33:49.119] [Info] Root: Detected asset source named 'bk3k_fasterStart' at '..\mods\QuickStart.pak'
-[22:33:49.119] [Info] Root: Detected asset source named 'SC-Font' at '..\mods\StarCore.pak'
-[22:33:49.119] [Info] Root: Detected asset source named 'Cutebound' at '..\mods\Cutebound.pak'
-[22:33:49.119] [Info] Root: Detected asset source named 'Arcana' at '..\mods\Arcana.pak'
-[22:33:49.119] [Info] Root: Detected asset source named 'ArcanaChinese' at '..\mods\patch.pak'
-[22:33:49.119] [Info] Root: Detected asset source named 'Arcana UI' at '..\mods\ArcanaUI.pak'
-[22:33:49.119] [Info] Root: Detected asset source named 'No Weather Blockdamage' at '..\mods\BanWeatherDamage.pak'
-[22:33:49.119] [Info] Root: Detected unnamed asset source at '..\assets\user'
-[22:33:49.119] [Info] Loading assets from: '..\assets\packed.pak'
-[22:33:50.298] [Info] Loading assets from: '..\mods\SChinese.pak'
-[22:33:50.465] [Info] Loading assets from: '..\mods\BanDrop.pak'
-[22:33:50.466] [Info] Loading assets from: '..\mods\BarMini.pak'
-[22:33:50.467] [Info] Loading assets from: '..\mods\FU.pak'
-[22:33:52.354] [Info] Loading assets from: '..\mods\FUC.pak'
-[22:33:52.679] [Info] Loading assets from: '..\mods\MoonExpand.pak'
-[22:33:52.681] [Info] Loading assets from: '..\mods\QuickStart.pak'
-[22:33:52.682] [Info] Loading assets from: '..\mods\StarCore.pak'
-[22:33:52.682] [Info] Loading assets from: '..\mods\Cutebound.pak'
-[22:33:52.724] [Info] Loading assets from: '..\mods\Arcana.pak'
-[22:33:52.865] [Info] Loading assets from: '..\mods\patch.pak'
-[22:33:52.886] [Info] Loading assets from: '..\mods\ArcanaUI.pak'
-[22:33:52.886] [Info] Loading assets from: '..\mods\BanWeatherDamage.pak'
-[22:33:52.888] [Info] Loading assets from: '..\assets\user'
-[22:33:55.130] [Info] Assets digest is 4c212aca6c0ce3e0217b6110888648a5bc5e9651fc42934e938a4f9f0c11eeb2
-[22:33:55.130] [Info] Root: Loaded Assets in 9.51386 seconds
-[22:33:55.134] [Info] Application: Initializing SDL Video
-[22:33:55.140] [Info] Application: Initializing SDL Joystick
-[22:33:55.779] [Info] Application: Initializing SDL Sound
-[22:33:55.876] [Info] Initialized Steam platform services
-[22:33:55.877] [Error] Failed to instantiate discord core (err 26)
-[22:33:55.877] [Info] Was not able to authenticate with Discord and create all components, Discord services will be unavailable
-[22:33:55.881] [Info] Application: Creating SDL Window
-[22:33:56.026] [Info] Application: Enabling VSync with late swap tearing
-[22:33:56.157] [Info] Application: Opened default audio device with 44.1khz / 16 bit stereo audio, 2048 sample size buffer
-[22:33:56.167] [Info] OpenGL version: '4.6.0 NVIDIA 460.89' vendor: 'NVIDIA Corporation' renderer: 'GeForce GTX 1070/PCIe/SSE2' shader: '4.60 NVIDIA'
-[22:33:56.170] [Info] Application: initialization...
-[22:33:56.171] [Info] Root: Loaded Configuration in 0.0007909 seconds
-[22:33:56.171] [Info] Application: Disabling VSync
-[22:33:56.174] [Info] Application: renderer initialization...
-[22:33:56.175] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 128
-[22:33:56.181] [Info] Root: Loaded ImageMetadataDatabase in 1.09989e-06 seconds
-[22:33:56.185] [Info] Application: main update loop...
-[22:33:56.189] [Info] Loading mods from user generated content with id '2359135864' from directory 'C:\Program Files (x86)\Steam\steamapps\workshop\content\211820\2359135864'
-[22:33:56.190] [Info] Reloading to include all user generated content
-[22:33:56.190] [Info] Root: Reloading from disk
-[22:33:56.190] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[22:33:56.249] [Info] Root: Loaded Configuration in 0.0008755 seconds
-[22:33:56.249] [Info] Root: Scanning for asset sources in directory '..\assets\'
-[22:33:57.332] [Info] Root: Scanning for asset sources in directory '..\mods\'
-[22:33:59.677] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
-[22:33:59.695] [Info] Root: Scanning for asset sources in directory 'C:\Program Files (x86)\Steam\steamapps\workshop\content\211820\2359135864'
-[22:33:59.831] [Warn] Root: Overriding duplicate asset source '..\mods\Arcana.pak' named 'Arcana' with higher or equal priority source 'C:\Program Files (x86)\Steam\steamapps\workshop\content\211820\2359135864\contents.pak
-[22:33:59.832] [Info] Root: Detected asset source named 'base' at '..\assets\packed.pak'
-[22:33:59.832] [Info] Root: Detected asset source named 'SChinese' at '..\mods\SChinese.pak'
-[22:33:59.832] [Info] Root: Detected asset source named 'Disabled drop for Survival Mode' at '..\mods\BanDrop.pak'
-[22:33:59.832] [Info] Root: Detected asset source named 'QuickbarMini' at '..\mods\BarMini.pak'
-[22:33:59.832] [Info] Root: Detected asset source named 'FrackinUniverse' at '..\mods\FU.pak'
-[22:33:59.832] [Info] Root: Detected asset source named 'Fu Schinese' at '..\mods\FUC.pak'
-[22:33:59.832] [Info] Root: Detected asset source named 'LessDeadMoons' at '..\mods\MoonExpand.pak'
-[22:33:59.832] [Info] Root: Detected asset source named 'bk3k_fasterStart' at '..\mods\QuickStart.pak'
-[22:33:59.832] [Info] Root: Detected asset source named 'SC-Font' at '..\mods\StarCore.pak'
-[22:33:59.832] [Info] Root: Detected asset source named 'Cutebound' at '..\mods\Cutebound.pak'
-[22:33:59.832] [Info] Root: Detected asset source named 'Arcana' at 'C:\Program Files (x86)\Steam\steamapps\workshop\content\211820\2359135864\contents.pak'
-[22:33:59.832] [Info] Root: Detected asset source named 'ArcanaChinese' at '..\mods\patch.pak'
-[22:33:59.832] [Info] Root: Detected asset source named 'Arcana UI' at '..\mods\ArcanaUI.pak'
-[22:33:59.832] [Info] Root: Detected asset source named 'No Weather Blockdamage' at '..\mods\BanWeatherDamage.pak'
-[22:33:59.832] [Info] Root: Detected unnamed asset source at '..\assets\user'
-[22:33:59.832] [Info] Loading assets from: '..\assets\packed.pak'
-[22:34:01.027] [Info] Loading assets from: '..\mods\SChinese.pak'
-[22:34:01.200] [Info] Loading assets from: '..\mods\BanDrop.pak'
-[22:34:01.200] [Info] Loading assets from: '..\mods\BarMini.pak'
-[22:34:01.201] [Info] Loading assets from: '..\mods\FU.pak'
-[22:34:03.105] [Info] Loading assets from: '..\mods\FUC.pak'
-[22:34:03.426] [Info] Loading assets from: '..\mods\MoonExpand.pak'
-[22:34:03.428] [Info] Loading assets from: '..\mods\QuickStart.pak'
-[22:34:03.429] [Info] Loading assets from: '..\mods\StarCore.pak'
-[22:34:03.429] [Info] Loading assets from: '..\mods\Cutebound.pak'
-[22:34:03.471] [Info] Loading assets from: 'C:\Program Files (x86)\Steam\steamapps\workshop\content\211820\2359135864\contents.pak'
-[22:34:03.619] [Info] Loading assets from: '..\mods\patch.pak'
-[22:34:03.642] [Info] Loading assets from: '..\mods\ArcanaUI.pak'
-[22:34:03.642] [Info] Loading assets from: '..\mods\BanWeatherDamage.pak'
-[22:34:03.643] [Info] Loading assets from: '..\assets\user'
-[22:34:05.305] [Info] Assets digest is c766c4927cf97325b067ee248ef43be6939e4082c2cad17a88cf4b670de97c4b
-[22:34:05.305] [Info] Root: Loaded Assets in 9.05571 seconds
-[22:34:05.323] [Info] Root: Loaded NameGenerator in 0.0180561 seconds
-[22:34:05.325] [Info] Root: Loaded ImageMetadataDatabase in 1.80025e-06 seconds
-[22:34:05.420] [Info] Root: Loaded PlantDatabase in 0.0961336 seconds
-[22:34:05.564] [Error] Could not apply patch from file /objects/farmables/flowerspring/flowerspring.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[22:34:05.820] [Error] Exception caught loading asset: /objects/workshop/workshop_container_6/workshop_container_6.object, (AssetException) Could not read JSON asset /objects/workshop/workshop_container_6/workshop_container_6.object
-[0] 7ff7a01aa213 Star::captureStack
-[1] 7ff7a01a8f9e Star::StarException::StarException
-[2] 7ff7a01a9088 Star::StarException::StarException
-[3] 7ff7a01b8920 Star::AssetException::AssetException
-[4] 7ff7a0ab1fa1 `<lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()'::`1'::catch$8
-[5] 7fff29851030
-[6] 7fff29854388 is_exception_typeof
-[7] 7fff39aa0c96 RtlCaptureContext
-[8] 7ff7a01bb1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
-[9] 7ff7a01b863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
-[10] 7ff7a01c468d Star::Assets::loadJson
-[11] 7ff7a01c37e3 Star::Assets::loadAsset
-[12] 7ff7a01bf76f Star::Assets::doLoad
-[13] 7ff7a01ca52b Star::Assets::workerMain
-[14] 7ff7a01a6877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
-[15] 7ff7a01a6d9e Star::ThreadImpl::runThread
-[16] 7fff38817c24 BaseThreadInitThunk
-[17] 7fff39a6d4d1 RtlUserThreadStart
-Caused by: (JsonParsingException) Cannot parse json file: /objects/workshop/workshop_container_6/workshop_container_6.object
-[0] 7ff7a01aa213 Star::captureStack
-[1] 7ff7a01a8f9e Star::StarException::StarException
-[2] 7ff7a01a9088 Star::StarException::StarException
-[3] 7ff7a01b9480 Star::JsonParsingException::JsonParsingException
-[4] 7ff7a0ab339b `Star::Assets::readJson'::`1'::catch$245
-[5] 7fff29851030
-[6] 7fff29854388 is_exception_typeof
-[7] 7fff39aa0c96 RtlCaptureContext
-[8] 7ff7a01c6ae9 Star::Assets::readJson
-[9] 7ff7a01bb1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
-[10] 7ff7a01b863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
-[11] 7ff7a01c468d Star::Assets::loadJson
-[12] 7ff7a01c37e3 Star::Assets::loadAsset
-[13] 7ff7a01bf76f Star::Assets::doLoad
-[14] 7ff7a01ca52b Star::Assets::workerMain
-[15] 7ff7a01a6877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
-[16] 7ff7a01a6d9e Star::ThreadImpl::runThread
-[17] 7fff38817c24 BaseThreadInitThunk
-[18] 7fff39a6d4d1 RtlUserThreadStart
-Caused by: (JsonParsingException) Error extra data at end of input at 15:1
-[0] 7ff7a01aa213 Star::captureStack
-[1] 7ff7a01a8f9e Star::StarException::StarException
-[2] 7ff7a01b5c7a Star::inputUtf8Json<char * __ptr64>
-[3] 7ff7a01c6ae9 Star::Assets::readJson
-[4] 7ff7a01bb1c2 <lambda_de493f01ed04f38d948f8b3d1c9a817c>::operator()
-[5] 7ff7a01b863b Star::Assets::unlockDuring<<lambda_de493f01ed04f38d948f8b3d1c9a817c> >
-[6] 7ff7a01c468d Star::Assets::loadJson
-[7] 7ff7a01c37e3 Star::Assets::loadAsset
-[8] 7ff7a01bf76f Star::Assets::doLoad
-[9] 7ff7a01ca52b Star::Assets::workerMain
-[10] 7ff7a01a6877 <lambda_acdb4815e022f76f36408ff78907d178>::operator()
-[11] 7ff7a01a6d9e Star::ThreadImpl::runThread
-[12] 7fff38817c24 BaseThreadInitThunk
-[13] 7fff39a6d4d1 RtlUserThreadStart
-[22:34:05.827] [Error] Error loading object file /objects/workshop/workshop_container_6/workshop_container_6.object: (AssetException) Error loading asset /objects/workshop/workshop_container_6/workshop_container_6.object
-[0] 7ff7a01aa213 Star::captureStack
-[1] 7ff7a01a8f9e Star::StarException::StarException
-[2] 7ff7a01b51ca Star::AssetException::format<Star::AssetPath>
-[3] 7ff7a01c1972 Star::Assets::getAsset
-[4] 7ff7a01c3469 Star::Assets::json
-[5] 7ff7a043e604 Star::ObjectDatabase::ObjectDatabase
-[6] 7ff7a053b665 std::make_shared<Star::ObjectDatabase>
-[7] 7ff7a053fc29 <lambda_ad7e19ff40b932b3042616b2e24a8a33>::operator()
-[8] 7ff7a0531faf std::_Invoker_functor::_Call<<lambda_ad7e19ff40b932b3042616b2e24a8a33> & __ptr64>
-[9] 7ff7a0535a96 std::invoke<<lambda_ad7e19ff40b932b3042616b2e24a8a33> & __ptr64>
-[10] 7ff7a05333f9 std::_Invoke_ret<std::shared_ptr<Star::ObjectDatabase>,<lambda_ad7e19ff40b932b3042616b2e24a8a33> & __ptr64>
-[11] 7ff7a0541e06 std::_Func_impl<<lambda_ad7e19ff40b932b3042616b2e24a8a33>,std::allocator<int>,std::shared_ptr<Star::ObjectDatabase> >::_Do_call
-[12] 7ff7a0540677 std::_Func_class<std::shared_ptr<Star::PlantDatabase> >::operator()
-[13] 7ff7a0538373 Star::Root::loadMemberFunction<Star::ObjectDatabase>
-[14] 7ff7a05362b9 Star::Root::loadMember<Star::ObjectDatabase>
-[15] 7ff7a05472f2 Star::Root::objectDatabase
-[16] 7ff7a0532220 std::_Invoker_pmf_pointer::_Call<std::shared_ptr<Star::SpawnTypeDatabase const > (__cdecl Star::Root::*)(void) __ptr64,Star::Root * __ptr64 & __ptr64>
-[17] 7ff7a0535709 std::invoke<std::shared_ptr<Star::StatusEffectDatabase const > (__cdecl Star::Root::*& __ptr64)(void) __ptr64,Star::Root * __ptr64 & __ptr64>
-[18] 7ff7a053300c std::_Invoke_ret<std::shared_ptr<Star::StagehandDatabase const > (__cdecl Star::Root::*& __ptr64)(void) __ptr64,Star::Root * __ptr64 & __ptr64>
-[19] 7ff7a05322ae std::_Call_binder<std::_Unforced,0,std::shared_ptr<Star::VehicleDatabase const > (__cdecl Star::Root::*)(void) __ptr64,std::tuple<Star::Root * __ptr64>,std::tuple<> >
-[20] 7ff7a0531a0e std::_Binder<std::_Unforced,std::shared_ptr<Star::ObjectDatabase const > (__cdecl Star::Root::*)(void) __ptr64,Star::Root * __ptr64 const>::operator()<>
-[21] 7ff7a0541872 std::_Func_impl<Star::SwallowReturn<std::_Binder<std::_Unforced,std::shared_ptr<Star::TreasureDatabase const > (__cdecl Star::Root::*)(void) __ptr64,Star::Root * __ptr64 const> >,std::allocator<int>,void>::_Do_call
-[22] 7ff7a01a0f3b <lambda_7b083dc4bdd496712d99e51bb49515b5>::operator()
-[23] 7ff7a01a1ce2 Star::WorkerPool::WorkerThread::run
-[24] 7ff7a01a6d9e Star::ThreadImpl::runThread
-[25] 7fff38817c24 BaseThreadInitThunk
-[26] 7fff39a6d4d1 RtlUserThreadStart
-[22:34:05.912] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[22:34:05.983] [Info] Root: Loaded ProjectileDatabase in 0.563208 seconds
-[22:34:06.131] [Error] Could not apply patch from file /objects/farmables/flowerred/flowerred.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[22:34:06.636] [Error] Could not apply patch from file /objects/farmables/floweryellow/floweryellow.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[22:34:06.686] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[22:34:06.688] [Info] Root: Loaded ObjectDatabase in 1.38352 seconds
-[22:34:06.694] [Info] Root: Loaded MonsterDatabase in 0.711516 seconds
-[22:34:06.786] [Info] Root: Loaded StagehandDatabase in 0.0915091 seconds
-[22:34:06.797] [Info] Root: Loaded VehicleDatabase in 0.0112154 seconds
-[22:34:06.823] [Info] Root: Loaded PlayerFactory in 0.0256033 seconds
-[22:34:06.862] [Info] Root: Loaded NpcDatabase in 0.173679 seconds
-[22:34:06.865] [Info] Root: Loaded VersioningDatabase in 0.0024391 seconds
-[22:34:06.865] [Info] Root: Loaded EntityFactory in 0.0420723 seconds
-[22:34:06.936] [Info] Root: Loaded ParticleDatabase in 0.071079 seconds
-[22:34:06.941] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[22:34:06.980] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[22:34:07.165] [Error] Could not apply patch from file /tiles/materials/purplecrystal.material.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[22:34:07.399] [Error] Could not apply patch from file /tiles/materials/bamboo.material.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[22:34:07.585] [Info] Root: Loaded MaterialDatabase in 0.720096 seconds
-[22:34:07.592] [Info] Root: Loaded TerrainDatabase in 0.0070537 seconds
-[22:34:07.785] [Info] Root: Loaded BiomeDatabase in 0.19283 seconds
-[22:34:07.789] [Info] Root: Loaded LiquidsDatabase in 0.0039981 seconds
-[22:34:07.853] [Info] Root: Loaded StatusEffectDatabase in 0.0637426 seconds
-[22:34:08.260] [Info] Root: Loaded DamageDatabase in 0.407062 seconds
-[22:34:08.266] [Info] Root: Loaded EffectSourceDatabase in 0.0055465 seconds
-[22:34:08.291] [Info] Root: Loaded FunctionDatabase in 0.0244061 seconds
-[22:34:08.347] [Info] Root: Loaded TreasureDatabase in 0.057483 seconds
-[22:34:08.921] [Info] Root: Loaded DungeonDefinitions in 0.573631 seconds
-[22:34:08.921] [Info] Root: Loaded TilesetDatabase in 2.19001e-05 seconds
-[22:34:08.923] [Info] Root: Loaded StatisticsDatabase in 0.001951 seconds
-[22:34:08.924] [Info] Root: Loaded EmoteProcessor in 6.41998e-05 seconds
-[22:34:08.963] [Info] Root: Loaded SpeciesDatabase in 0.0394933 seconds
-[22:34:09.028] [Info] Root: Loaded QuestTemplateDatabase in 0.0644816 seconds
-[22:34:09.031] [Info] Root: Loaded AiDatabase in 0.0033539 seconds
-[22:34:09.038] [Info] Root: Loaded TechDatabase in 0.0062694 seconds
-[22:34:09.081] [Info] Root: Loaded CodexDatabase in 0.0430569 seconds
-[22:34:09.325] [Info] Root: Loaded BehaviorDatabase in 0.243893 seconds
-[22:34:09.327] [Info] Root: Loaded DanceDatabase in 0.002064 seconds
-[22:34:09.336] [Info] Root: Loaded SpawnTypeDatabase in 0.0095677 seconds
-[22:34:09.506] [Info] Root: Loaded RadioMessageDatabase in 0.168825 seconds
-[22:34:16.974] [Error] Could not instantiate item '[workshop_container_6, 1, {}]'. (ItemException) No such item 'workshop_container_6'
-[22:34:19.500] [Error] Could not instantiate item '[workshop_container_6, 1, {}]'. (ItemException) No such item 'workshop_container_6'
-[22:34:19.500] [Error] Could not create blueprint item from recipe: (ItemException) No such item 'workshop_container_6'
-[22:34:21.185] [Info] Root: Loaded ItemDatabase in 14.3223 seconds
-[22:34:21.443] [Info] Root: Loaded CollectionDatabase in 11.9385 seconds
-[22:34:22.616] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[22:34:23.039] [Error] Could not apply patch from file /interface/windowconfig/charcreation.config.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'labelGender' in pathApply("/paneLayout/labelGender/value")
-[22:34:23.081] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
-[22:34:27.381] [Info] UniverseServer: Acquiring universe lock file
-[22:34:27.382] [Info] UniverseServer: Loading settings
-[22:34:27.384] [Info] UniverseServer: Starting UniverseServer with UUID: d7b8a69a2adaa547e7c6b5c94740f46c
-[22:34:27.399] [Info] UniverseServer: Logged in player 'Shadowrabbit' locally
-[22:34:27.399] [Info] UniverseServer: Logged in account '<anonymous>' as player 'Shadowrabbit' from address local
-[22:34:27.400] [Info] UniverseServer: Loading system world (-380526256, 515934728, -231562466) from disk storage
-[22:34:27.401] [Info] UniverseClient: Joined server as client 1
-[22:34:27.428] [Info] UniverseServer: Reviving player at ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
-[22:34:27.428] [Info] UniverseServer: Client 'Shadowrabbit' <1> (local) connected
-[22:34:27.466] [Error] Could not apply patch from file /interface/scripted/mmupgrade/mmupgradegui.config.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'windowtitle' in pathApply("/gui/windowtitle/title")
-[22:34:27.469] [Error] Could not apply patch from file /interface/scripted/mmupgrade/mmupgradegui.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'upgrades' in pathApply("/upgrades/size1/description")
-[22:34:27.492] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
-[22:34:27.496] [Info] UniverseServer: Loading client ship world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
-[22:34:27.498] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
-[22:34:27.520] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
-[22:34:27.520] [Info] Setting steam rich presence connection as steamid_76561198117527458
-[22:34:27.532] [Error] Cannot set Steam achievement kill10poptops
-[22:34:27.620] [Info] Protected dungeonIds for world set to (65524)
-[22:34:27.999] [Info] UniverseServer: Warping player 1 to ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd=1027.4.1035
-[22:34:28.649] [Info] ----- FU player init -----
-[22:34:28.650] [Info] ----- End FU player init -----
-[22:34:28.650] [Info] ----- ZB player init -----
-[22:34:28.650] [Info] [ZB] Mods using update info window and their versions:
-[22:34:28.650] [Info] -- ztarbound   [Version 6.1.22]
-[22:34:28.650] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:34:28.650] [Info] ----- end ZB player init -----
-[22:34:36.205] [Info] UniverseServer: Loading celestial world -380526274:515934718:62930728:2
-[22:34:36.386] [Info] Protected dungeonIds for world set to (1, 65524)
-[22:34:36.451] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[22:34:36.520] [Info] UniverseServer: Warping player 1 to CelestialWorld:-380526274:515934718:62930728:2=a1b78709b73320ca9cf959c0bea7afea
-[22:34:36.548] [Info] Client received world stop packet, leaving: Removed
-[22:34:36.643] [Info] UniverseServer: Stopping idle world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
-[22:34:36.885] [Info] ----- FU player init -----
-[22:34:36.885] [Info] ----- End FU player init -----
-[22:34:36.885] [Info] ----- ZB player init -----
-[22:34:36.885] [Info] [ZB] Mods using update info window and their versions:
-[22:34:36.885] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:34:36.885] [Info] -- ztarbound   [Version 6.1.22]
-[22:34:36.885] [Info] ----- end ZB player init -----
-[22:35:17.484] [Info] Chat: <server> Admin privileges now given to player Shadowrabbit
-[22:35:50.158] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[22:38:33.017] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[22:38:58.504] [Info] UniverseServer: Loading client ship world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
-[22:38:58.629] [Info] Protected dungeonIds for world set to (65524)
-[22:38:58.973] [Info] UniverseServer: Warping player 1 to ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
-[22:38:58.978] [Info] Client received world stop packet, leaving: Removed
-[22:38:58.986] [Info] UniverseServer: Stopping idle world CelestialWorld:-380526274:515934718:62930728:2
-[22:38:59.652] [Info] ----- FU player init -----
-[22:38:59.652] [Info] ----- End FU player init -----
-[22:38:59.652] [Info] ----- ZB player init -----
-[22:38:59.652] [Info] [ZB] Mods using update info window and their versions:
-[22:38:59.652] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:38:59.653] [Info] -- ztarbound   [Version 6.1.22]
-[22:38:59.653] [Info] ----- end ZB player init -----
-[22:38:59.733] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[22:39:06.218] [Info] UniverseServer: Loading celestial world -380526274:515934718:62930728:2
-[22:39:06.388] [Info] Protected dungeonIds for world set to (1, 65524)
-[22:39:06.441] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[22:39:06.520] [Info] UniverseServer: Warping player 1 to CelestialWorld:-380526274:515934718:62930728:2=a1b78709b73320ca9cf959c0bea7afea
-[22:39:06.619] [Info] Client received world stop packet, leaving: Removed
-[22:39:06.640] [Info] UniverseServer: Stopping idle world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
-[22:39:06.909] [Info] ----- FU player init -----
-[22:39:06.910] [Info] ----- End FU player init -----
-[22:39:06.910] [Info] ----- ZB player init -----
-[22:39:06.910] [Info] [ZB] Mods using update info window and their versions:
-[22:39:06.910] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:39:06.910] [Info] -- ztarbound   [Version 6.1.22]
-[22:39:06.910] [Info] ----- end ZB player init -----
-[22:39:25.117] [Error] Could not load audio asset '/sfx/projectiles/radioactive_barrier_kill.ogg', using placeholder default.
+[13:31:05.361] [Info] Root: Preparing Root...
+[13:31:05.361] [Info] Root: Done preparing Root.
+[13:31:05.361] [Info] Client Version 1.4.4 (windows x86_64) Source ID: 8cbe6faf22282659828a194e06a08999f213769e Protocol: 747
+[13:31:05.361] [Info] Root: Scanning for asset sources in directory '..\assets\'
+[13:31:05.623] [Info] Root: Scanning for asset sources in directory '..\mods\'
+[13:31:06.562] [Warn] Root: Unrecognized file in asset directory 'starbound mods.rar', skipping
+[13:31:06.562] [Info] Root: Detected asset source named 'base' at '..\assets\packed.pak'
+[13:31:06.562] [Info] Root: Detected asset source named 'SChinese' at '..\mods\SChinese.pak'
+[13:31:06.562] [Info] Root: Detected asset source named 'Disabled drop for Survival Mode' at '..\mods\BanDrop.pak'
+[13:31:06.562] [Info] Root: Detected asset source named 'QuickbarMini' at '..\mods\BarMini.pak'
+[13:31:06.562] [Info] Root: Detected asset source named 'FrackinUniverse' at '..\mods\FU.pak'
+[13:31:06.562] [Info] Root: Detected asset source named 'Fu Schinese' at '..\mods\FUC.pak'
+[13:31:06.562] [Info] Root: Detected asset source named 'LessDeadMoons' at '..\mods\MoonExpand.pak'
+[13:31:06.562] [Info] Root: Detected asset source named 'bk3k_fasterStart' at '..\mods\QuickStart.pak'
+[13:31:06.562] [Info] Root: Detected asset source named 'SC-Font' at '..\mods\StarCore.pak'
+[13:31:06.562] [Info] Root: Detected asset source named 'Cutebound' at '..\mods\Cutebound.pak'
+[13:31:06.562] [Info] Root: Detected asset source named 'Arcana' at '..\mods\Arcana.pak'
+[13:31:06.562] [Info] Root: Detected asset source named 'Arcana UI' at '..\mods\ArcanaUI.pak'
+[13:31:06.562] [Info] Root: Detected asset source named 'No Weather Blockdamage' at '..\mods\BanWeatherDamage.pak'
+[13:31:06.562] [Info] Root: Detected unnamed asset source at '..\assets\user'
+[13:31:06.562] [Info] Loading assets from: '..\assets\packed.pak'
+[13:31:06.896] [Info] Loading assets from: '..\mods\SChinese.pak'
+[13:31:06.950] [Info] Loading assets from: '..\mods\BanDrop.pak'
+[13:31:06.951] [Info] Loading assets from: '..\mods\BarMini.pak'
+[13:31:06.951] [Info] Loading assets from: '..\mods\FU.pak'
+[13:31:07.563] [Info] Loading assets from: '..\mods\FUC.pak'
+[13:31:07.670] [Info] Loading assets from: '..\mods\MoonExpand.pak'
+[13:31:07.671] [Info] Loading assets from: '..\mods\QuickStart.pak'
+[13:31:07.672] [Info] Loading assets from: '..\mods\StarCore.pak'
+[13:31:07.672] [Info] Loading assets from: '..\mods\Cutebound.pak'
+[13:31:07.684] [Info] Loading assets from: '..\mods\Arcana.pak'
+[13:31:07.722] [Info] Loading assets from: '..\mods\ArcanaUI.pak'
+[13:31:07.723] [Info] Loading assets from: '..\mods\BanWeatherDamage.pak'
+[13:31:07.723] [Info] Loading assets from: '..\assets\user'
+[13:31:09.320] [Info] Assets digest is cdb5582248b3a5ef083aa3e02aa55ff134655c86d305390f2fc6d869ebe682b3
+[13:31:09.320] [Info] Root: Loaded Assets in 3.95844 seconds
+[13:31:09.323] [Info] Application: Initializing SDL Video
+[13:31:09.332] [Info] Application: Initializing SDL Joystick
+[13:31:09.471] [Info] Application: Initializing SDL Sound
+[13:31:10.058] [Info] Initialized Steam platform services
+[13:31:10.060] [Error] Failed to instantiate discord core (err 26)
+[13:31:10.060] [Info] Was not able to authenticate with Discord and create all components, Discord services will be unavailable
+[13:31:10.081] [Info] Application: Creating SDL Window
+[13:31:10.627] [Info] Application: Enabling VSync with late swap tearing
+[13:31:10.640] [Info] Application: Opened default audio device with 44.1khz / 16 bit stereo audio, 2048 sample size buffer
+[13:31:10.646] [Info] OpenGL version: '4.6.0 NVIDIA 431.98' vendor: 'NVIDIA Corporation' renderer: 'GeForce RTX 2060/PCIe/SSE2' shader: '4.60 NVIDIA'
+[13:31:10.738] [Info] Application: initialization...
+[13:31:10.745] [Info] Root: Loaded Configuration in 0.0061184 seconds
+[13:31:10.757] [Info] Application: Disabling VSync
+[13:31:10.759] [Info] Application: renderer initialization...
+[13:31:10.775] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 128
+[13:31:10.863] [Info] Root: Loaded ImageMetadataDatabase in 4.29992e-06 seconds
+[13:31:11.072] [Info] Application: main update loop...
+[13:31:11.094] [Info] No subscribed user generated content
+[13:31:11.209] [Info] Root: Loaded NameGenerator in 0.0958174 seconds
+[13:31:14.266] [Info] Root: Loaded PlantDatabase in 3.05845 seconds
+[13:31:16.259] [Error] Could not apply patch from file /objects/farmables/flowerspring/flowerspring.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[13:31:17.966] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[13:31:18.258] [Info] Root: Loaded ProjectileDatabase in 3.99179 seconds
+[13:31:19.070] [Error] Could not apply patch from file /objects/farmables/flowerred/flowerred.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[13:31:21.485] [Error] Could not apply patch from file /objects/farmables/floweryellow/floweryellow.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[13:31:21.607] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
+[13:31:21.611] [Info] Root: Loaded ObjectDatabase in 10.4989 seconds
+[13:31:22.090] [Info] Root: Loaded MonsterDatabase in 3.83167 seconds
+[13:31:22.094] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
+[13:31:22.428] [Info] Root: Loaded StagehandDatabase in 0.337344 seconds
+[13:31:22.457] [Info] Root: Loaded VehicleDatabase in 0.0291714 seconds
+[13:31:22.511] [Info] Root: Loaded PlayerFactory in 0.0545853 seconds
+[13:31:22.585] [Info] Root: Loaded NpcDatabase in 0.973254 seconds
+[13:31:22.586] [Info] Root: Loaded VersioningDatabase in 0.0013204 seconds
+[13:31:22.586] [Info] Root: Loaded EntityFactory in 0.07428 seconds
+[13:31:22.844] [Info] Root: Loaded ParticleDatabase in 0.257475 seconds
+[13:31:22.874] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[13:31:22.970] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[13:31:23.419] [Error] Could not apply patch from file /tiles/materials/purplecrystal.material.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[13:31:23.667] [Error] Could not apply patch from file /tiles/materials/bamboo.material.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[13:31:24.047] [Info] Root: Loaded MaterialDatabase in 1.46119 seconds
+[13:31:24.071] [Info] Root: Loaded TerrainDatabase in 0.0240615 seconds
+[13:31:24.837] [Info] Root: Loaded BiomeDatabase in 0.765079 seconds
+[13:31:24.869] [Info] Root: Loaded LiquidsDatabase in 0.0322245 seconds
+[13:31:25.386] [Info] Root: Loaded StatusEffectDatabase in 0.517332 seconds
+[13:31:26.484] [Info] Root: Loaded DamageDatabase in 1.09854 seconds
+[13:31:26.527] [Info] Root: Loaded EffectSourceDatabase in 0.0428579 seconds
+[13:31:26.607] [Info] Root: Loaded FunctionDatabase in 0.079026 seconds
+[13:31:26.738] [Info] Root: Loaded TreasureDatabase in 0.130923 seconds
+[13:31:30.518] [Info] Root: Loaded DungeonDefinitions in 3.78055 seconds
+[13:31:30.518] [Info] Root: Loaded TilesetDatabase in 3.30997e-05 seconds
+[13:31:30.530] [Info] Root: Loaded StatisticsDatabase in 0.0119783 seconds
+[13:31:30.536] [Info] Root: Loaded EmoteProcessor in 0.004893 seconds
+[13:31:30.651] [Info] Root: Loaded SpeciesDatabase in 0.116371 seconds
+[13:31:30.816] [Info] Root: Loaded QuestTemplateDatabase in 0.164199 seconds
+[13:31:30.865] [Info] Root: Loaded AiDatabase in 0.0494233 seconds
+[13:31:30.888] [Info] Root: Loaded TechDatabase in 0.0226993 seconds
+[13:31:31.005] [Info] Root: Loaded CodexDatabase in 0.116434 seconds
+[13:31:31.341] [Info] Root: Loaded BehaviorDatabase in 0.336831 seconds
+[13:31:31.371] [Info] Root: Loaded DanceDatabase in 0.0298932 seconds
+[13:31:31.403] [Info] Root: Loaded SpawnTypeDatabase in 0.0315886 seconds
+[13:31:31.625] [Info] Root: Loaded RadioMessageDatabase in 0.222624 seconds
+[13:31:42.952] [Info] Root: Loaded ItemDatabase in 20.3677 seconds
+[13:31:43.317] [Info] Root: Loaded CollectionDatabase in 11.6918 seconds
+[13:31:43.797] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[13:31:44.366] [Error] Could not apply patch from file /interface/windowconfig/charcreation.config.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'labelGender' in pathApply("/paneLayout/labelGender/value")
+[13:31:44.474] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
+[13:31:49.325] [Info] UniverseServer: Acquiring universe lock file
+[13:31:49.350] [Info] UniverseServer: Loading settings
+[13:31:49.357] [Info] UniverseServer: Starting UniverseServer with UUID: d7b8a69a2adaa547e7c6b5c94740f46c
+[13:31:49.377] [Info] UniverseServer: Logged in player 'Shadowrabbit' locally
+[13:31:49.377] [Info] UniverseServer: Logged in account '<anonymous>' as player 'Shadowrabbit' from address local
+[13:31:49.409] [Info] UniverseServer: Loading system world (-380526256, 515934728, -231562466) from disk storage
+[13:31:49.417] [Info] UniverseClient: Joined server as client 1
+[13:31:49.546] [Info] UniverseServer: Reviving player at ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[13:31:49.546] [Info] UniverseServer: Client 'Shadowrabbit' <1> (local) connected
+[13:31:49.547] [Info] UniverseServer: Loading client ship world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[13:31:49.662] [Info] Protected dungeonIds for world set to (65524)
+[13:31:49.718] [Error] Could not apply patch from file /interface/scripted/mmupgrade/mmupgradegui.config.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'windowtitle' in pathApply("/gui/windowtitle/title")
+[13:31:49.737] [Error] Could not apply patch from file /interface/scripted/mmupgrade/mmupgradegui.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'upgrades' in pathApply("/upgrades/size1/description")
+[13:31:49.765] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
+[13:31:49.768] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
+[13:31:49.800] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
+[13:31:49.800] [Info] Setting steam rich presence connection as steamid_76561198117527458
+[13:31:49.823] [Error] Cannot set Steam achievement kill10poptops
+[13:31:50.273] [Info] UniverseServer: Warping player 1 to ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd=1023.8.1025
+[13:31:50.808] [Info] ----- FU player init -----
+[13:31:50.811] [Info] ----- End FU player init -----
+[13:31:50.811] [Info] ----- ZB player init -----
+[13:31:50.811] [Info] [ZB] Mods using update info window and their versions:
+[13:31:50.814] [Info] -- frackinuniverse   [Version 6.1.22]
+[13:31:50.814] [Info] -- ztarbound   [Version 6.1.22]
+[13:31:50.814] [Info] ----- end ZB player init -----
+[13:31:56.637] [Info] UniverseServer: Creating celestial world -380526256:515934728:-231562466:8
+[13:31:57.284] [Info] Protected dungeonIds for world set to (65524)
+[13:31:57.284] [Info] Placing dungeon floranhell
+[13:31:57.433] [Info] Placing dungeon at (12241, 4200)
+[13:31:58.160] [Warn] Failed to place dungeon object: plantlog direction: 1 position: (12307, 3984)
+[13:31:58.200] [Warn] Failed to place dungeon object: plantlog direction: 1 position: (12137, 4014)
+[13:31:59.416] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[13:31:59.476] [Info] Placing dungeon aviantomb
+[13:31:59.551] [Info] Placing dungeon at (15334, 4200)
+[13:31:59.931] [Warn] Failed to place dungeon object: tombthing2 direction: 0 position: (15506, 4150)
+[13:31:59.931] [Warn] Failed to place dungeon object: tombstatueavian direction: 0 position: (15510, 4150)
+[13:32:00.678] [Info] Placing dungeon aviannativevillage
+[13:32:01.086] [Info] Placing dungeon at (2456, 4200)
+[13:32:02.304] [Info] Placing dungeon oceanfrontcity
+[13:32:02.766] [Info] Placing dungeon at (5815, 4200)
+[13:32:03.747] [Warn] Failed to place dungeon object: protectorateradio direction: 1 position: (5485, 4217)
+[13:32:03.751] [Warn] Failed to place dungeon object: protectorateradio direction: 1 position: (6379, 4217)
+[13:32:03.792] [Warn] Failed to place dungeon object: wickerbasket5 direction: 1 position: (6530, 4230)
+[13:32:03.829] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
+[13:32:04.543] [Info] Protected dungeonIds for world set to (3, 65524)
+[13:32:04.548] [Info] Placing dungeon weaponsfactory
+[13:32:04.860] [Info] Placing dungeon at (9048, 4200)
+[13:32:05.164] [Warn] Failed to place dungeon object: fluorescentlight direction: 1 position: (9279, 4212)
+[13:32:05.164] [Warn] Failed to place dungeon object: protectorateradio direction: 1 position: (9149, 4213)
+[13:32:05.196] [Warn] Failed to place dungeon object: fluorescentlight direction: 1 position: (9279, 4224)
+[13:32:05.221] [Warn] Failed to place dungeon object: bunkertv direction: 1 position: (9132, 4233)
+[13:32:05.388] [Warn] Failed to place dungeon object: pixeldispenser direction: 1 position: (9192, 4341)
+[13:32:05.738] [Info] Protected dungeonIds for world set to (3, 4, 65524)
+[13:32:12.252] [Info] UniverseServer: Warping player 1 to CelestialWorld:-380526256:515934728:-231562466:8
+[13:32:12.911] [Info] Client received world stop packet, leaving: Removed
+[13:32:13.857] [Info] ----- FU player init -----
+[13:32:13.857] [Info] ----- End FU player init -----
+[13:32:13.857] [Info] ----- ZB player init -----
+[13:32:13.857] [Info] [ZB] Mods using update info window and their versions:
+[13:32:13.857] [Info] -- ztarbound   [Version 6.1.22]
+[13:32:13.857] [Info] -- frackinuniverse   [Version 6.1.22]
+[13:32:13.857] [Info] ----- end ZB player init -----
+[13:32:14.203] [Info] UniverseServer: Stopping idle world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[13:32:15.259] [Info] Find bounty manager
+[13:32:16.542] [Info] QM: Player 84fbff2d61d95dee5459526ba87ac3dd started 683571fbfd8059d8397cf05f6c47f702
+[13:32:16.753] [Info] Get location 683571fbfd8059d8397cf05f6c47f702 clue
+[13:32:16.754] [Info] Create location 683571fbfd8059d8397cf05f6c47f702 clue dungeon
+[13:32:16.754] [Info] Get location 683571fbfd8059d8397cf05f6c47f702 clue
+[13:32:16.754] [Info] Get location 683571fbfd8059d8397cf05f6c47f702 clue
+[13:32:16.754] [Info] Get location 683571fbfd8059d8397cf05f6c47f702 clue
+[13:32:19.576] [Info] placed bounty dungeon at {1: 675, 2: 4362}
+[13:32:19.576] [Info] Protected dungeonIds for world set to (3, 4, 65519, 65524)
+[13:32:19.576] [Info] Protect dungeon id 65519
+[13:32:20.793] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[13:32:20.793] [Warn] Failed to place dungeon object: flowerblue direction: 1 position: (427, 4170)
+[13:32:20.795] [Error] Could not apply patch from file /objects/farmables/flowerspring/flowerspring.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[13:32:20.797] [Error] Could not apply patch from file /objects/farmables/floweryellow/floweryellow.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[13:32:20.799] [Error] Could not apply patch from file /objects/farmables/flowerred/flowerred.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[13:32:28.501] [Warn] Failed to place dungeon object: flowerblue direction: 1 position: (355, 4171)
+[13:32:35.782] [Info] Protected dungeonIds for world set to (3, 4, 65524)
+[13:32:35.783] [Info] Placed object true at {1: 677, 2: 4370}
+[13:32:35.783] [Info] Protected dungeonIds for world set to (3, 4, 65519, 65524)
+[13:32:44.610] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[13:32:48.673] [Warn] Failed to place dungeon object: flowerblue direction: 1 position: (287, 4170)
+[13:33:24.052] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
+[13:33:44.808] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[13:34:20.269] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[13:35:06.628] [Info] UniverseServer: Loading client ship world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[13:35:06.748] [Info] Protected dungeonIds for world set to (65524)
+[13:35:07.190] [Info] UniverseServer: Warping player 1 to ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[13:35:07.355] [Info] Client received world stop packet, leaving: Removed
+[13:35:07.422] [Info] UniverseServer: Stopping idle world CelestialWorld:-380526256:515934728:-231562466:8
+[13:35:07.767] [Info] ----- FU player init -----
+[13:35:07.767] [Info] ----- End FU player init -----
+[13:35:07.767] [Info] ----- ZB player init -----
+[13:35:07.767] [Info] [ZB] Mods using update info window and their versions:
+[13:35:07.768] [Info] -- frackinuniverse   [Version 6.1.22]
+[13:35:07.768] [Info] -- ztarbound   [Version 6.1.22]
+[13:35:07.768] [Info] ----- end ZB player init -----
+[13:35:07.864] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[13:35:13.493] [Info] UniverseServer: Loading celestial world -380526256:515934728:-231562466:8
+[13:35:13.802] [Info] Protected dungeonIds for world set to (3, 4, 65519, 65524)
+[13:35:13.997] [Info] UniverseServer: Warping player 1 to CelestialWorld:-380526256:515934728:-231562466:8
+[13:35:14.033] [Info] UniverseServer: Stopping idle world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[13:35:14.037] [Info] Client received world stop packet, leaving: Removed
+[13:35:14.477] [Info] ----- FU player init -----
+[13:35:14.477] [Info] ----- End FU player init -----
+[13:35:14.477] [Info] ----- ZB player init -----
+[13:35:14.477] [Info] [ZB] Mods using update info window and their versions:
+[13:35:14.477] [Info] -- frackinuniverse   [Version 6.1.22]
+[13:35:14.477] [Info] -- ztarbound   [Version 6.1.22]
+[13:35:14.477] [Info] ----- end ZB player init -----
+[13:35:15.289] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[13:35:17.227] [Info] Find bounty manager
+[13:35:17.386] [Info] QM: Player 84fbff2d61d95dee5459526ba87ac3dd started 683571fbfd8059d8397cf05f6c47f702
+[13:35:58.592] [Error] Could not apply patch from file /objects/farmables/floweryellow/floweryellow.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[13:35:58.594] [Error] Could not apply patch from file /objects/farmables/flowerred/flowerred.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[13:35:58.596] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[13:35:58.597] [Error] Could not apply patch from file /objects/farmables/flowerspring/flowerspring.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[13:37:03.017] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[13:37:15.846] [Info] QM: Participant died: 5aeb9e7f6fa81fa148c1b6d60811033e
+[13:37:15.846] [Info] QM: Notify 84fbff2d61d95dee5459526ba87ac3dd of 5aeb9e7f6fa81fa148c1b6d60811033e death
+[13:37:15.861] [Info] QM: Participant died: 5aeb9e7f6fa81fa148c1b6d60811033e
+[13:37:15.861] [Info] QM: Notify 84fbff2d61d95dee5459526ba87ac3dd of 5aeb9e7f6fa81fa148c1b6d60811033e death
+[13:38:35.730] [Info] UniverseServer: Loading client ship world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[13:38:35.847] [Info] Protected dungeonIds for world set to (65524)
+[13:38:36.234] [Info] UniverseServer: Warping player 1 to ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[13:38:36.249] [Info] UniverseServer: Stopping idle world CelestialWorld:-380526256:515934728:-231562466:8
+[13:38:36.266] [Info] Client received world stop packet, leaving: Removed
+[13:38:36.871] [Info] ----- FU player init -----
+[13:38:36.871] [Info] ----- End FU player init -----
+[13:38:36.871] [Info] ----- ZB player init -----
+[13:38:36.871] [Info] [ZB] Mods using update info window and their versions:
+[13:38:36.872] [Info] -- frackinuniverse   [Version 6.1.22]
+[13:38:36.872] [Info] -- ztarbound   [Version 6.1.22]
+[13:38:36.872] [Info] ----- end ZB player init -----
+[13:38:36.988] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[13:39:26.179] [Info] UniverseServer: Loading celestial world -380526256:515934728:-231562466:8
+[13:39:26.432] [Info] Protected dungeonIds for world set to (3, 4, 65519, 65524)
+[13:39:26.681] [Info] UniverseServer: Warping player 1 to CelestialWorld:-380526256:515934728:-231562466:8
+[13:39:26.695] [Info] UniverseServer: Stopping idle world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[13:39:26.698] [Info] Client received world stop packet, leaving: Removed
+[13:39:27.237] [Info] ----- FU player init -----
+[13:39:27.238] [Info] ----- End FU player init -----
+[13:39:27.238] [Info] ----- ZB player init -----
+[13:39:27.238] [Info] [ZB] Mods using update info window and their versions:
+[13:39:27.238] [Info] -- ztarbound   [Version 6.1.22]
+[13:39:27.238] [Info] -- frackinuniverse   [Version 6.1.22]
+[13:39:27.238] [Info] ----- end ZB player init -----
+[13:39:27.316] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[13:39:27.702] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[13:39:29.876] [Info] Find bounty manager
+[13:39:30.085] [Info] QM: Player 84fbff2d61d95dee5459526ba87ac3dd started 683571fbfd8059d8397cf05f6c47f702
+[13:39:55.669] [Error] Could not apply patch from file /objects/farmables/flowerspring/flowerspring.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[13:39:55.672] [Error] Could not apply patch from file /objects/farmables/flowerred/flowerred.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[13:39:55.673] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[13:39:55.675] [Error] Could not apply patch from file /objects/farmables/floweryellow/floweryellow.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[13:41:42.807] [Info] Complete message: 你找齐了线索，干得好，搭档！你现在有足够的情报去追踪无赖^green;黑诺布尔队长^reset;了！
+[13:41:42.808] [Info] Send playerCompleted message
+[13:41:42.838] [Info] Chat: <诺布尔队长> 你找齐了线索，干得好，搭档！你现在有足够的情报去追踪无赖黑诺布尔队长了！
+[13:41:42.841] [Info] QM: Player 84fbff2d61d95dee5459526ba87ac3dd completed 683571fbfd8059d8397cf05f6c47f702
+[13:41:42.841] [Info] Player 84fbff2d61d95dee5459526ba87ac3dd completed 683571fbfd8059d8397cf05f6c47f702
+[13:41:42.841] [Info] QM: Die
+[13:41:42.841] [Info] Unprotect dungeon ids {1: 65519}
+[13:41:42.841] [Info] Protected dungeonIds for world set to (3, 4, 65524)
+[13:41:53.688] [Info] UniverseServer: Loading client ship world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[13:41:53.821] [Info] Protected dungeonIds for world set to (65524)
+[13:41:54.218] [Info] UniverseServer: Warping player 1 to ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[13:41:54.227] [Info] UniverseServer: Stopping idle world CelestialWorld:-380526256:515934728:-231562466:8
+[13:41:54.228] [Info] Client received world stop packet, leaving: Removed
+[13:41:54.660] [Info] ----- FU player init -----
+[13:41:54.660] [Info] ----- End FU player init -----
+[13:41:54.660] [Info] ----- ZB player init -----
+[13:41:54.660] [Info] [ZB] Mods using update info window and their versions:
+[13:41:54.661] [Info] -- ztarbound   [Version 6.1.22]
+[13:41:54.661] [Info] -- frackinuniverse   [Version 6.1.22]
+[13:41:54.661] [Info] ----- end ZB player init -----
+[13:41:54.739] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[13:42:32.622] [Info] Flying ship for player 1 to -380526256:515934728:-231562466
+[13:42:39.783] [Info] UniverseServer: Arriving ship for player 1 at -380526256:515934728:-231562466
+[13:42:46.738] [Info] UniverseServer: Creating celestial world -380526256:515934728:-231562466:2
+[13:42:47.043] [Info] Protected dungeonIds for world set to (65524)
+[13:42:47.043] [Info] Placing dungeon lakes
+[13:42:47.077] [Info] Placing dungeon at (4138, 1700)
+[13:42:47.202] [Info] Placing dungeon florancanyon
+[13:42:47.282] [Info] Placing dungeon at (111, 1700)
+[13:42:47.804] [Warn] Failed to place dungeon object: bioshroom5 direction: 0 position: (380, 1301)
+[13:42:47.860] [Warn] Failed to place dungeon object: bioshroom5 direction: 0 position: (207, 1432)
+[13:42:47.886] [Warn] Failed to place dungeon object: bioshroom5 direction: 0 position: (161, 1576)
+[13:42:47.886] [Warn] Failed to place dungeon object: bioshroom5 direction: 1 position: (148, 1581)
+[13:42:48.212] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[13:42:50.797] [Info] UniverseServer: Warping player 1 to CelestialWorld:-380526256:515934728:-231562466:2
+[13:42:50.848] [Info] Client received world stop packet, leaving: Removed
+[13:42:50.925] [Info] UniverseServer: Stopping idle world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[13:42:51.391] [Info] ----- FU player init -----
+[13:42:51.391] [Info] ----- End FU player init -----
+[13:42:51.391] [Info] ----- ZB player init -----
+[13:42:51.392] [Info] [ZB] Mods using update info window and their versions:
+[13:42:51.392] [Info] -- ztarbound   [Version 6.1.22]
+[13:42:51.392] [Info] -- frackinuniverse   [Version 6.1.22]
+[13:42:51.392] [Info] ----- end ZB player init -----
+[13:42:51.588] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[13:42:52.500] [Info] Find bounty manager
+[13:42:52.950] [Info] QM: Player 84fbff2d61d95dee5459526ba87ac3dd started a76507d0f0bccab6b809b7f4eed40f6e
+[13:42:52.950] [Info] Get location a76507d0f0bccab6b809b7f4eed40f6e bounty
+[13:42:52.950] [Info] Create location a76507d0f0bccab6b809b7f4eed40f6e bounty dungeon
+[13:42:52.951] [Info] Get location a76507d0f0bccab6b809b7f4eed40f6e bounty
+[13:42:56.702] [Info] placed bounty dungeon at {1: 4188, 2: 1585}
+[13:42:56.703] [Info] Protected dungeonIds for world set to (65519, 65524)
+[13:42:56.703] [Info] Protect dungeon id 65519
+[13:43:02.911] [Info] Protected dungeonIds for world set to (65524)
+[13:43:02.911] [Info] Protected dungeonIds for world set to (65519, 65524)
+[13:43:14.964] [Info] Chat: <SAIL> 检测到毒素：尽管我确定这*看起来*非常美味，但是有一件事必须告诉你——你在生理上无法消化这种食物，以后请不要吃像这样的食物。
+[13:43:22.537] [Info] Chat: <SAIL> 检测到毒素：尽管我确定这*看起来*非常美味，但是有一件事必须告诉你——你在生理上无法消化这种食物，以后请不要吃像这样的食物。
+[13:44:03.112] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[13:44:37.832] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[13:45:04.191] [Error] Could not load audio asset '/sfx/projectiles/radioactive_barrier_kill.ogg', using placeholder default.
 (AssetException) No such asset '/sfx/projectiles/radioactive_barrier_kill.ogg'
-[22:40:30.329] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[22:42:35.039] [Error] Could not load audio asset '/sfx/projectiles/radioactive_barrier_kill.ogg', using placeholder default.
-(AssetException) No such asset '/sfx/projectiles/radioactive_barrier_kill.ogg'
-[22:43:02.985] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[22:49:23.491] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[22:50:46.911] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[22:53:56.673] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-' with expiry time 0
-[22:53:56.682] [Info] Protected dungeonIds for world set to (65524)
-[22:53:56.682] [Info] Placing dungeon outpost
-[22:53:56.691] [Info] Placing dungeon at (0, 750)
-[22:53:58.958] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[22:53:59.973] [Info] Protected dungeonIds for world set to (0, 65524)
-[22:54:00.779] [Info] Placing dungeon at (355, 636)
-[22:54:00.783] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
-[22:54:00.785] [Info] Placing dungeon at (355, 636)
-[22:54:00.790] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
-[22:54:00.791] [Info] Placing dungeon at (332, 621)
-[22:54:00.795] [Info] Placing dungeon at (332, 655)
-[22:54:00.805] [Info] Placing dungeon at (427, 618)
-[22:54:00.809] [Info] Placing dungeon at (310, 616)
-[22:54:01.680] [Info] UniverseServer: Warping player 1 to InstanceWorld:outpost:-:-=arkteleporter
-[22:54:01.693] [Info] UniverseServer: Stopping idle world CelestialWorld:-380526274:515934718:62930728:2
-[22:54:01.709] [Info] Client received world stop packet, leaving: Removed
-[22:54:02.362] [Info] ----- FU player init -----
-[22:54:02.363] [Info] ----- End FU player init -----
-[22:54:02.363] [Info] ----- ZB player init -----
-[22:54:02.363] [Info] [ZB] Mods using update info window and their versions:
-[22:54:02.363] [Info] -- frackinuniverse   [Version 6.1.22]
-[22:54:02.363] [Info] -- ztarbound   [Version 6.1.22]
-[22:54:02.363] [Info] ----- end ZB player init -----
-[22:54:02.446] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[22:58:06.774] [Info] UniverseClient: Client disconnecting...
-[22:58:06.881] [Info] Client received world stop packet, leaving: Removed
-[22:58:06.885] [Info] UniverseServer: Client 'Shadowrabbit' <1> (local) disconnected for reason: 
-[22:58:06.885] [Info] UniverseServer: Stopping idle world InstanceWorld:outpost:-:-
-[22:58:07.133] [Info] UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
-[22:58:07.280] [Info] UniverseServer: Stopping UniverseServer
-[22:58:07.294] [Info] Clearing steam rich presence connection
-[22:58:09.570] [Info] Application: quit requested
-[22:58:09.570] [Info] Application: quitting...
-[22:58:09.570] [Info] Application: shutdown...
-[22:58:09.863] [Info] Root: Shutting down Root
-[22:58:10.800] [Info] Application: Destroying SDL Window
-[22:58:10.848] [Info] Application: stopped gracefully
+[13:45:11.300] [Info] QM: Participant died: e0457c1412ac87e8500f9c580b2714cd
+[13:45:11.300] [Info] QM: Notify 84fbff2d61d95dee5459526ba87ac3dd of e0457c1412ac87e8500f9c580b2714cd death
+[13:45:11.312] [Info] QM: Participant died: e0457c1412ac87e8500f9c580b2714cd
+[13:45:11.312] [Info] QM: Notify 84fbff2d61d95dee5459526ba87ac3dd of e0457c1412ac87e8500f9c580b2714cd death
+[13:45:11.563] [Info] Complete message: 真是不敢相信，搭档！你解决了神秘帅气的^orange;黑诺布尔队长^reset;！^orange;回和平卫士空间站^reset;接受新的指派吧。
+[13:45:11.564] [Info] Send playerCompleted message
+[13:45:11.572] [Info] QM: Player 84fbff2d61d95dee5459526ba87ac3dd completed a76507d0f0bccab6b809b7f4eed40f6e
+[13:45:11.572] [Info] Player 84fbff2d61d95dee5459526ba87ac3dd completed a76507d0f0bccab6b809b7f4eed40f6e
+[13:45:11.572] [Info] QM: Die
+[13:45:11.572] [Info] Unprotect dungeon ids {1: 65519}
+[13:45:11.572] [Info] Protected dungeonIds for world set to (65524)
+[13:45:11.598] [Info] Chat: <诺布尔队长> 真是不敢相信，搭档！你解决了神秘帅气的黑诺布尔队长！回和平卫士空间站接受新的指派吧。
+[13:45:48.467] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[13:46:31.855] [Info] UniverseServer: Loading client ship world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[13:46:31.969] [Info] Protected dungeonIds for world set to (65524)
+[13:46:32.312] [Info] UniverseServer: Warping player 1 to ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[13:46:32.318] [Info] Client received world stop packet, leaving: Removed
+[13:46:32.322] [Info] UniverseServer: Stopping idle world CelestialWorld:-380526256:515934728:-231562466:2
+[13:46:32.722] [Info] ----- FU player init -----
+[13:46:32.722] [Info] ----- End FU player init -----
+[13:46:32.722] [Info] ----- ZB player init -----
+[13:46:32.723] [Info] [ZB] Mods using update info window and their versions:
+[13:46:32.723] [Info] -- frackinuniverse   [Version 6.1.22]
+[13:46:32.723] [Info] -- ztarbound   [Version 6.1.22]
+[13:46:32.723] [Info] ----- end ZB player init -----
+[13:46:32.817] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[13:46:51.767] [Info] Flying ship for player 1 to -380526256:515934728:-231562466
+[13:46:55.593] [Info] UniverseServer: Arriving ship for player 1 at -380526256:515934728:-231562466
+[13:47:03.179] [Info] UniverseServer: Creating persistent unique instance world spacestation_food
+[13:47:03.260] [Info] Protected dungeonIds for world set to (65524)
+[13:47:03.260] [Info] Placing dungeon spacestation_food
+[13:47:03.260] [Info] Placing dungeon at (0, 300)
+[13:47:04.243] [Info] Protected dungeonIds for world set to (0, 65524)
+[13:47:04.601] [Info] UniverseServer: Warping player 1 to InstanceWorld:spacestation_food:8165fb85621e9202da7833cdb11d64d3:1
+[13:47:04.736] [Info] Client received world stop packet, leaving: Removed
+[13:47:04.807] [Info] UniverseServer: Stopping idle world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[13:47:05.100] [Info] ----- FU player init -----
+[13:47:05.100] [Info] ----- End FU player init -----
+[13:47:05.100] [Info] ----- ZB player init -----
+[13:47:05.100] [Info] [ZB] Mods using update info window and their versions:
+[13:47:05.100] [Info] -- frackinuniverse   [Version 6.1.22]
+[13:47:05.101] [Info] -- ztarbound   [Version 6.1.22]
+[13:47:05.101] [Info] ----- end ZB player init -----
+[13:47:05.185] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[13:58:28.283] [Info] UniverseClient: Client disconnecting...
+[13:58:28.348] [Info] Client received world stop packet, leaving: Removed
+[13:58:28.377] [Info] UniverseServer: Client 'Shadowrabbit' <1> (local) disconnected for reason: 
+[13:58:28.381] [Info] UniverseServer: Stopping idle world InstanceWorld:spacestation_food:8165fb85621e9202da7833cdb11d64d3:1
+[13:58:28.922] [Info] UniverseServer: Stopping UniverseServer
+[13:58:28.989] [Info] Clearing steam rich presence connection
+[13:58:31.466] [Info] Application: quit requested
+[13:58:31.466] [Info] Application: quitting...
+[13:58:31.466] [Info] Application: shutdown...
+[13:58:31.956] [Info] Root: Shutting down Root
+[13:58:33.506] [Info] Application: Destroying SDL Window
+[13:58:33.565] [Info] Application: stopped gracefully
