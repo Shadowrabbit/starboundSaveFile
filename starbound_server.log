@@ -1,0 +1,91 @@
+[23:52:31.670] [Info] Root: Preparing Root...
+[23:52:31.672] [Info] Root: Done preparing Root.
+[23:52:31.672] [Info] Root: Scanning for asset sources in directory '..\assets\'
+[23:52:31.672] [Info] Root: Loaded Configuration in 0.0003531 seconds
+[23:52:32.809] [Info] Root: Scanning for asset sources in directory '..\mods\'
+[23:52:35.221] [Warn] Root: Unrecognized file in asset directory 'mods.rar', skipping
+[23:52:35.221] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
+[23:52:35.242] [Info] Root: Detected asset source named 'base' at '..\assets\packed.pak'
+[23:52:35.242] [Info] Root: Detected asset source named 'SChinese' at '..\mods\SChinese.pak'
+[23:52:35.243] [Info] Root: Detected asset source named 'Disabled drop for Survival Mode' at '..\mods\BanDrop.pak'
+[23:52:35.243] [Info] Root: Detected asset source named 'QuickbarMini' at '..\mods\BarMini.pak'
+[23:52:35.243] [Info] Root: Detected asset source named 'FrackinUniverse' at '..\mods\FU.pak'
+[23:52:35.243] [Info] Root: Detected asset source named 'Fu Schinese' at '..\mods\FUC.pak'
+[23:52:35.243] [Info] Root: Detected asset source named 'LessDeadMoons' at '..\mods\MoonExpand.pak'
+[23:52:35.244] [Info] Root: Detected asset source named 'bk3k_fasterStart' at '..\mods\QuickStart.pak'
+[23:52:35.244] [Info] Root: Detected asset source named 'SC-Font' at '..\mods\StarCore.pak'
+[23:52:35.244] [Info] Root: Detected asset source named 'Cutebound' at '..\mods\Cutebound.pak'
+[23:52:35.244] [Info] Root: Detected asset source named 'Arcana' at '..\mods\Arcana.pak'
+[23:52:35.244] [Info] Root: Detected asset source named 'ArcanaChinese' at '..\mods\patch.pak'
+[23:52:35.244] [Info] Root: Detected asset source named 'Arcana UI' at '..\mods\ArcanaUI.pak'
+[23:52:35.245] [Info] Root: Detected asset source named 'No Weather Blockdamage' at '..\mods\BanWeatherDamage.pak'
+[23:52:35.245] [Info] Root: Detected unnamed asset source at '..\assets\user'
+[23:52:35.245] [Info] Loading assets from: '..\assets\packed.pak'
+[23:52:36.465] [Info] Loading assets from: '..\mods\SChinese.pak'
+[23:52:36.635] [Info] Loading assets from: '..\mods\BanDrop.pak'
+[23:52:36.636] [Info] Loading assets from: '..\mods\BarMini.pak'
+[23:52:36.637] [Info] Loading assets from: '..\mods\FU.pak'
+[23:52:38.573] [Info] Loading assets from: '..\mods\FUC.pak'
+[23:52:38.902] [Info] Loading assets from: '..\mods\MoonExpand.pak'
+[23:52:38.905] [Info] Loading assets from: '..\mods\QuickStart.pak'
+[23:52:38.905] [Info] Loading assets from: '..\mods\StarCore.pak'
+[23:52:38.906] [Info] Loading assets from: '..\mods\Cutebound.pak'
+[23:52:38.950] [Info] Loading assets from: '..\mods\Arcana.pak'
+[23:52:39.093] [Info] Loading assets from: '..\mods\patch.pak'
+[23:52:39.116] [Info] Loading assets from: '..\mods\ArcanaUI.pak'
+[23:52:39.117] [Info] Loading assets from: '..\mods\BanWeatherDamage.pak'
+[23:52:39.122] [Info] Loading assets from: '..\assets\user'
+[23:52:40.801] [Info] Assets digest is 9bf205c2917b4aad789d31d1cb89fcf3a91e57a47a00638c29120ab0d903efc0
+[23:52:40.802] [Info] Root: Loaded Assets in 9.12928 seconds
+[23:52:40.803] [Info] Root: Writing runtime configuration to '..\storage\starbound_server.config'
+[23:52:40.812] [Info] Root: Loaded NameGenerator in 9.13874 seconds
+[23:52:40.876] [Info] Root: Loaded PlantDatabase in 0.0636504 seconds
+[23:52:40.990] [Error] Could not apply patch from file /objects/farmables/flowerspring/flowerspring.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[23:52:41.164] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[23:52:41.226] [Info] Root: Loaded ProjectileDatabase in 0.349027 seconds
+[23:52:41.366] [Error] Could not apply patch from file /objects/farmables/flowerred/flowerred.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[23:52:41.806] [Error] Could not apply patch from file /objects/farmables/floweryellow/floweryellow.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[23:52:41.849] [Info] Root: Loaded MonsterDatabase in 0.622486 seconds
+[23:52:41.853] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
+[23:52:41.857] [Info] Root: Loaded ObjectDatabase in 1.05298 seconds
+[23:52:41.947] [Info] Root: Loaded StagehandDatabase in 0.0888992 seconds
+[23:52:41.959] [Info] Root: Loaded VehicleDatabase in 0.0111986 seconds
+[23:52:41.983] [Info] Root: Loaded PlayerFactory in 0.0247862 seconds
+[23:52:42.025] [Info] Root: Loaded NpcDatabase in 0.176596 seconds
+[23:52:42.026] [Info] Root: Loaded VersioningDatabase in 0.0009941 seconds
+[23:52:42.027] [Info] Root: Loaded EntityFactory in 0.043479 seconds
+[23:52:42.096] [Info] Root: Loaded ParticleDatabase in 0.0681108 seconds
+[23:52:42.100] [Info] Root: Loaded ImageMetadataDatabase in 8.99658e-07 seconds
+[23:52:42.101] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[23:52:42.140] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[23:52:42.300] [Error] Could not apply patch from file /tiles/materials/purplecrystal.material.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[23:52:42.523] [Error] Could not apply patch from file /tiles/materials/bamboo.material.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[23:52:42.698] [Info] Root: Loaded MaterialDatabase in 0.670047 seconds
+[23:52:42.705] [Info] Root: Loaded TerrainDatabase in 0.0068128 seconds
+[23:52:42.904] [Info] Root: Loaded BiomeDatabase in 0.198498 seconds
+[23:52:42.909] [Info] Root: Loaded LiquidsDatabase in 0.0042993 seconds
+[23:52:42.968] [Info] Root: Loaded StatusEffectDatabase in 0.0589966 seconds
+[23:52:43.393] [Info] Root: Loaded DamageDatabase in 0.424402 seconds
+[23:52:43.399] [Info] Root: Loaded EffectSourceDatabase in 0.006251 seconds
+[23:52:43.426] [Info] Root: Loaded FunctionDatabase in 0.0260208 seconds
+[23:52:43.484] [Info] Root: Loaded TreasureDatabase in 0.0581441 seconds
+[23:52:44.149] [Info] Root: Loaded DungeonDefinitions in 0.664893 seconds
+[23:52:44.150] [Info] Root: Loaded TilesetDatabase in 2.91001e-05 seconds
+[23:52:44.155] [Info] Root: Loaded StatisticsDatabase in 0.0017914 seconds
+[23:52:44.156] [Info] Root: Loaded EmoteProcessor in 7.29002e-05 seconds
+[23:52:44.197] [Info] Root: Loaded SpeciesDatabase in 0.0411301 seconds
+[23:52:44.262] [Info] Root: Loaded QuestTemplateDatabase in 0.064025 seconds
+[23:52:44.266] [Info] Root: Loaded AiDatabase in 0.0040528 seconds
+[23:52:44.273] [Info] Root: Loaded TechDatabase in 0.0070465 seconds
+[23:52:44.317] [Info] Root: Loaded CodexDatabase in 0.0427993 seconds
+[23:52:44.561] [Info] Root: Loaded BehaviorDatabase in 0.244096 seconds
+[23:52:44.563] [Info] Root: Loaded DanceDatabase in 0.0024656 seconds
+[23:52:44.573] [Info] Root: Loaded SpawnTypeDatabase in 0.0090487 seconds
+[23:52:44.744] [Info] Root: Loaded RadioMessageDatabase in 0.169782 seconds
+[23:52:56.773] [Info] Root: Loaded ItemDatabase in 14.7469 seconds
+[23:52:57.034] [Info] Root: Loaded CollectionDatabase in 12.2909 seconds
+[23:52:57.278] [Info] Server Version 1.4.4 (windows x86_64) Source ID: 8cbe6faf22282659828a194e06a08999f213769e Protocol: 747
+[23:52:57.280] [Info] UniverseServer: Acquiring universe lock file
+[23:52:57.315] [Info] UniverseServer: Loading settings
+[23:52:57.317] [Info] UniverseServer: Starting UniverseServer with UUID: d7b8a69a2adaa547e7c6b5c94740f46c
+[23:52:57.320] [Info] UniverseServer: listening for incoming TCP connections on 0.0.0.0:21025
