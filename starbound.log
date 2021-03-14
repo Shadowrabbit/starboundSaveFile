@@ -1,600 +1,586 @@
-[14:01:09.461] [Info] Root: Preparing Root...
-[14:01:09.462] [Info] Root: Done preparing Root.
-[14:01:09.462] [Info] Client Version 1.4.4 (windows x86_64) Source ID: 8cbe6faf22282659828a194e06a08999f213769e Protocol: 747
-[14:01:09.463] [Info] Root: Scanning for asset sources in directory '..\assets\'
-[14:01:10.339] [Info] Root: Scanning for asset sources in directory '..\mods\'
-[14:01:12.296] [Info] Root: Detected asset source named 'base' at '..\assets\packed.pak'
-[14:01:12.296] [Info] Root: Detected asset source named 'SChinese' at '..\mods\SChinese.pak'
-[14:01:12.296] [Info] Root: Detected asset source named 'Disabled drop for Survival Mode' at '..\mods\BanDrop.pak'
-[14:01:12.296] [Info] Root: Detected asset source named 'QuickbarMini' at '..\mods\BarMini.pak'
-[14:01:12.296] [Info] Root: Detected asset source named 'FrackinUniverse' at '..\mods\FU.pak'
-[14:01:12.296] [Info] Root: Detected asset source named 'Fu Schinese' at '..\mods\FUC.pak'
-[14:01:12.296] [Info] Root: Detected asset source named 'LessDeadMoons' at '..\mods\MoonExpand.pak'
-[14:01:12.296] [Info] Root: Detected asset source named 'bk3k_fasterStart' at '..\mods\QuickStart.pak'
-[14:01:12.296] [Info] Root: Detected asset source named 'SC-Font' at '..\mods\StarCore.pak'
-[14:01:12.296] [Info] Root: Detected asset source named 'Cutebound' at '..\mods\Cutebound.pak'
-[14:01:12.296] [Info] Root: Detected asset source named 'Arcana' at '..\mods\Arcana.pak'
-[14:01:12.296] [Info] Root: Detected asset source named 'ArcanaChinese' at '..\mods\ArcanaChinese.pak'
-[14:01:12.296] [Info] Root: Detected asset source named 'Arcana UI' at '..\mods\ArcanaUI.pak'
-[14:01:12.296] [Info] Root: Detected asset source named 'No Weather Blockdamage' at '..\mods\BanWeatherDamage.pak'
-[14:01:12.296] [Info] Root: Detected unnamed asset source at '..\assets\user'
-[14:01:12.298] [Info] Loading assets from: '..\assets\packed.pak'
-[14:01:13.218] [Info] Loading assets from: '..\mods\SChinese.pak'
-[14:01:13.372] [Info] Loading assets from: '..\mods\BanDrop.pak'
-[14:01:13.372] [Info] Loading assets from: '..\mods\BarMini.pak'
-[14:01:13.373] [Info] Loading assets from: '..\mods\FU.pak'
-[14:01:14.877] [Info] Loading assets from: '..\mods\FUC.pak'
-[14:01:15.129] [Info] Loading assets from: '..\mods\MoonExpand.pak'
-[14:01:15.130] [Info] Loading assets from: '..\mods\QuickStart.pak'
-[14:01:15.131] [Info] Loading assets from: '..\mods\StarCore.pak'
-[14:01:15.131] [Info] Loading assets from: '..\mods\Cutebound.pak'
-[14:01:15.163] [Info] Loading assets from: '..\mods\Arcana.pak'
-[14:01:15.275] [Info] Loading assets from: '..\mods\ArcanaChinese.pak'
-[14:01:15.293] [Info] Loading assets from: '..\mods\ArcanaUI.pak'
-[14:01:15.294] [Info] Loading assets from: '..\mods\BanWeatherDamage.pak'
-[14:01:15.295] [Info] Loading assets from: '..\assets\user'
-[14:01:16.919] [Info] Assets digest is 8143299de85201793777a5f3df326522febac21daa7428394ba90e74124a1cbc
-[14:01:16.919] [Info] Root: Loaded Assets in 7.45697 seconds
-[14:01:16.925] [Info] Application: Initializing SDL Video
-[14:01:16.932] [Info] Application: Initializing SDL Joystick
-[14:01:17.313] [Info] Application: Initializing SDL Sound
-[14:01:17.414] [Info] Initialized Steam platform services
-[14:01:17.416] [Error] Failed to instantiate discord core (err 26)
-[14:01:17.416] [Info] Was not able to authenticate with Discord and create all components, Discord services will be unavailable
-[14:01:17.418] [Info] Application: Creating SDL Window
-[14:01:17.543] [Info] Application: Enabling VSync with late swap tearing
-[14:01:17.689] [Info] Application: Opened default audio device with 44.1khz / 16 bit stereo audio, 2048 sample size buffer
-[14:01:17.697] [Info] OpenGL version: '4.6.0 NVIDIA 460.89' vendor: 'NVIDIA Corporation' renderer: 'GeForce GTX 1070/PCIe/SSE2' shader: '4.60 NVIDIA'
-[14:01:17.715] [Info] Application: initialization...
-[14:01:17.722] [Info] Root: Loaded Configuration in 0.0064894 seconds
-[14:01:17.723] [Info] Application: Disabling VSync
-[14:01:17.727] [Info] Application: renderer initialization...
-[14:01:17.728] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 128
-[14:01:17.742] [Info] Root: Loaded ImageMetadataDatabase in 1.50036e-06 seconds
-[14:01:17.759] [Info] Application: main update loop...
-[14:01:17.761] [Info] No subscribed user generated content
-[14:01:17.777] [Info] Root: Loaded NameGenerator in 0.0148056 seconds
-[14:01:17.889] [Info] Root: Loaded PlantDatabase in 0.111948 seconds
-[14:01:18.090] [Error] Could not apply patch from file /objects/farmables/flowerspring/flowerspring.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[14:01:18.367] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[14:01:18.440] [Info] Root: Loaded ProjectileDatabase in 0.550146 seconds
-[14:01:18.706] [Error] Could not apply patch from file /objects/farmables/flowerred/flowerred.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[14:01:19.219] [Error] Could not apply patch from file /objects/farmables/floweryellow/floweryellow.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[14:01:19.269] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[14:01:19.272] [Info] Root: Loaded ObjectDatabase in 1.50977 seconds
-[14:01:19.324] [Info] Root: Loaded MonsterDatabase in 0.884307 seconds
-[14:01:19.412] [Info] Root: Loaded StagehandDatabase in 0.0877297 seconds
-[14:01:19.426] [Info] Root: Loaded VehicleDatabase in 0.0142756 seconds
-[14:01:19.452] [Info] Root: Loaded PlayerFactory in 0.0255332 seconds
-[14:01:19.483] [Info] Root: Loaded NpcDatabase in 0.211616 seconds
-[14:01:19.487] [Info] Root: Loaded VersioningDatabase in 0.0040623 seconds
-[14:01:19.487] [Info] Root: Loaded EntityFactory in 0.0364666 seconds
-[14:01:19.574] [Info] Root: Loaded ParticleDatabase in 0.0856592 seconds
-[14:01:19.586] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:01:19.629] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:01:19.796] [Error] Could not apply patch from file /tiles/materials/purplecrystal.material.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[14:01:20.003] [Error] Could not apply patch from file /tiles/materials/bamboo.material.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[14:01:20.189] [Info] Root: Loaded MaterialDatabase in 0.700616 seconds
-[14:01:20.198] [Info] Root: Loaded TerrainDatabase in 0.008961 seconds
-[14:01:20.507] [Info] Root: Loaded BiomeDatabase in 0.309894 seconds
-[14:01:20.513] [Info] Root: Loaded LiquidsDatabase in 0.0054398 seconds
-[14:01:20.603] [Info] Root: Loaded StatusEffectDatabase in 0.0891263 seconds
-[14:01:21.053] [Info] Root: Loaded DamageDatabase in 0.450727 seconds
-[14:01:21.061] [Info] Root: Loaded EffectSourceDatabase in 0.0082148 seconds
-[14:01:21.086] [Info] Root: Loaded FunctionDatabase in 0.0252291 seconds
-[14:01:21.149] [Info] Root: Loaded TreasureDatabase in 0.0624176 seconds
-[14:01:21.780] [Info] Root: Loaded DungeonDefinitions in 0.63154 seconds
-[14:01:21.781] [Info] Root: Loaded TilesetDatabase in 0.0004715 seconds
-[14:01:21.784] [Info] Root: Loaded StatisticsDatabase in 0.0027412 seconds
-[14:01:21.784] [Info] Root: Loaded EmoteProcessor in 0.000192 seconds
-[14:01:21.832] [Info] Root: Loaded SpeciesDatabase in 0.0478254 seconds
-[14:01:21.912] [Info] Root: Loaded QuestTemplateDatabase in 0.080077 seconds
-[14:01:21.919] [Info] Root: Loaded AiDatabase in 0.0063131 seconds
-[14:01:21.929] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[14:01:21.942] [Info] Root: Loaded TechDatabase in 0.0241959 seconds
-[14:01:22.001] [Info] Root: Loaded CodexDatabase in 0.0581707 seconds
-[14:01:22.284] [Info] Root: Loaded BehaviorDatabase in 0.283291 seconds
-[14:01:22.287] [Info] Root: Loaded DanceDatabase in 0.0027335 seconds
-[14:01:22.298] [Info] Root: Loaded SpawnTypeDatabase in 0.0116049 seconds
-[14:01:22.473] [Info] Root: Loaded RadioMessageDatabase in 0.173987 seconds
-[14:01:34.014] [Info] Root: Loaded ItemDatabase in 14.5296 seconds
-[14:01:34.307] [Info] Root: Loaded CollectionDatabase in 11.8351 seconds
-[14:01:36.944] [Error] Could not apply patch from file /interface/windowconfig/charcreation.config.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'labelGender' in pathApply("/paneLayout/labelGender/value")
-[14:01:37.002] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
-[14:01:46.428] [Info] UniverseServer: Acquiring universe lock file
-[14:01:46.435] [Info] UniverseServer: Loading settings
-[14:01:46.447] [Info] UniverseServer: Starting UniverseServer with UUID: d7b8a69a2adaa547e7c6b5c94740f46c
-[14:01:46.479] [Info] UniverseServer: Logged in player 'Shadowrabbit' locally
-[14:01:46.479] [Info] UniverseServer: Logged in account '<anonymous>' as player 'Shadowrabbit' from address local
-[14:01:46.485] [Info] UniverseServer: Loading system world (-380527231, 515934051, -244672019) from disk storage
-[14:01:46.487] [Info] UniverseClient: Joined server as client 1
-[14:01:46.517] [Info] UniverseServer: Reviving player at CelestialWorld:-380526374:515934484:-283439852:9:1
-[14:01:46.518] [Info] UniverseServer: Client 'Shadowrabbit' <1> (local) connected
-[14:01:46.562] [Info] UniverseServer: Loading celestial world -380526374:515934484:-283439852:9:1
-[14:01:46.576] [Error] Could not apply patch from file /interface/scripted/mmupgrade/mmupgradegui.config.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'windowtitle' in pathApply("/gui/windowtitle/title")
-[14:01:46.577] [Error] Could not apply patch from file /interface/scripted/mmupgrade/mmupgradegui.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'upgrades' in pathApply("/upgrades/size1/description")
-[14:01:46.599] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
-[14:01:46.604] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
-[14:01:46.623] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
-[14:01:46.623] [Info] Setting steam rich presence connection as steamid_76561198117527458
-[14:01:46.629] [Error] Cannot set Steam achievement kill10poptops
-[14:01:46.662] [Info] UniverseServer: listening for incoming TCP connections on 0.0.0.0:21025
-[14:01:46.699] [Info] Protected dungeonIds for world set to (65524)
-[14:01:46.940] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:01:47.900] [Info] UniverseServer: Warping player 1 to CelestialWorld:-380526374:515934484:-283439852:9:1=2455.11.675
-[14:01:48.217] [Info] ----- FU player init -----
-[14:01:48.217] [Info] ----- End FU player init -----
-[14:01:48.217] [Info] ----- ZB player init -----
-[14:01:48.217] [Info] [ZB] Mods using update info window and their versions:
-[14:01:48.218] [Info] -- frackinuniverse   [Version 6.1.22]
-[14:01:48.218] [Info] -- ztarbound   [Version 6.1.22]
-[14:01:48.218] [Info] ----- end ZB player init -----
-[14:01:48.666] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:02:15.494] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:02:19.276] [Info] Accepted steam p2p connection with user 76561199024532012
-[14:02:34.784] [Info] UniverseServer: Logged in player 'kiki' locally
-[14:02:34.784] [Info] UniverseServer: Logged in account '<anonymous>' as player 'kiki' from address local
-[14:02:34.865] [Info] UniverseServer: Loading system world (239256058, 346101030, 51495299) from disk storage
-[14:02:34.894] [Info] UniverseServer: Reviving player at ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[14:02:34.895] [Info] UniverseServer: Client 'kiki' <2> (local) connected
-[14:02:35.000] [Info] UniverseServer: Loading client ship world ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[14:02:35.016] [Info] Chat: <server> Player 'kiki' connected
-[14:02:35.098] [Info] Protected dungeonIds for world set to (65524)
-[14:02:35.480] [Info] UniverseServer: Warping player 2 to ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[14:04:02.831] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:04:50.893] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[14:04:51.862] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:05:13.263] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:05:18.909] [Error] Could not apply patch from file /objects/farmables/floweryellow/floweryellow.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
-[14:05:27.647] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:06:23.654] [Info] UniverseServer: Loading celestial world 239256058:346101030:51495299:8
-[14:06:23.906] [Info] Protected dungeonIds for world set to (65524)
-[14:06:24.014] [Info] UniverseServer: Warping player 2 to CelestialWorld:239256058:346101030:51495299:8=7af5dc8129ede83d8584b4700c8ab0f2
-[14:06:24.123] [Info] UniverseServer: Stopping idle world ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[14:06:49.031] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:07:27.988] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:08:23.421] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:17:26.341] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:17:38.180] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:19:22.355] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:24:02.212] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:24:42.165] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:25:37.325] [Info] UniverseServer: Loading client ship world ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[14:25:37.427] [Info] Protected dungeonIds for world set to (65524)
-[14:25:37.601] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:25:37.873] [Info] UniverseServer: Warping player 2 to ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[14:25:37.886] [Info] UniverseServer: Stopping idle world CelestialWorld:239256058:346101030:51495299:8
-[14:26:59.567] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:27:06.476] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:27:21.494] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:29:38.823] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:29:48.421] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:31:56.412] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:32:01.993] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:32:10.498] [Info] Chat: <server> Admin privileges now given to player Shadowrabbit
-[14:32:12.859] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:32:21.257] [Info] Chat: <server> Admin privileges taken away from Shadowrabbit
-[14:32:42.519] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:32:57.755] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:32:58.033] [Info] UniverseServer: Warping player 2 to CelestialWorld:-380526374:515934484:-283439852:9:1=d1a16310aed6b9f41ef2280ca5a828f3
-[14:32:58.106] [Info] UniverseServer: Stopping idle world ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[14:35:03.121] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:35:28.334] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:35:51.996] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:36:05.380] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:36:34.016] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:37:03.037] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:38:23.188] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:38:25.851] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:38:50.687] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:38:53.537] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-' with expiry time 0
-[14:38:53.550] [Info] Protected dungeonIds for world set to (65524)
-[14:38:53.550] [Info] Placing dungeon outpost
-[14:38:53.559] [Info] Placing dungeon at (0, 750)
-[14:38:55.951] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[14:38:57.140] [Info] Protected dungeonIds for world set to (0, 65524)
-[14:38:57.848] [Info] Placing dungeon at (355, 636)
-[14:38:57.853] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
-[14:38:57.855] [Info] Placing dungeon at (355, 636)
-[14:38:57.860] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
-[14:38:57.862] [Info] Placing dungeon at (406, 651)
-[14:38:57.865] [Info] Placing dungeon at (332, 621)
-[14:38:57.870] [Info] Placing dungeon at (332, 655)
-[14:38:57.878] [Info] Placing dungeon at (427, 618)
-[14:38:57.882] [Info] Placing dungeon at (310, 616)
-[14:38:57.884] [Info] Placing dungeon at (447, 567)
-[14:38:57.894] [Info] Placing dungeon at (429, 567)
-[14:38:59.058] [Info] UniverseServer: Warping player 2 to InstanceWorld:outpost:-:-=arkteleporter
-[14:40:14.951] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:40:30.117] [Info] UniverseServer: Loading client ship world ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[14:40:30.222] [Info] Protected dungeonIds for world set to (65524)
-[14:40:30.380] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:40:30.657] [Info] UniverseServer: Warping player 2 to ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[14:40:30.698] [Info] UniverseServer: Stopping idle world InstanceWorld:outpost:-:-
-[14:40:31.112] [Info] UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
-[14:40:41.543] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:41:27.343] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:42:03.099] [Info] UniverseServer: Warping player 2 to CelestialWorld:-380526374:515934484:-283439852:9:1=1d4321c178ecf7cd23f557b99c329167
-[14:42:03.145] [Info] UniverseServer: Stopping idle world ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[14:42:04.153] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:42:19.901] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:43:47.913] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:44:03.854] [Info] UniverseServer: Loading client ship world ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[14:44:03.958] [Info] Protected dungeonIds for world set to (65524)
-[14:44:04.126] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:44:04.387] [Info] UniverseServer: Warping player 2 to ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[14:44:19.412] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:44:28.835] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:45:21.283] [Info] Flying ship for player 2 to 239256058:346101030:51495299
-[14:45:30.739] [Info] UniverseServer: Arriving ship for player 2 at 239256058:346101030:51495299
-[14:45:58.430] [Info] Flying ship for player 2 to 239256058:346101030:51495299:5:3
-[14:45:59.448] [Info] UniverseServer: Creating celestial world 239256058:346101030:51495299:5:3
-[14:45:59.648] [Info] Protected dungeonIds for world set to (65524)
-[14:45:59.648] [Info] Placing dungeon floranvillagetower
-[14:45:59.703] [Info] Placing dungeon at (644, 1000)
-[14:46:00.231] [Warn] Failed to place dungeon object: floranbonestool direction: 0 position: (692, 1143)
-[14:46:01.233] [Info] Placing dungeon florancanyon
-[14:46:01.302] [Info] Placing dungeon at (2467, 1000)
-[14:46:01.848] [Warn] Failed to place dungeon object: bioshroom5 direction: 0 position: (2736, 601)
-[14:46:01.876] [Warn] Failed to place dungeon object: bioshroom5 direction: 0 position: (2625, 658)
-[14:46:01.920] [Warn] Failed to place dungeon object: bioshroom5 direction: 0 position: (2548, 839)
-[14:46:01.921] [Warn] Failed to place dungeon object: bioshroom5 direction: 1 position: (2535, 844)
-[14:46:02.219] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:46:06.878] [Info] UniverseServer: Arriving ship for player 2 at 239256058:346101030:51495299:5:3
-[14:46:06.963] [Info] UniverseServer: Stopping idle world CelestialWorld:239256058:346101030:51495299:5:3
-[14:46:12.431] [Info] UniverseServer: Loading celestial world 239256058:346101030:51495299:5:3
-[14:46:12.669] [Info] Protected dungeonIds for world set to (65524)
-[14:46:12.839] [Info] UniverseServer: Warping player 2 to CelestialWorld:239256058:346101030:51495299:5:3
-[14:46:12.890] [Info] UniverseServer: Stopping idle world ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[14:47:14.463] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:47:14.496] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:47:21.744] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:51:09.987] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:51:41.385] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:51:41.422] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:52:22.075] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:52:22.115] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:52:48.039] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:53:31.071] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:54:05.414] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:55:31.826] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[14:56:28.708] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:57:28.149] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[14:59:11.415] [Info] UniverseServer: Warping player 1 to CelestialWorld:239256058:346101030:51495299:5:3=2665.56.664.362
-[14:59:11.430] [Info] UniverseServer: Stopping idle world CelestialWorld:-380526374:515934484:-283439852:9:1
-[14:59:11.433] [Info] Client received world stop packet, leaving: Removed
-[14:59:12.118] [Info] ----- FU player init -----
-[14:59:12.118] [Info] ----- End FU player init -----
-[14:59:12.118] [Info] ----- ZB player init -----
-[14:59:12.118] [Info] [ZB] Mods using update info window and their versions:
-[14:59:12.119] [Info] -- frackinuniverse   [Version 6.1.22]
-[14:59:12.119] [Info] -- ztarbound   [Version 6.1.22]
-[14:59:12.119] [Info] ----- end ZB player init -----
-[15:01:23.264] [Info] Chat: <SAIL> 基于你的游戏时长，你已经获得了+1研究点数如果你处于挂机状态，这个增益将被取消。.
-[15:03:09.332] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:03:36.424] [Info] UniverseServer: Loading client ship world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
-[15:03:36.542] [Info] Protected dungeonIds for world set to (65524)
-[15:03:36.947] [Info] UniverseServer: Warping player 1 to ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
-[15:03:36.952] [Info] Client received world stop packet, leaving: Removed
-[15:03:37.355] [Info] ----- FU player init -----
-[15:03:37.355] [Info] ----- End FU player init -----
-[15:03:37.355] [Info] ----- ZB player init -----
-[15:03:37.355] [Info] [ZB] Mods using update info window and their versions:
-[15:03:37.356] [Info] -- frackinuniverse   [Version 6.1.22]
-[15:03:37.356] [Info] -- ztarbound   [Version 6.1.22]
-[15:03:37.356] [Info] ----- end ZB player init -----
-[15:03:56.082] [Info] UniverseServer: Loading celestial world -380526374:515934484:-283439852:9:1
-[15:03:56.210] [Info] Protected dungeonIds for world set to (65524)
-[15:03:56.388] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[15:03:57.072] [Info] UniverseServer: Warping player 1 to CelestialWorld:-380526374:515934484:-283439852:9:1=1d4321c178ecf7cd23f557b99c329167
-[15:03:57.087] [Info] Client received world stop packet, leaving: Removed
-[15:03:57.111] [Info] UniverseServer: Stopping idle world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
-[15:03:57.391] [Info] ----- FU player init -----
-[15:03:57.391] [Info] ----- End FU player init -----
-[15:03:57.391] [Info] ----- ZB player init -----
-[15:03:57.391] [Info] [ZB] Mods using update info window and their versions:
-[15:03:57.392] [Info] -- ztarbound   [Version 6.1.22]
-[15:03:57.392] [Info] -- frackinuniverse   [Version 6.1.22]
-[15:03:57.392] [Info] ----- end ZB player init -----
-[15:04:05.635] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:06:55.138] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:07:29.790] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:08:01.965] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[15:08:36.314] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:09:21.874] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:11:18.994] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:11:21.015] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[15:11:43.490] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[15:12:47.631] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:13:25.727] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[15:14:27.827] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:15:13.801] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:17:17.751] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[15:18:14.693] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:18:48.213] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:18:54.761] [Warn] Failed to place dungeon object: avianbanner4 direction: 1 position: (1057, 1004)
-[15:20:08.420] [Info] UniverseServer: Loading client ship world ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[15:20:08.519] [Info] Protected dungeonIds for world set to (65524)
-[15:20:08.668] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[15:20:08.929] [Info] UniverseServer: Warping player 2 to ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[15:20:09.135] [Info] UniverseServer: Stopping idle world CelestialWorld:239256058:346101030:51495299:5:3
-[15:20:45.623] [Info] UniverseServer: Warping player 2 to CelestialWorld:-380526374:515934484:-283439852:9:1=1d4321c178ecf7cd23f557b99c329167
-[15:20:45.673] [Info] UniverseServer: Stopping idle world ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[15:20:52.075] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:24:22.538] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[15:25:07.620] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:26:22.159] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[15:27:37.279] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[15:27:44.289] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:28:46.171] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-' with expiry time 0
-[15:28:46.182] [Info] Protected dungeonIds for world set to (65524)
-[15:28:46.182] [Info] Placing dungeon outpost
-[15:28:46.190] [Info] Placing dungeon at (0, 750)
-[15:28:49.008] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[15:28:50.205] [Info] Protected dungeonIds for world set to (0, 65524)
-[15:28:51.022] [Info] Placing dungeon at (355, 636)
-[15:28:51.026] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
-[15:28:51.029] [Info] Placing dungeon at (355, 636)
-[15:28:51.034] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
-[15:28:51.035] [Info] Placing dungeon at (406, 651)
-[15:28:51.039] [Info] Placing dungeon at (332, 621)
-[15:28:51.046] [Info] Placing dungeon at (332, 655)
-[15:28:51.054] [Info] Placing dungeon at (427, 618)
-[15:28:51.059] [Info] Placing dungeon at (310, 616)
-[15:28:51.062] [Info] Placing dungeon at (447, 567)
-[15:28:51.073] [Info] Placing dungeon at (429, 567)
-[15:28:52.065] [Info] UniverseServer: Warping player 2 to InstanceWorld:outpost:-:-=arkteleporter
-[15:31:12.135] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[15:31:19.138] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:31:31.814] [Info] UniverseServer: Loading client ship world ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[15:31:31.929] [Info] Protected dungeonIds for world set to (65524)
-[15:31:32.124] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[15:31:32.695] [Info] UniverseServer: Warping player 2 to ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[15:31:32.739] [Info] UniverseServer: Stopping idle world InstanceWorld:outpost:-:-
-[15:31:33.100] [Info] UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
-[15:33:24.994] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:33:32.469] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[15:34:58.954] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-' with expiry time 0
-[15:34:58.963] [Info] Protected dungeonIds for world set to (65524)
-[15:34:58.963] [Info] Placing dungeon outpost
-[15:34:58.972] [Info] Placing dungeon at (0, 750)
-[15:35:01.355] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[15:35:02.676] [Info] Protected dungeonIds for world set to (0, 65524)
-[15:35:03.418] [Info] Placing dungeon at (355, 636)
-[15:35:03.422] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
-[15:35:03.423] [Info] Placing dungeon at (355, 636)
-[15:35:03.428] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
-[15:35:03.429] [Info] Placing dungeon at (406, 651)
-[15:35:03.431] [Info] Placing dungeon at (332, 621)
-[15:35:03.434] [Info] Placing dungeon at (332, 655)
-[15:35:03.440] [Info] Placing dungeon at (427, 618)
-[15:35:03.443] [Info] Placing dungeon at (310, 616)
-[15:35:03.444] [Info] Placing dungeon at (447, 567)
-[15:35:03.454] [Info] Placing dungeon at (429, 567)
-[15:35:04.399] [Info] UniverseServer: Warping player 2 to InstanceWorld:outpost:-:-=arkteleporter
-[15:35:04.486] [Info] UniverseServer: Stopping idle world ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[15:36:18.052] [Info] UniverseServer: Loading client ship world ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[15:36:18.158] [Info] Protected dungeonIds for world set to (65524)
-[15:36:18.332] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[15:36:18.673] [Info] UniverseServer: Warping player 2 to ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[15:36:18.706] [Info] UniverseServer: Stopping idle world InstanceWorld:outpost:-:-
-[15:36:19.032] [Info] UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
-[15:36:48.278] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:37:05.306] [Info] UniverseServer: Loading celestial world 239256058:346101030:51495299:5:3
-[15:37:05.586] [Info] Protected dungeonIds for world set to (65524)
-[15:37:05.748] [Info] UniverseServer: Warping player 2 to CelestialWorld:239256058:346101030:51495299:5:3=428ec3a7de3299647a0a5b0e04291b9a
-[15:37:05.885] [Info] UniverseServer: Stopping idle world ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[15:38:19.585] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:39:22.754] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:39:56.775] [Error] Could not apply patch from file /dialog/converse.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not remove element after end of array
-[15:40:08.889] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:40:55.210] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:41:39.685] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[15:41:47.332] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:42:09.991] [Error] Could not apply patch from file /dialog/converse.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not remove element after end of array
-[15:42:11.455] [Info] UniverseServer: Loading client ship world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
-[15:42:11.581] [Info] Protected dungeonIds for world set to (65524)
-[15:42:12.216] [Info] UniverseServer: Warping player 1 to ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
-[15:42:12.237] [Info] UniverseServer: Stopping idle world CelestialWorld:-380526374:515934484:-283439852:9:1
-[15:42:12.245] [Info] Client received world stop packet, leaving: Removed
-[15:42:12.701] [Info] ----- FU player init -----
-[15:42:12.701] [Info] ----- End FU player init -----
-[15:42:12.701] [Info] ----- ZB player init -----
-[15:42:12.701] [Info] [ZB] Mods using update info window and their versions:
-[15:42:12.703] [Info] -- frackinuniverse   [Version 6.1.22]
-[15:42:12.703] [Info] -- ztarbound   [Version 6.1.22]
-[15:42:12.703] [Info] ----- end ZB player init -----
-[15:42:45.650] [Info] Flying ship for player 1 to -380527231:515934051:-244672019
-[15:42:56.318] [Info] UniverseServer: Arriving ship for player 1 at -380527231:515934051:-244672019
-[15:42:58.117] [Info] Flying ship for player 1 to -380527231:515934051:-244672019:7
-[15:42:58.644] [Info] UniverseServer: Creating celestial world -380527231:515934051:-244672019:7
-[15:42:58.990] [Info] Protected dungeonIds for world set to (65524)
-[15:42:58.990] [Info] Placing dungeon elderruins
-[15:42:59.012] [Info] Placing dungeon at (7913, 1700)
-[15:42:59.527] [Info] Protected dungeonIds for world set to (0, 65524)
-[15:42:59.528] [Info] Placing dungeon nightarvillage
-[15:42:59.592] [Info] Placing dungeon at (4229, 1700)
-[15:43:00.130] [Warn] Failed to place dungeon object: nightaranvil direction: 0 position: (4795, 1701)
-[15:43:00.130] [Warn] Failed to place dungeon object: nightarbox2 direction: 0 position: (4811, 1701)
-[15:43:00.132] [Warn] Failed to place dungeon object: medievallamp direction: 1 position: (4324, 1702)
-[15:43:00.139] [Warn] Failed to place dungeon object: nightarcastledoor direction: 0 position: (4568, 1702)
-[15:43:00.141] [Warn] Failed to place dungeon object: nightartable direction: 1 position: (4586, 1702)
-[15:43:00.142] [Warn] Failed to place dungeon object: nightarcastledoor direction: 0 position: (4592, 1702)
-[15:43:00.143] [Warn] Failed to place dungeon object: nightartable direction: 1 position: (4732, 1702)
-[15:43:00.149] [Warn] Failed to place dungeon object: nightarmedievalcodex direction: 0 position: (4951, 1702)
-[15:43:00.156] [Warn] Failed to place dungeon object: nightarmedievalstock direction: 1 position: (3995, 1703)
-[15:43:00.192] [Warn] Failed to place dungeon object: nightarbox2 direction: 1 position: (4809, 1703)
-[15:43:00.196] [Warn] Failed to place dungeon object: nightarbladedisplay3 direction: 1 position: (4839, 1703)
-[15:43:00.205] [Warn] Failed to place dungeon object: nightarshipdoor direction: 0 position: (4358, 1704)
-[15:43:00.205] [Warn] Failed to place dungeon object: nightarbladedisplay2 direction: 0 position: (4363, 1704)
-[15:43:00.206] [Warn] Failed to place dungeon object: nightartable direction: 0 position: (4373, 1704)
-[15:43:00.207] [Warn] Failed to place dungeon object: nightarshipdoor direction: 0 position: (4393, 1704)
-[15:43:00.207] [Warn] Failed to place dungeon object: medievalcandle direction: 0 position: (4584, 1704)
-[15:43:00.208] [Warn] Failed to place dungeon object: medievalplate direction: 0 position: (4586, 1704)
-[15:43:00.208] [Warn] Failed to place dungeon object: medievalcup direction: 0 position: (4587, 1704)
-[15:43:00.208] [Warn] Failed to place dungeon object: medievalplate direction: 0 position: (4731, 1704)
-[15:43:00.208] [Warn] Failed to place dungeon object: medievalcandle direction: 0 position: (4732, 1704)
-[15:43:00.208] [Warn] Failed to place dungeon object: medievalbowl direction: 0 position: (4734, 1704)
-[15:43:00.210] [Warn] Failed to place dungeon object: nightarchair direction: 0 position: (4882, 1704)
-[15:43:00.227] [Warn] Failed to place dungeon object: medievalcup direction: 1 position: (4371, 1706)
-[15:43:00.228] [Warn] Failed to place dungeon object: medievalplate direction: 0 position: (4373, 1706)
-[15:43:00.228] [Warn] Failed to place dungeon object: medievalcup direction: 0 position: (4374, 1706)
-[15:43:00.237] [Warn] Failed to place dungeon object: nightarbladedisplay1 direction: 1 position: (4781, 1707)
-[15:43:00.244] [Warn] Failed to place dungeon object: signproduce direction: 0 position: (4085, 1709)
-[15:43:00.244] [Warn] Failed to place dungeon object: signproduce direction: 0 position: (4123, 1709)
-[15:43:00.250] [Warn] Failed to place dungeon object: nightarbladedisplay1 direction: 1 position: (4888, 1709)
-[15:43:00.253] [Warn] Failed to place dungeon object: medievaltorch direction: 0 position: (4356, 1710)
-[15:43:00.254] [Warn] Failed to place dungeon object: medievaltorch direction: 0 position: (4395, 1710)
-[15:43:00.258] [Warn] Failed to place dungeon object: nightarbed direction: 1 position: (4577, 1710)
-[15:43:00.259] [Warn] Failed to place dungeon object: nightarmedievalcodex direction: 1 position: (4731, 1710)
-[15:43:00.259] [Warn] Failed to place dungeon object: nightarbed direction: 1 position: (4735, 1710)
-[15:43:00.260] [Warn] Failed to place dungeon object: nightarbladedisplay2 direction: 0 position: (4769, 1710)
-[15:43:00.261] [Warn] Failed to place dungeon object: nightarchair direction: 0 position: (4784, 1710)
-[15:43:00.267] [Warn] Failed to place dungeon object: nightarmedievaldesk direction: 0 position: (4944, 1710)
-[15:43:00.272] [Warn] Failed to place dungeon object: nightarmedievaldesk direction: 0 position: (4181, 1712)
-[15:43:00.276] [Warn] Failed to place dungeon object: nightartable direction: 0 position: (4319, 1712)
-[15:43:00.278] [Warn] Failed to place dungeon object: wallshield direction: 0 position: (4372, 1712)
-[15:43:00.282] [Warn] Failed to place dungeon object: medievaltorch direction: 0 position: (4875, 1713)
-[15:43:00.283] [Warn] Failed to place dungeon object: nightarmedievalchest direction: 0 position: (4889, 1713)
-[15:43:00.283] [Warn] Failed to place dungeon object: medievaltorch direction: 0 position: (4897, 1713)
-[15:43:00.286] [Warn] Failed to place dungeon object: medievalcup direction: 1 position: (4317, 1714)
-[15:43:00.286] [Warn] Failed to place dungeon object: medievalplate direction: 0 position: (4319, 1714)
-[15:43:00.286] [Warn] Failed to place dungeon object: medievalcup direction: 1 position: (4320, 1714)
-[15:43:00.293] [Warn] Failed to place dungeon object: glitchchess direction: 1 position: (4234, 1715)
-[15:43:00.294] [Warn] Failed to place dungeon object: nightarbed direction: 1 position: (4242, 1715)
-[15:43:00.313] [Warn] Failed to place dungeon object: nightarbox2 direction: 1 position: (4879, 1716)
-[15:43:00.313] [Warn] Failed to place dungeon object: medievaltorch direction: 0 position: (4085, 1717)
-[15:43:00.314] [Warn] Failed to place dungeon object: medievaltorch direction: 0 position: (4123, 1717)
-[15:43:00.317] [Warn] Failed to place dungeon object: haystack direction: 0 position: (4090, 1718)
-[15:43:00.318] [Warn] Failed to place dungeon object: signinn direction: 0 position: (4281, 1718)
-[15:43:00.318] [Warn] Failed to place dungeon object: signinn direction: 0 position: (4328, 1718)
-[15:43:00.318] [Warn] Failed to place dungeon object: wallshield direction: 0 position: (4774, 1718)
-[15:43:00.321] [Warn] Failed to place dungeon object: nightarbox2 direction: 1 position: (4925, 1718)
-[15:43:00.322] [Warn] Failed to place dungeon object: nightartable direction: 1 position: (4936, 1718)
-[15:43:00.328] [Warn] Failed to place dungeon object: nightarbed direction: 1 position: (4944, 1718)
-[15:43:00.328] [Warn] Failed to place dungeon object: nightarbox2 direction: 0 position: (4924, 1720)
-[15:43:00.328] [Warn] Failed to place dungeon object: medievalcup direction: 1 position: (4933, 1720)
-[15:43:00.329] [Warn] Failed to place dungeon object: medievalplate direction: 0 position: (4935, 1720)
-[15:43:00.329] [Warn] Failed to place dungeon object: medievalcandle direction: 1 position: (4937, 1720)
-[15:43:00.329] [Warn] Failed to place dungeon object: nightarstasispod direction: 0 position: (4234, 1721)
-[15:43:00.334] [Warn] Failed to place dungeon object: medievalbucket direction: 0 position: (4783, 1721)
-[15:43:00.340] [Warn] Failed to place dungeon object: barrel direction: 0 position: (4773, 1723)
-[15:43:00.357] [Warn] Failed to place dungeon object: nightarbladedisplay1 direction: 0 position: (4886, 1729)
-[15:43:03.489] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:43:05.401] [Info] UniverseServer: Arriving ship for player 1 at -380527231:515934051:-244672019:7
-[15:43:05.473] [Info] UniverseServer: Stopping idle world CelestialWorld:-380527231:515934051:-244672019:7
-[15:43:10.494] [Info] UniverseServer: Loading celestial world -380527231:515934051:-244672019:7
-[15:43:10.870] [Info] Protected dungeonIds for world set to (0, 65524)
-[15:43:11.043] [Info] UniverseServer: Warping player 1 to CelestialWorld:-380527231:515934051:-244672019:7
-[15:43:11.049] [Info] Client received world stop packet, leaving: Removed
-[15:43:11.066] [Info] UniverseServer: Stopping idle world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
-[15:43:11.927] [Info] ----- FU player init -----
-[15:43:11.928] [Info] ----- End FU player init -----
-[15:43:11.928] [Info] ----- ZB player init -----
-[15:43:11.928] [Info] [ZB] Mods using update info window and their versions:
-[15:43:11.929] [Info] -- frackinuniverse   [Version 6.1.22]
-[15:43:11.929] [Info] -- ztarbound   [Version 6.1.22]
-[15:43:11.929] [Info] ----- end ZB player init -----
-[15:43:48.930] [Warn] Failed to place dungeon object: toxicwastebarrel direction: 0 position: (425, 940)
-[15:43:49.166] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:44:40.139] [Error] Could not apply patch from file /dialog/converse.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not remove element after end of array
-[15:44:57.422] [Info] Skipped event recording for nonexistent entity 1103
-[15:45:10.548] [Info] Skipped event recording for nonexistent entity 1631
-[15:45:16.789] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:46:34.610] [Warn] Failed to place dungeon object: toxicwastebarrel direction: 0 position: (245, 953)
-[15:46:35.299] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:47:36.008] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:47:41.141] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[15:49:07.388] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:49:21.391] [Warn] Failed to place dungeon object: techbush2 direction: 0 position: (7839, 1703)
-[15:49:21.392] [Warn] Failed to place dungeon object: number0 direction: 0 position: (7843, 1703)
-[15:49:21.392] [Warn] Failed to place dungeon object: number4 direction: 0 position: (7846, 1703)
-[15:49:21.393] [Warn] Failed to place dungeon object: number4 direction: 0 position: (7858, 1703)
-[15:49:21.393] [Warn] Failed to place dungeon object: number0 direction: 0 position: (7871, 1703)
-[15:49:27.756] [Error] Could not load image asset '/vehicles/hylotlhoverbike/hylotlhoverbikeforeground', using placeholder default.
+[22:40:20.682] [Info] Root: Preparing Root...
+[22:40:20.684] [Info] Root: Done preparing Root.
+[22:40:20.684] [Info] Client Version 1.4.4 (windows x86_64) Source ID: 8cbe6faf22282659828a194e06a08999f213769e Protocol: 747
+[22:40:20.684] [Info] Root: Scanning for asset sources in directory '..\assets\'
+[22:40:21.528] [Info] Root: Scanning for asset sources in directory '..\mods\'
+[22:40:23.374] [Info] Root: Detected asset source named 'base' at '..\assets\packed.pak'
+[22:40:23.374] [Info] Root: Detected asset source named 'SChinese' at '..\mods\SChinese.pak'
+[22:40:23.374] [Info] Root: Detected asset source named 'Disabled drop for Survival Mode' at '..\mods\BanDrop.pak'
+[22:40:23.374] [Info] Root: Detected asset source named 'QuickbarMini' at '..\mods\BarMini.pak'
+[22:40:23.374] [Info] Root: Detected asset source named 'FrackinUniverse' at '..\mods\FU.pak'
+[22:40:23.374] [Info] Root: Detected asset source named 'Fu Schinese' at '..\mods\FUC.pak'
+[22:40:23.374] [Info] Root: Detected asset source named 'LessDeadMoons' at '..\mods\MoonExpand.pak'
+[22:40:23.374] [Info] Root: Detected asset source named 'bk3k_fasterStart' at '..\mods\QuickStart.pak'
+[22:40:23.374] [Info] Root: Detected asset source named 'SC-Font' at '..\mods\StarCore.pak'
+[22:40:23.374] [Info] Root: Detected asset source named 'Cutebound' at '..\mods\Cutebound.pak'
+[22:40:23.374] [Info] Root: Detected asset source named 'Arcana' at '..\mods\Arcana.pak'
+[22:40:23.374] [Info] Root: Detected asset source named 'ArcanaChinese' at '..\mods\ArcanaChinese.pak'
+[22:40:23.374] [Info] Root: Detected asset source named 'Arcana UI' at '..\mods\ArcanaUI.pak'
+[22:40:23.374] [Info] Root: Detected asset source named 'No Weather Blockdamage' at '..\mods\BanWeatherDamage.pak'
+[22:40:23.374] [Info] Root: Detected unnamed asset source at '..\assets\user'
+[22:40:23.375] [Info] Loading assets from: '..\assets\packed.pak'
+[22:40:24.334] [Info] Loading assets from: '..\mods\SChinese.pak'
+[22:40:24.485] [Info] Loading assets from: '..\mods\BanDrop.pak'
+[22:40:24.485] [Info] Loading assets from: '..\mods\BarMini.pak'
+[22:40:24.486] [Info] Loading assets from: '..\mods\FU.pak'
+[22:40:26.028] [Info] Loading assets from: '..\mods\FUC.pak'
+[22:40:26.285] [Info] Loading assets from: '..\mods\MoonExpand.pak'
+[22:40:26.286] [Info] Loading assets from: '..\mods\QuickStart.pak'
+[22:40:26.287] [Info] Loading assets from: '..\mods\StarCore.pak'
+[22:40:26.287] [Info] Loading assets from: '..\mods\Cutebound.pak'
+[22:40:26.319] [Info] Loading assets from: '..\mods\Arcana.pak'
+[22:40:26.432] [Info] Loading assets from: '..\mods\ArcanaChinese.pak'
+[22:40:26.450] [Info] Loading assets from: '..\mods\ArcanaUI.pak'
+[22:40:26.451] [Info] Loading assets from: '..\mods\BanWeatherDamage.pak'
+[22:40:26.452] [Info] Loading assets from: '..\assets\user'
+[22:40:28.102] [Info] Assets digest is 8143299de85201793777a5f3df326522febac21daa7428394ba90e74124a1cbc
+[22:40:28.102] [Info] Root: Loaded Assets in 7.41806 seconds
+[22:40:28.105] [Info] Application: Initializing SDL Video
+[22:40:28.111] [Info] Application: Initializing SDL Joystick
+[22:40:28.501] [Info] Application: Initializing SDL Sound
+[22:40:28.568] [Info] Initialized Steam platform services
+[22:40:28.569] [Error] Failed to instantiate discord core (err 26)
+[22:40:28.569] [Info] Was not able to authenticate with Discord and create all components, Discord services will be unavailable
+[22:40:28.571] [Info] Application: Creating SDL Window
+[22:40:28.694] [Info] Application: Enabling VSync with late swap tearing
+[22:40:28.876] [Info] Application: Opened default audio device with 44.1khz / 16 bit stereo audio, 2048 sample size buffer
+[22:40:28.882] [Info] OpenGL version: '4.6.0 NVIDIA 460.89' vendor: 'NVIDIA Corporation' renderer: 'GeForce GTX 1070/PCIe/SSE2' shader: '4.60 NVIDIA'
+[22:40:28.886] [Info] Application: initialization...
+[22:40:28.893] [Info] Root: Loaded Configuration in 0.0067719 seconds
+[22:40:28.893] [Info] Application: Disabling VSync
+[22:40:28.895] [Info] Application: renderer initialization...
+[22:40:28.896] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 128
+[22:40:28.901] [Info] Root: Loaded ImageMetadataDatabase in 1.09989e-06 seconds
+[22:40:28.905] [Info] Application: main update loop...
+[22:40:28.908] [Info] No subscribed user generated content
+[22:40:28.919] [Info] Root: Loaded NameGenerator in 0.0101958 seconds
+[22:40:29.054] [Info] Root: Loaded PlantDatabase in 0.135033 seconds
+[22:40:29.243] [Error] Could not apply patch from file /objects/farmables/flowerspring/flowerspring.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[22:40:29.598] [Error] Could not apply patch from file /objects/farmables/flowerblue/flowerblue.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[22:40:29.659] [Info] Root: Loaded ProjectileDatabase in 0.605549 seconds
+[22:40:30.041] [Error] Could not apply patch from file /objects/farmables/flowerred/flowerred.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[22:40:30.655] [Info] Root: Loaded MonsterDatabase in 0.995475 seconds
+[22:40:30.676] [Error] Could not apply patch from file /objects/farmables/floweryellow/floweryellow.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[22:40:30.722] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
+[22:40:30.725] [Info] Root: Loaded ObjectDatabase in 1.81668 seconds
+[22:40:30.812] [Info] Root: Loaded StagehandDatabase in 0.0869202 seconds
+[22:40:30.824] [Info] Root: Loaded VehicleDatabase in 0.0112638 seconds
+[22:40:30.848] [Info] Root: Loaded PlayerFactory in 0.0243985 seconds
+[22:40:30.864] [Info] Root: Loaded NpcDatabase in 0.209126 seconds
+[22:40:30.867] [Info] Root: Loaded VersioningDatabase in 0.0025578 seconds
+[22:40:30.867] [Info] Root: Loaded EntityFactory in 0.0188049 seconds
+[22:40:30.933] [Info] Root: Loaded ParticleDatabase in 0.0655597 seconds
+[22:40:30.937] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[22:40:30.972] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[22:40:31.120] [Error] Could not apply patch from file /tiles/materials/purplecrystal.material.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[22:40:31.324] [Error] Could not apply patch from file /tiles/materials/bamboo.material.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "novakidDescription" to remove
+[22:40:31.483] [Info] Root: Loaded MaterialDatabase in 0.616183 seconds
+[22:40:31.490] [Info] Root: Loaded TerrainDatabase in 0.0068489 seconds
+[22:40:31.682] [Info] Root: Loaded BiomeDatabase in 0.191992 seconds
+[22:40:31.686] [Info] Root: Loaded LiquidsDatabase in 0.0034285 seconds
+[22:40:31.740] [Info] Root: Loaded StatusEffectDatabase in 0.054698 seconds
+[22:40:32.168] [Info] Root: Loaded DamageDatabase in 0.428038 seconds
+[22:40:32.173] [Info] Root: Loaded EffectSourceDatabase in 0.0053135 seconds
+[22:40:32.197] [Info] Root: Loaded FunctionDatabase in 0.0239723 seconds
+[22:40:32.256] [Info] Root: Loaded TreasureDatabase in 0.0580114 seconds
+[22:40:32.793] [Info] Root: Loaded DungeonDefinitions in 0.537155 seconds
+[22:40:32.793] [Info] Root: Loaded TilesetDatabase in 6.6e-05 seconds
+[22:40:32.794] [Info] Root: Loaded StatisticsDatabase in 0.0015481 seconds
+[22:40:32.795] [Info] Root: Loaded EmoteProcessor in 6.12e-05 seconds
+[22:40:32.833] [Info] Root: Loaded SpeciesDatabase in 0.0385033 seconds
+[22:40:32.897] [Info] Root: Loaded QuestTemplateDatabase in 0.0632372 seconds
+[22:40:32.900] [Info] Root: Loaded AiDatabase in 0.0035882 seconds
+[22:40:32.907] [Info] Root: Loaded TechDatabase in 0.0064902 seconds
+[22:40:32.949] [Info] Root: Loaded CodexDatabase in 0.0422685 seconds
+[22:40:33.114] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
+[22:40:33.230] [Info] Root: Loaded BehaviorDatabase in 0.281204 seconds
+[22:40:33.233] [Info] Root: Loaded DanceDatabase in 0.0020978 seconds
+[22:40:33.242] [Info] Root: Loaded SpawnTypeDatabase in 0.009353 seconds
+[22:40:33.414] [Info] Root: Loaded RadioMessageDatabase in 0.172128 seconds
+[22:40:45.187] [Info] Root: Loaded ItemDatabase in 14.3227 seconds
+[22:40:45.440] [Info] Root: Loaded CollectionDatabase in 12.0252 seconds
+[22:40:48.067] [Error] Could not apply patch from file /interface/windowconfig/charcreation.config.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'labelGender' in pathApply("/paneLayout/labelGender/value")
+[22:40:48.107] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
+[22:40:51.485] [Info] UniverseServer: Acquiring universe lock file
+[22:40:51.490] [Info] UniverseServer: Loading settings
+[22:40:51.497] [Info] UniverseServer: Starting UniverseServer with UUID: d7b8a69a2adaa547e7c6b5c94740f46c
+[22:40:51.530] [Info] UniverseServer: Logged in player 'Shadowrabbit' locally
+[22:40:51.530] [Info] UniverseServer: Logged in account '<anonymous>' as player 'Shadowrabbit' from address local
+[22:40:51.535] [Info] UniverseServer: Loading system world (-380527231, 515934051, -244672019) from disk storage
+[22:40:51.536] [Info] UniverseClient: Joined server as client 1
+[22:40:51.566] [Info] UniverseServer: Reviving player at CelestialWorld:-380526374:515934484:-283439852:9:1
+[22:40:51.567] [Info] UniverseServer: Client 'Shadowrabbit' <1> (local) connected
+[22:40:51.602] [Error] Could not apply patch from file /interface/scripted/mmupgrade/mmupgradegui.config.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'windowtitle' in pathApply("/gui/windowtitle/title")
+[22:40:51.603] [Error] Could not apply patch from file /interface/scripted/mmupgrade/mmupgradegui.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'upgrades' in pathApply("/upgrades/size1/description")
+[22:40:51.612] [Info] UniverseServer: Loading celestial world -380526374:515934484:-283439852:9:1
+[22:40:51.627] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
+[22:40:51.632] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
+[22:40:51.652] [Info] detected supported OpenGL texture size 32768, using atlasNumCells 256
+[22:40:51.652] [Info] Setting steam rich presence connection as steamid_76561198117527458
+[22:40:51.660] [Error] Cannot set Steam achievement kill10poptops
+[22:40:51.713] [Info] UniverseServer: listening for incoming TCP connections on 0.0.0.0:21025
+[22:40:51.752] [Info] Protected dungeonIds for world set to (65524)
+[22:40:52.612] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[22:40:52.946] [Info] UniverseServer: Warping player 1 to CelestialWorld:-380526374:515934484:-283439852:9:1=2476.95.675
+[22:40:53.280] [Info] ----- FU player init -----
+[22:40:53.280] [Info] ----- End FU player init -----
+[22:40:53.280] [Info] ----- ZB player init -----
+[22:40:53.281] [Info] [ZB] Mods using update info window and their versions:
+[22:40:53.281] [Info] -- ztarbound   [Version 6.1.22]
+[22:40:53.281] [Info] -- frackinuniverse   [Version 6.1.22]
+[22:40:53.281] [Info] ----- end ZB player init -----
+[22:40:53.784] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[22:41:30.539] [Info] Accepted steam p2p connection with user 76561199024532012
+[22:41:36.037] [Info] UniverseServer: Logged in player 'kiki' locally
+[22:41:36.037] [Info] UniverseServer: Logged in account '<anonymous>' as player 'kiki' from address local
+[22:41:36.044] [Info] UniverseServer: Loading system world (239256058, 346101030, 51495299) from disk storage
+[22:41:36.068] [Info] UniverseServer: Reviving player at ClientShipWorld:dff35419923de4470080f1b172a99ce8
+[22:41:36.068] [Info] UniverseServer: Client 'kiki' <2> (local) connected
+[22:41:36.082] [Info] UniverseServer: Loading client ship world ClientShipWorld:dff35419923de4470080f1b172a99ce8
+[22:41:36.099] [Info] Chat: <server> Player 'kiki' connected
+[22:41:36.185] [Info] Protected dungeonIds for world set to (65524)
+[22:41:36.359] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[22:41:36.726] [Info] UniverseServer: Warping player 2 to ClientShipWorld:dff35419923de4470080f1b172a99ce8=1022.2.988.313
+[22:42:01.426] [Info] Flying ship for player 2 to 239256058:346101030:51495299:11
+[22:42:02.544] [Info] UniverseServer: Creating celestial world 239256058:346101030:51495299:11
+[22:42:02.668] [Warn] Specified stemList and foliageList, but no matching pairs found.
+[22:42:02.672] [Warn] Specified stemList and foliageList, but no matching pairs found.
+[22:42:02.757] [Info] Protected dungeonIds for world set to (65524)
+[22:42:02.757] [Info] Placing dungeon apexspaceelevator
+[22:42:02.784] [Info] Placing dungeon at (9809, 4000)
+[22:42:03.017] [Warn] Failed to place dungeon object: metalbarrel1 direction: 1 position: (9910, 4006)
+[22:42:03.034] [Warn] Failed to place dungeon object: apexbananasign direction: 0 position: (9902, 4013)
+[22:42:03.035] [Warn] Failed to place dungeon object: apexbananasign direction: 0 position: (9935, 4013)
+[22:42:03.071] [Warn] Failed to place dungeon object: apexbananasign direction: 0 position: (9951, 4294)
+[22:42:03.078] [Warn] Failed to place dungeon object: fuokeahitechtable direction: 0 position: (9943, 4321)
+[22:42:03.080] [Warn] Failed to place dungeon object: techchest direction: 1 position: (9943, 4323)
+[22:42:03.110] [Warn] Failed to place dungeon object: metalbarrel1 direction: 0 position: (9944, 4363)
+[22:42:03.116] [Warn] Failed to place dungeon object: metalbarrel2 direction: 0 position: (9944, 4366)
+[22:42:03.129] [Warn] Failed to place dungeon object: bunkercorner direction: 0 position: (9899, 4381)
+[22:42:03.130] [Warn] Failed to place dungeon object: bunkercorner direction: 0 position: (9937, 4381)
+[22:42:03.135] [Warn] Failed to place dungeon object: apexcooldoor direction: 0 position: (9936, 4387)
+[22:42:03.145] [Warn] Failed to place dungeon object: tesla direction: 0 position: (9901, 4426)
+[22:42:03.163] [Warn] Failed to place dungeon object: tesla direction: 0 position: (9936, 4426)
+[22:42:03.320] [Info] Placing dungeon aviantemple
+[22:42:03.477] [Info] Placing dungeon at (408, 4000)
+[22:42:04.534] [Warn] Failed to place dungeon object: sacrificialaltar direction: 0 position: (667, 3784)
+[22:42:04.580] [Warn] Failed to place dungeon object: sacrificialaltar direction: 0 position: (427, 3831)
+[22:42:04.603] [Warn] Failed to place dungeon object: sacrificialaltar direction: 1 position: (410, 3849)
+[22:42:05.474] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[22:42:05.574] [Info] Placing dungeon floranhuntinggrounds
+[22:42:05.620] [Info] Placing dungeon at (2274, 4000)
+[22:42:06.097] [Warn] Failed to place dungeon object: huntingplatformleaves direction: 1 position: (2397, 4001)
+[22:42:06.636] [Info] Placing dungeon dungeoncrawler
+[22:42:07.020] [Info] Placing dungeon at (4146, 4000)
+[22:42:07.366] [Warn] Failed to place dungeon object: signforge direction: 1 position: (4192, 3932)
+[22:42:07.519] [Info] Placing dungeon glitchvillage
+[22:42:07.573] [Info] Placing dungeon at (6001, 4000)
+[22:42:08.108] [Warn] Failed to place dungeon object: villagedoor direction: 0 position: (5748, 4002)
+[22:42:08.112] [Warn] Failed to place dungeon object: villagedoor direction: 0 position: (5772, 4002)
+[22:42:08.194] [Warn] Failed to place dungeon object: medievalbed direction: 1 position: (5757, 4010)
+[22:42:09.245] [Info] Placing dungeon apexresearchlab
+[22:42:09.307] [Info] Placing dungeon at (7811, 4000)
+[22:42:09.717] [Info] Protected dungeonIds for world set to (5, 65524)
+[22:42:12.981] [Info] UniverseServer: Arriving ship for player 2 at 239256058:346101030:51495299:11
+[22:42:13.031] [Info] UniverseServer: Stopping idle world CelestialWorld:239256058:346101030:51495299:11
+[22:42:17.988] [Info] UniverseServer: Loading celestial world 239256058:346101030:51495299:11
+[22:42:18.230] [Info] Protected dungeonIds for world set to (5, 65524)
+[22:42:18.532] [Info] UniverseServer: Warping player 2 to CelestialWorld:239256058:346101030:51495299:11
+[22:42:18.580] [Info] UniverseServer: Stopping idle world ClientShipWorld:dff35419923de4470080f1b172a99ce8
+[22:42:50.991] [Info] UniverseServer: Loading client ship world ClientShipWorld:dff35419923de4470080f1b172a99ce8
+[22:42:51.098] [Info] Protected dungeonIds for world set to (65524)
+[22:42:51.273] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[22:42:51.573] [Info] UniverseServer: Warping player 2 to ClientShipWorld:dff35419923de4470080f1b172a99ce8
+[22:42:51.586] [Info] UniverseServer: Stopping idle world CelestialWorld:239256058:346101030:51495299:11
+[22:43:12.517] [Info] UniverseServer: Loading celestial world 239256058:346101030:51495299:11
+[22:43:12.754] [Info] Protected dungeonIds for world set to (5, 65524)
+[22:43:12.841] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[22:43:13.023] [Info] UniverseServer: Warping player 2 to CelestialWorld:239256058:346101030:51495299:11
+[22:43:13.080] [Info] UniverseServer: Stopping idle world ClientShipWorld:dff35419923de4470080f1b172a99ce8
+[22:43:45.179] [Error] Could not apply patch from file /dialog/converse.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not remove element after end of array
+[22:44:02.126] [Warn] Failed to place dungeon object: barbedwire direction: 0 position: (5268, 4010)
+[22:44:02.126] [Warn] Failed to place dungeon object: barbedwire direction: 0 position: (5260, 4011)
+[22:44:02.203] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[22:47:54.840] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[22:49:24.427] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[22:50:39.117] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[22:51:41.705] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[22:53:36.723] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[22:55:01.185] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[22:56:10.019] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[22:57:52.542] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[22:58:59.031] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:01:51.284] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:03:02.672] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:03:44.844] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:04:25.293] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:05:11.730] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:06:29.686] [Info] UniverseServer: Loading client ship world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[23:06:29.806] [Info] Protected dungeonIds for world set to (65524)
+[23:06:30.212] [Info] UniverseServer: Warping player 1 to ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[23:06:30.220] [Info] UniverseServer: Stopping idle world CelestialWorld:-380526374:515934484:-283439852:9:1
+[23:06:30.222] [Info] Client received world stop packet, leaving: Removed
+[23:06:30.665] [Info] ----- FU player init -----
+[23:06:30.666] [Info] ----- End FU player init -----
+[23:06:30.666] [Info] ----- ZB player init -----
+[23:06:30.666] [Info] [ZB] Mods using update info window and their versions:
+[23:06:30.666] [Info] -- ztarbound   [Version 6.1.22]
+[23:06:30.666] [Info] -- frackinuniverse   [Version 6.1.22]
+[23:06:30.666] [Info] ----- end ZB player init -----
+[23:07:34.103] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[23:08:26.023] [Info] UniverseServer: Loading client ship world ClientShipWorld:dff35419923de4470080f1b172a99ce8
+[23:08:26.130] [Info] Protected dungeonIds for world set to (65524)
+[23:08:26.305] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[23:08:26.651] [Info] UniverseServer: Warping player 2 to ClientShipWorld:dff35419923de4470080f1b172a99ce8
+[23:08:26.663] [Info] UniverseServer: Stopping idle world CelestialWorld:239256058:346101030:51495299:11
+[23:11:20.036] [Info] UniverseServer: Loading celestial world -380526374:515934484:-283439852:9:1
+[23:11:20.173] [Info] Protected dungeonIds for world set to (65524)
+[23:11:21.142] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[23:11:21.479] [Info] UniverseServer: Warping player 2 to CelestialWorld:-380526374:515934484:-283439852:9:1=1d4321c178ecf7cd23f557b99c329167
+[23:11:21.550] [Info] UniverseServer: Stopping idle world ClientShipWorld:dff35419923de4470080f1b172a99ce8
+[23:11:25.743] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:11:43.454] [Info] Chat: <SAIL> 你为什么突然决定吃一些植物纤维？别否认。我的传感器显示你摄入了它。
+[23:13:07.213] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-' with expiry time 0
+[23:13:07.222] [Info] Protected dungeonIds for world set to (65524)
+[23:13:07.222] [Info] Placing dungeon outpost
+[23:13:07.231] [Info] Placing dungeon at (0, 750)
+[23:13:09.800] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
+[23:13:10.936] [Info] Protected dungeonIds for world set to (0, 65524)
+[23:13:11.936] [Info] Placing dungeon at (355, 636)
+[23:13:11.944] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
+[23:13:11.947] [Info] Placing dungeon at (355, 636)
+[23:13:11.953] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
+[23:13:11.956] [Info] Placing dungeon at (406, 651)
+[23:13:11.963] [Info] Placing dungeon at (332, 621)
+[23:13:11.968] [Info] Placing dungeon at (332, 655)
+[23:13:11.978] [Info] Placing dungeon at (427, 618)
+[23:13:11.985] [Info] Placing dungeon at (310, 616)
+[23:13:11.989] [Info] Placing dungeon at (447, 567)
+[23:13:12.003] [Info] Placing dungeon at (429, 567)
+[23:13:13.016] [Info] UniverseServer: Warping player 2 to InstanceWorld:outpost:-:-=arkteleporter
+[23:13:13.045] [Info] UniverseServer: Stopping idle world CelestialWorld:-380526374:515934484:-283439852:9:1
+[23:16:01.171] [Info] UniverseServer: Loading client ship world ClientShipWorld:dff35419923de4470080f1b172a99ce8
+[23:16:01.292] [Info] Protected dungeonIds for world set to (65524)
+[23:16:01.474] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[23:16:01.851] [Info] UniverseServer: Warping player 2 to ClientShipWorld:dff35419923de4470080f1b172a99ce8
+[23:16:01.864] [Info] UniverseServer: Stopping idle world InstanceWorld:outpost:-:-
+[23:16:02.226] [Info] UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
+[23:16:34.284] [Info] UniverseServer: Loading celestial world 239256058:346101030:51495299:4
+[23:16:34.511] [Info] Protected dungeonIds for world set to (65524)
+[23:16:34.602] [Info] UniverseServer: Warping player 2 to CelestialWorld:239256058:346101030:51495299:4=3d72872e0c358c7a88c17195ce0c8b66
+[23:16:34.602] [Info] UniverseServer: Warping player 2 failed, invalid spawn target '3d72872e0c358c7a88c17195ce0c8b66'
+[23:16:34.603] [Info] UniverseServer: Stopping idle world CelestialWorld:239256058:346101030:51495299:4
+[23:16:44.461] [Info] UniverseServer: Loading celestial world 239256058:346101030:51495299:8
+[23:16:44.724] [Info] Protected dungeonIds for world set to (65524)
+[23:16:44.866] [Info] UniverseServer: Warping player 2 to CelestialWorld:239256058:346101030:51495299:8=7af5dc8129ede83d8584b4700c8ab0f2
+[23:16:44.866] [Info] UniverseServer: Warping player 2 failed, invalid spawn target '7af5dc8129ede83d8584b4700c8ab0f2'
+[23:16:44.866] [Info] UniverseServer: Stopping idle world CelestialWorld:239256058:346101030:51495299:8
+[23:16:55.996] [Info] UniverseServer: Loading celestial world 239256058:346101030:51495299:5:3
+[23:16:56.259] [Info] Protected dungeonIds for world set to (65524)
+[23:16:56.365] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:16:56.507] [Info] UniverseServer: Warping player 2 to CelestialWorld:239256058:346101030:51495299:5:3=428ec3a7de3299647a0a5b0e04291b9a
+[23:16:56.714] [Info] UniverseServer: Stopping idle world ClientShipWorld:dff35419923de4470080f1b172a99ce8
+[23:17:44.366] [Info] UniverseServer: Loading client ship world ClientShipWorld:dff35419923de4470080f1b172a99ce8
+[23:17:44.475] [Info] Protected dungeonIds for world set to (65524)
+[23:17:44.638] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[23:17:44.930] [Info] UniverseServer: Warping player 2 to ClientShipWorld:dff35419923de4470080f1b172a99ce8
+[23:17:44.947] [Info] UniverseServer: Stopping idle world CelestialWorld:239256058:346101030:51495299:5:3
+[23:17:58.989] [Info] UniverseServer: Loading celestial world 239256058:346101030:51495299:11
+[23:17:59.233] [Info] Protected dungeonIds for world set to (5, 65524)
+[23:17:59.354] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:17:59.497] [Info] UniverseServer: Warping player 2 to CelestialWorld:239256058:346101030:51495299:11=cacf2b400263b59dcc56b4ce8ca78558
+[23:17:59.605] [Info] UniverseServer: Stopping idle world ClientShipWorld:dff35419923de4470080f1b172a99ce8
+[23:19:37.689] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[23:19:41.989] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[23:19:53.322] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[23:20:00.947] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[23:20:08.235] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[23:20:12.282] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[23:20:17.867] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[23:23:54.927] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:24:44.792] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[23:24:48.524] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[23:24:55.660] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[23:25:02.710] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[23:25:44.880] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:28:11.546] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:31:03.158] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:32:21.390] [Info] UniverseServer: Loading celestial world -380526374:515934484:-283439852:9:1
+[23:32:21.516] [Info] Protected dungeonIds for world set to (65524)
+[23:32:22.302] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[23:32:22.603] [Info] UniverseServer: Warping player 1 to CelestialWorld:-380526374:515934484:-283439852:9:1=1d4321c178ecf7cd23f557b99c329167
+[23:32:22.614] [Info] Client received world stop packet, leaving: Removed
+[23:32:22.624] [Info] UniverseServer: Stopping idle world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[23:32:22.963] [Info] ----- FU player init -----
+[23:32:22.964] [Info] ----- End FU player init -----
+[23:32:22.964] [Info] ----- ZB player init -----
+[23:32:22.964] [Info] [ZB] Mods using update info window and their versions:
+[23:32:22.964] [Info] -- frackinuniverse   [Version 6.1.22]
+[23:32:22.964] [Info] -- ztarbound   [Version 6.1.22]
+[23:32:22.964] [Info] ----- end ZB player init -----
+[23:32:26.206] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:33:16.052] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:33:27.856] [Info] UniverseServer: Loading client ship world ClientShipWorld:dff35419923de4470080f1b172a99ce8
+[23:33:27.970] [Info] Protected dungeonIds for world set to (65524)
+[23:33:28.186] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[23:33:28.675] [Info] UniverseServer: Warping player 2 to ClientShipWorld:dff35419923de4470080f1b172a99ce8
+[23:33:28.685] [Info] UniverseServer: Stopping idle world CelestialWorld:239256058:346101030:51495299:11
+[23:34:02.497] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[23:34:26.355] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:34:40.641] [Info] UniverseServer: Loading client ship world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[23:34:40.777] [Info] Protected dungeonIds for world set to (65524)
+[23:34:41.361] [Info] UniverseServer: Warping player 1 to ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[23:34:41.392] [Info] Client received world stop packet, leaving: Removed
+[23:34:41.402] [Info] UniverseServer: Stopping idle world CelestialWorld:-380526374:515934484:-283439852:9:1
+[23:34:41.904] [Info] ----- FU player init -----
+[23:34:41.904] [Info] ----- End FU player init -----
+[23:34:41.904] [Info] ----- ZB player init -----
+[23:34:41.904] [Info] [ZB] Mods using update info window and their versions:
+[23:34:41.905] [Info] -- frackinuniverse   [Version 6.1.22]
+[23:34:41.905] [Info] -- ztarbound   [Version 6.1.22]
+[23:34:41.905] [Info] ----- end ZB player init -----
+[23:34:56.132] [Info] UniverseServer: Loading celestial world -380527231:515934051:-244672019:7
+[23:34:56.460] [Info] Protected dungeonIds for world set to (0, 65524)
+[23:34:56.661] [Info] UniverseServer: Warping player 1 to CelestialWorld:-380527231:515934051:-244672019:7
+[23:34:56.676] [Info] Client received world stop packet, leaving: Removed
+[23:34:56.682] [Info] UniverseServer: Stopping idle world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[23:34:57.204] [Info] ----- FU player init -----
+[23:34:57.204] [Info] ----- End FU player init -----
+[23:34:57.204] [Info] ----- ZB player init -----
+[23:34:57.204] [Info] [ZB] Mods using update info window and their versions:
+[23:34:57.204] [Info] -- frackinuniverse   [Version 6.1.22]
+[23:34:57.204] [Info] -- ztarbound   [Version 6.1.22]
+[23:34:57.204] [Info] ----- end ZB player init -----
+[23:35:08.645] [Info] UniverseServer: Loading celestial world 239256058:346101030:51495299:11
+[23:35:08.916] [Info] Protected dungeonIds for world set to (5, 65524)
+[23:35:08.992] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:35:09.165] [Info] UniverseServer: Warping player 2 to CelestialWorld:239256058:346101030:51495299:11
+[23:35:09.181] [Info] UniverseServer: Stopping idle world ClientShipWorld:dff35419923de4470080f1b172a99ce8
+[23:35:50.270] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:35:54.810] [Warn] Failed to place dungeon object: bunkerconsole2 direction: 0 position: (3422, 1654)
+[23:36:33.508] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:36:45.229] [Error] Could not apply patch from file /dialog/converse.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not remove element after end of array
+[23:36:49.569] [Error] Could not load image asset '/vehicles/hylotlhoverbike/hylotlhoverbikeforeground', using placeholder default.
 (AssetException) No such asset '/vehicles/hylotlhoverbike/hylotlhoverbikeforeground'
-[15:49:27.756] [Error] Could not load image asset '/vehicles/hylotlhoverbike/hylotlhoverbikeforeground:move.scratched', using placeholder default.
+[23:36:49.569] [Error] Could not load image asset '/vehicles/hylotlhoverbike/hylotlhoverbikeforeground:move.scratched', using placeholder default.
 (AssetException) No associated frames file found for image '/vehicles/hylotlhoverbike/hylotlhoverbikeforeground' while resolving image frame '/vehicles/hylotlhoverbike/hylotlhoverbikeforeground:move.scratched'
-[15:49:56.991] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:53:18.599] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:53:38.743] [Info] UniverseServer: Loading client ship world ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[15:53:38.853] [Info] Protected dungeonIds for world set to (65524)
-[15:53:39.040] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[15:53:39.391] [Info] UniverseServer: Warping player 2 to ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[15:53:39.440] [Info] UniverseServer: Stopping idle world CelestialWorld:239256058:346101030:51495299:5:3
-[15:55:04.006] [Info] Chat: <凯文> 你携带的东西会使您逐渐失去理智。这件物品粗暴怪异，不为所知。所以宇宙的可怕秘密很有趣！
-[15:55:39.834] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-' with expiry time 0
-[15:55:39.846] [Info] Protected dungeonIds for world set to (65524)
-[15:55:39.846] [Info] Placing dungeon outpost
-[15:55:39.855] [Info] Placing dungeon at (0, 750)
-[15:55:42.866] [Error] Could not apply patch from file /objects/outpost/outpostservicepanel/outpostservicepanel.object.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "apexDescription" to remove
-[15:55:43.985] [Info] Protected dungeonIds for world set to (0, 65524)
-[15:55:44.812] [Info] Placing dungeon at (355, 636)
-[15:55:44.818] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
-[15:55:44.820] [Info] Placing dungeon at (355, 636)
-[15:55:44.826] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
-[15:55:44.828] [Info] Placing dungeon at (406, 651)
-[15:55:44.832] [Info] Placing dungeon at (332, 621)
-[15:55:44.837] [Info] Placing dungeon at (332, 655)
-[15:55:44.846] [Info] Placing dungeon at (427, 618)
-[15:55:44.851] [Info] Placing dungeon at (310, 616)
-[15:55:44.854] [Info] Placing dungeon at (447, 567)
-[15:55:44.867] [Info] Placing dungeon at (429, 567)
-[15:55:45.089] [Info] UniverseServer: Warping player 2 to InstanceWorld:outpost:-:-=arkteleporter
-[15:55:45.845] [Info] UniverseServer: Stopping idle world ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[15:57:04.704] [Info] UniverseServer: Loading client ship world ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[15:57:04.835] [Info] Protected dungeonIds for world set to (65524)
-[15:57:05.039] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[15:57:05.364] [Info] UniverseServer: Warping player 2 to ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[15:57:05.396] [Info] UniverseServer: Stopping idle world InstanceWorld:outpost:-:-
-[15:57:05.707] [Info] UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
-[15:57:38.974] [Info] UniverseServer: Loading client ship world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
-[15:57:39.097] [Info] Protected dungeonIds for world set to (65524)
-[15:57:39.649] [Info] UniverseServer: Warping player 1 to ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
-[15:57:39.672] [Info] UniverseServer: Stopping idle world CelestialWorld:-380527231:515934051:-244672019:7
-[15:57:39.673] [Info] Client received world stop packet, leaving: Removed
-[15:57:40.274] [Info] ----- FU player init -----
-[15:57:40.274] [Info] ----- End FU player init -----
-[15:57:40.274] [Info] ----- ZB player init -----
-[15:57:40.274] [Info] [ZB] Mods using update info window and their versions:
-[15:57:40.276] [Info] -- frackinuniverse   [Version 6.1.22]
-[15:57:40.276] [Info] -- ztarbound   [Version 6.1.22]
-[15:57:40.276] [Info] ----- end ZB player init -----
-[15:58:53.257] [Info] UniverseServer: Loading celestial world -380526374:515934484:-283439852:9:1
-[15:58:53.434] [Info] Protected dungeonIds for world set to (65524)
-[15:58:54.352] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[15:58:54.638] [Info] UniverseServer: Warping player 1 to CelestialWorld:-380526374:515934484:-283439852:9:1=1d4321c178ecf7cd23f557b99c329167
-[15:58:54.746] [Info] Client received world stop packet, leaving: Removed
-[15:58:54.766] [Info] UniverseServer: Stopping idle world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
-[15:58:55.110] [Info] ----- FU player init -----
-[15:58:55.110] [Info] ----- End FU player init -----
-[15:58:55.110] [Info] ----- ZB player init -----
-[15:58:55.110] [Info] [ZB] Mods using update info window and their versions:
-[15:58:55.111] [Info] -- ztarbound   [Version 6.1.22]
-[15:58:55.111] [Info] -- frackinuniverse   [Version 6.1.22]
-[15:58:55.111] [Info] ----- end ZB player init -----
-[15:58:55.192] [Info] Flying ship for player 2 to 239256058:346101030:51495299
-[15:58:59.513] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[15:59:05.282] [Info] UniverseServer: Arriving ship for player 2 at 239256058:346101030:51495299
-[15:59:17.276] [Info] UniverseServer: Client 'kiki' <2> (local) disconnected for reason: 
-[15:59:17.276] [Info] UniverseServer: Stopping idle world ClientShipWorld:dff35419923de4470080f1b172a99ce8
-[15:59:17.551] [Info] Chat: <server> Player 'kiki' disconnected
-[15:59:37.795] [Warn] Connection with steam user 76561199024532012 failed
-[15:59:37.795] [Info] Closing p2p connection with steam user 76561199024532012
-[15:59:37.812] [Info] UniverseServer: Reaped 1 dead connections
-[16:00:06.070] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[16:00:45.991] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
-[16:01:36.197] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
-[16:01:49.491] [Info] UniverseClient: Client disconnecting...
-[16:01:49.517] [Info] Client received world stop packet, leaving: Removed
-[16:01:49.523] [Info] UniverseServer: Client 'Shadowrabbit' <1> (local) disconnected for reason: 
-[16:01:49.523] [Info] UniverseServer: Stopping idle world CelestialWorld:-380526374:515934484:-283439852:9:1
-[16:01:50.613] [Info] UniverseServer: Stopping UniverseServer
-[16:01:50.615] [Info] UniverseServer: Stopping TCP Server
-[16:01:50.649] [Info] Clearing steam rich presence connection
-[16:01:51.978] [Info] Application: quit requested
-[16:01:51.978] [Info] Application: quitting...
-[16:01:51.978] [Info] Application: shutdown...
-[16:01:53.269] [Info] Root: Shutting down Root
-[16:01:57.799] [Info] Application: Destroying SDL Window
-[16:01:57.892] [Info] Application: stopped gracefully
+[23:37:01.971] [Info] Skipped event recording for nonexistent entity 2540
+[23:37:03.833] [Info] Skipped event recording for nonexistent entity 2538
+[23:37:18.342] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[23:37:26.595] [Info] Skipped event recording for nonexistent entity 2598
+[23:37:55.764] [Info] Skipped event recording for nonexistent entity 4146
+[23:37:56.316] [Info] Skipped event recording for nonexistent entity 2549
+[23:37:56.335] [Info] Skipped event recording for nonexistent entity 2550
+[23:37:56.382] [Info] Skipped event recording for nonexistent entity 2552
+[23:38:09.417] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[23:38:16.072] [Error] Could not apply patch from file /dialog/converse.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not remove element after end of array
+[23:38:32.556] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:38:45.960] [Info] Skipped event recording for nonexistent entity 2600
+[23:38:57.956] [Info] Skipped event recording for nonexistent entity 2753
+[23:39:06.906] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:39:16.992] [Info] Quest generator broke: [string "/scripts/questgen/generator.lua"]:378: assertion failed!
+stack traceback:
+	[C]: in function '_ENV.assert'
+	[string "/scripts/questgen/generator.lua"]:378: in function <[string "/scripts/questgen/generator.lua"]:375>
+	(...tail calls...)
+	[string "/scripts/questgen/generator.lua"]:328: in method 'generateParameter'
+	[string "/scripts/questgen/generator.lua"]:321: in method 'generateParameters'
+	[string "/scripts/questgen/generator.lua"]:546: in function <[string "/scripts/questgen/generator.lua"]:518>
+	(...tail calls...)
+[23:40:01.906] [Info] Skipped event recording for nonexistent entity 5633
+[23:40:18.333] [Info] Skipped event recording for nonexistent entity 4994
+[23:40:19.771] [Info] Skipped event recording for nonexistent entity 4996
+[23:40:19.771] [Info] Skipped event recording for nonexistent entity 4995
+[23:40:20.245] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[23:40:20.659] [Info] Skipped event recording for nonexistent entity 4992
+[23:41:00.691] [Info] Skipped event recording for nonexistent entity 7002
+[23:41:24.643] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:41:27.935] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[23:41:56.796] [Info] Chat: <SAIL> 基于你的游戏时长，你已经获得了+1研究点数如果你处于挂机状态，这个增益将被取消。.
+[23:42:05.931] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:42:56.410] [Info] Skipped event recording for nonexistent entity 9799
+[23:43:13.449] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:43:14.823] [Info] Skipped event recording for nonexistent entity 10357
+[23:44:26.382] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:45:21.315] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:45:55.022] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:46:39.273] [Error] Could not apply patch from file /dialog/converse.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not remove element after end of array
+[23:47:14.661] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:47:53.344] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:48:32.975] [Info] Skipped event recording for nonexistent entity 19155
+[23:49:46.616] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:50:26.964] [Error] Could not load image asset '/vehicles/hylotlhoverbike/hylotlhoverbikeforeground', using placeholder default.
+(AssetException) No such asset '/vehicles/hylotlhoverbike/hylotlhoverbikeforeground'
+[23:50:26.964] [Error] Could not load image asset '/vehicles/hylotlhoverbike/hylotlhoverbikeforeground:move.scratched', using placeholder default.
+(AssetException) No associated frames file found for image '/vehicles/hylotlhoverbike/hylotlhoverbikeforeground' while resolving image frame '/vehicles/hylotlhoverbike/hylotlhoverbikeforeground:move.scratched'
+[23:51:21.591] [Info] Skipped event recording for nonexistent entity 26496
+[23:51:21.624] [Info] Skipped event recording for nonexistent entity 26534
+[23:51:31.674] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:51:47.826] [Error] Could not load image asset '/vehicles/hylotlhoverbike/hylotlhoverbikeforeground', using placeholder default.
+(AssetException) No such asset '/vehicles/hylotlhoverbike/hylotlhoverbikeforeground'
+[23:51:47.827] [Error] Could not load image asset '/vehicles/hylotlhoverbike/hylotlhoverbikeforeground:move.dented', using placeholder default.
+(AssetException) No associated frames file found for image '/vehicles/hylotlhoverbike/hylotlhoverbikeforeground' while resolving image frame '/vehicles/hylotlhoverbike/hylotlhoverbikeforeground:move.dented'
+[23:52:13.777] [Info] Skipped event recording for nonexistent entity 26718
+[23:52:23.652] [Info] Skipped event recording for nonexistent entity 27091
+[23:52:49.542] [Info] Skipped event recording for nonexistent entity 27667
+[23:52:49.709] [Info] Skipped event recording for nonexistent entity 27606
+[23:53:53.420] [Info] UniverseServer: Loading client ship world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[23:53:53.538] [Info] Protected dungeonIds for world set to (65524)
+[23:53:53.906] [Info] UniverseServer: Warping player 1 to ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[23:53:53.966] [Info] Client received world stop packet, leaving: Removed
+[23:53:53.967] [Info] UniverseServer: Stopping idle world CelestialWorld:-380527231:515934051:-244672019:7
+[23:53:54.427] [Info] ----- FU player init -----
+[23:53:54.428] [Info] ----- End FU player init -----
+[23:53:54.428] [Info] ----- ZB player init -----
+[23:53:54.428] [Info] [ZB] Mods using update info window and their versions:
+[23:53:54.429] [Info] -- ztarbound   [Version 6.1.22]
+[23:53:54.429] [Info] -- frackinuniverse   [Version 6.1.22]
+[23:53:54.429] [Info] ----- end ZB player init -----
+[23:53:54.548] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[23:54:01.039] [Info] UniverseServer: Loading celestial world -380527231:515934051:-244672019:7
+[23:54:01.332] [Info] Protected dungeonIds for world set to (0, 65524)
+[23:54:01.486] [Info] UniverseServer: Warping player 1 to CelestialWorld:-380527231:515934051:-244672019:7
+[23:54:01.497] [Info] Client received world stop packet, leaving: Removed
+[23:54:01.531] [Info] UniverseServer: Stopping idle world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[23:54:01.998] [Info] ----- FU player init -----
+[23:54:01.998] [Info] ----- End FU player init -----
+[23:54:01.998] [Info] ----- ZB player init -----
+[23:54:01.998] [Info] [ZB] Mods using update info window and their versions:
+[23:54:01.998] [Info] -- ztarbound   [Version 6.1.22]
+[23:54:01.998] [Info] -- frackinuniverse   [Version 6.1.22]
+[23:54:01.998] [Info] ----- end ZB player init -----
+[23:56:41.310] [Info] UniverseServer: Loading client ship world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[23:56:41.426] [Info] Protected dungeonIds for world set to (65524)
+[23:56:41.945] [Info] UniverseServer: Warping player 1 to ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[23:56:41.953] [Info] Client received world stop packet, leaving: Removed
+[23:56:41.959] [Info] UniverseServer: Stopping idle world CelestialWorld:-380527231:515934051:-244672019:7
+[23:56:42.428] [Info] ----- FU player init -----
+[23:56:42.429] [Info] ----- End FU player init -----
+[23:56:42.429] [Info] ----- ZB player init -----
+[23:56:42.429] [Info] [ZB] Mods using update info window and their versions:
+[23:56:42.429] [Info] -- frackinuniverse   [Version 6.1.22]
+[23:56:42.429] [Info] -- ztarbound   [Version 6.1.22]
+[23:56:42.430] [Info] ----- end ZB player init -----
+[23:56:42.540] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[23:56:50.470] [Info] Flying ship for player 1 to -380527231:515934051:-244672019
+[23:56:56.067] [Info] UniverseServer: Arriving ship for player 1 at -380527231:515934051:-244672019
+[23:57:08.296] [Info] UniverseServer: Loading celestial world -380526374:515934484:-283439852:9:1
+[23:57:08.451] [Info] Protected dungeonIds for world set to (65524)
+[23:57:08.933] [Info] UniverseServer: Warping player 1 to CelestialWorld:-380526374:515934484:-283439852:9:1=1d4321c178ecf7cd23f557b99c329167
+[23:57:09.072] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[23:57:09.320] [Info] Client received world stop packet, leaving: Removed
+[23:57:09.449] [Info] UniverseServer: Stopping idle world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[23:57:09.659] [Info] ----- FU player init -----
+[23:57:09.659] [Info] ----- End FU player init -----
+[23:57:09.659] [Info] ----- ZB player init -----
+[23:57:09.659] [Info] [ZB] Mods using update info window and their versions:
+[23:57:09.659] [Info] -- frackinuniverse   [Version 6.1.22]
+[23:57:09.659] [Info] -- ztarbound   [Version 6.1.22]
+[23:57:09.659] [Info] ----- end ZB player init -----
+[23:57:10.951] [Info] Protected dungeonIds for world set to (65524)
+[23:57:13.987] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[23:58:12.453] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[23:58:55.876] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[23:59:16.435] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[00:00:38.520] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[00:00:50.966] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[00:02:31.835] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[00:03:24.553] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[00:03:42.583] [Warn] Failed to place dungeon object: medievallamp direction: 1 position: (8894, 4007)
+[00:03:42.583] [Warn] Failed to place dungeon object: medievallamp direction: 1 position: (8903, 4007)
+[00:04:03.646] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[00:04:39.888] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[00:05:13.175] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[00:06:28.381] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[00:07:50.520] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[00:08:02.946] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[00:08:33.872] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[00:08:56.406] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[00:09:20.053] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[00:09:52.243] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[00:10:24.648] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[00:10:53.645] [Info] Chat: <server> Admin privileges now given to player Shadowrabbit
+[00:11:10.450] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[00:12:32.067] [Info] Chat: <server> Admin privileges taken away from Shadowrabbit
+[00:13:07.703] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[00:13:14.953] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[00:13:42.091] [Info] UniverseServer: Warping player 1 to CelestialWorld:239256058:346101030:51495299:11=9887.86.4361
+[00:13:42.106] [Info] UniverseServer: Stopping idle world CelestialWorld:-380526374:515934484:-283439852:9:1
+[00:13:42.115] [Info] Client received world stop packet, leaving: Removed
+[00:13:42.844] [Info] ----- FU player init -----
+[00:13:42.844] [Info] ----- End FU player init -----
+[00:13:42.844] [Info] ----- ZB player init -----
+[00:13:42.844] [Info] [ZB] Mods using update info window and their versions:
+[00:13:42.845] [Info] -- ztarbound   [Version 6.1.22]
+[00:13:42.845] [Info] -- frackinuniverse   [Version 6.1.22]
+[00:13:42.845] [Info] ----- end ZB player init -----
+[00:13:48.240] [Info] Chat: <SAIL> 危险警告：检测到极端严寒气候！如果没有适当的防护装备，你不应该尝试进一步的探索！
+[00:13:55.700] [Info] Chat: <SAIL> 随着夜幕降临，气温将会下降。这会使你感受到的任何寒冷对你的影响更加致命。 我建议尽快躲到一处温暖的地方。
+[00:16:07.843] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[00:17:07.866] [Info] UniverseServer: Loading client ship world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[00:17:07.984] [Info] Protected dungeonIds for world set to (65524)
+[00:17:08.411] [Info] UniverseServer: Warping player 1 to ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[00:17:08.433] [Info] Client received world stop packet, leaving: Removed
+[00:17:08.892] [Info] ----- FU player init -----
+[00:17:08.893] [Info] ----- End FU player init -----
+[00:17:08.893] [Info] ----- ZB player init -----
+[00:17:08.893] [Info] [ZB] Mods using update info window and their versions:
+[00:17:08.893] [Info] -- frackinuniverse   [Version 6.1.22]
+[00:17:08.894] [Info] -- ztarbound   [Version 6.1.22]
+[00:17:08.894] [Info] ----- end ZB player init -----
+[00:17:21.436] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[00:17:23.797] [Info] UniverseServer: Loading client ship world ClientShipWorld:dff35419923de4470080f1b172a99ce8
+[00:17:23.909] [Info] Protected dungeonIds for world set to (65524)
+[00:17:24.075] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[00:17:24.374] [Info] UniverseServer: Warping player 1 to ClientShipWorld:dff35419923de4470080f1b172a99ce8
+[00:17:24.388] [Info] Client received world stop packet, leaving: Removed
+[00:17:24.388] [Info] UniverseServer: Stopping idle world ClientShipWorld:84fbff2d61d95dee5459526ba87ac3dd
+[00:17:24.595] [Info] ----- FU player init -----
+[00:17:24.596] [Info] ----- End FU player init -----
+[00:17:24.596] [Info] ----- ZB player init -----
+[00:17:24.596] [Info] [ZB] Mods using update info window and their versions:
+[00:17:24.596] [Info] -- frackinuniverse   [Version 6.1.22]
+[00:17:24.596] [Info] -- ztarbound   [Version 6.1.22]
+[00:17:24.596] [Info] ----- end ZB player init -----
+[00:19:01.065] [Warn] Failed to place dungeon object: icestalactite2 direction: 1 position: (293, 4010)
+[00:19:02.567] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[00:21:24.070] [Info] UniverseServer: Warping player 2 to ClientShipWorld:dff35419923de4470080f1b172a99ce8
+[00:21:24.098] [Info] UniverseServer: Stopping idle world CelestialWorld:239256058:346101030:51495299:11
+[00:25:42.293] [Info] UniverseServer: Loading celestial world -380526374:515934484:-283439852:9:1
+[00:25:42.449] [Info] Protected dungeonIds for world set to (65524)
+[00:25:43.316] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[00:25:43.390] [Error] Could not apply patch from file /items/materials/supermatter.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[00:25:43.633] [Info] UniverseServer: Warping player 1 to CelestialWorld:-380526374:515934484:-283439852:9:1=1d4321c178ecf7cd23f557b99c329167
+[00:25:43.658] [Info] Client received world stop packet, leaving: Removed
+[00:25:44.040] [Info] ----- FU player init -----
+[00:25:44.040] [Info] ----- End FU player init -----
+[00:25:44.041] [Info] ----- ZB player init -----
+[00:25:44.041] [Info] [ZB] Mods using update info window and their versions:
+[00:25:44.041] [Info] -- ztarbound   [Version 6.1.22]
+[00:25:44.041] [Info] -- frackinuniverse   [Version 6.1.22]
+[00:25:44.041] [Info] ----- end ZB player init -----
+[00:26:26.863] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[00:29:36.328] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[00:29:39.500] [Info] Chat: <SAIL> 检测到毒素：尽管我确定这*看起来*非常美味，但是有一件事必须告诉你——你在生理上无法消化这种食物，以后请不要吃像这样的食物。
+[00:29:58.903] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[00:30:19.883] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[00:33:15.183] [Info] UniverseServer: Warping player 2 to CelestialWorld:-380526374:515934484:-283439852:9:1=1d4321c178ecf7cd23f557b99c329167
+[00:33:15.357] [Info] UniverseServer: Stopping idle world ClientShipWorld:dff35419923de4470080f1b172a99ce8
+[00:33:16.486] [Error] Could not apply patch from file /quests/generated/locations.config.patch in source: ..\mods\FUC.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) No such key 'deathcamp1' in pathApply("/fuencounters/deathcamp1/name")
+[00:33:52.828] [Error] Could not apply patch from file /items/materials/bamboo.matitem.patch in source: ..\mods\SChinese.pak.  Caused by: (JsonPatchException) Could not apply patch to base. (JsonPatchException) Could not apply operation to base. (TraversalException) Could not find "glitchdescription" to remove
+[00:35:26.483] [Info] UniverseServer: Client 'kiki' <2> (local) disconnected for reason: 
+[00:35:26.639] [Info] Chat: <server> Player 'kiki' disconnected
+[00:35:31.343] [Info] UniverseClient: Client disconnecting...
+[00:35:31.436] [Info] Client received world stop packet, leaving: Removed
+[00:35:31.441] [Info] UniverseServer: Client 'Shadowrabbit' <1> (local) disconnected for reason: 
+[00:35:31.442] [Info] UniverseServer: Stopping idle world CelestialWorld:-380526374:515934484:-283439852:9:1
+[00:35:32.459] [Info] UniverseServer: Stopping UniverseServer
+[00:35:32.461] [Info] UniverseServer: Stopping TCP Server
+[00:35:32.487] [Info] Closing p2p connection with steam user 76561199024532012
+[00:35:32.510] [Info] Clearing steam rich presence connection
+[00:35:33.932] [Info] Application: quit requested
+[00:35:33.932] [Info] Application: quitting...
+[00:35:33.932] [Info] Application: shutdown...
+[00:35:35.334] [Info] Root: Shutting down Root
+[00:35:39.496] [Info] Application: Destroying SDL Window
+[00:35:39.518] [Info] Application: stopped gracefully
